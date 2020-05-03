@@ -1,0 +1,763 @@
+{ "Format": "1.11",
+	
+"Changes": 
+	[
+	
+//GIFT TASTES Female
+
+
+{"LogName": "NPC Gift Tastes 1 Mona",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 88/Thank you.#$b#I really love it./-80 206 211 224 731 393/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	  "When": {"Loe2run.ChildToNPC/FirstChildParent": "Mona",
+		  "Loe2run.ChildToNPC/FirstChildGender":"Female" },},
+      
+{"LogName": "NPC Gift Tastes 2 Mona",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 88/Thank you.#$b#I really love it./-80 206 211 224 731 393/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	   "When": {"Loe2run.ChildToNPC/SecondChildParent": "Mona",
+		   "Loe2run.ChildToNPC/SecondChildGender":"Female" },},
+
+{"LogName": "NPC Gift Tastes 1 krobus",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S SO MAGICAL!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 16 72/Thank you.#$b#I really love it./-80 206 211 224 731 80/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Krobus",
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 Krobus",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S MAGICAL!#$b#So cool!/104 220 221 223 233 243 340 591 612 16 72/Thank you.#$b#I really love it./-80 206 211 224 731 80/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Krobus",
+		"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 wizard",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S SO MAGICAL!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 768 769/Thank you.#$b#I really love it./-80 206 211 224 731 80/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Wizard",
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 wizard",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S MAGICAL!#$b#So cool!/104 220 221 223 233 243 340 591 612 768 769/Thank you.#$b#I really love it./-80 206 211 224 731 80/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Wizard",
+		"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 alex",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE IT!/104 220 221 223 233 243 340 591 612 201 212/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Alex" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 alex",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 201 212/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Alex",
+		"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 elliot",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I IT!/104 220 221 223 233 243 340 591 612 637 715 732/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Elliott",
+		"Loe2run.ChildToNPC/FirstChildGender":"Female" },},
+     
+{"LogName": "NPC Gift Tastes 2 Elliott",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+	"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 637 715 444/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Elliott" ,
+	"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 Harvey",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 342 237/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Harvey" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 Harvey",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 342 237/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Harvey",
+		"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 Sam",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 562 206/Thank you.#$b#I really love it./-80 211 224 731 167/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Sam" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 sam",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 562 731/Thank you.#$b#I really love it./-80 206 211 224 167/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Sam" ,
+	"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 Sebastian",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 227/Thank you.#$b#I really love it./-80 206 211 224 731 80/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Sebastian",
+		"Loe2run.ChildToNPC/FirstChildGender":"Female" },},
+      
+{"LogName": "NPC Gift Tastes 2 Sebastian",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 236/Thank you.#$b#I really love it./-80 206 211 224 731 80/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Sebastian",
+		"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 shane",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 215 260/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Shane" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 shane",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 206 215/Thank you.#$b#I really love it./-80 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Shane",
+		"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 Abigail",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT LOOKS YUMMY!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 276 66/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Abigail",
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 Abigail",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH wow! It looks yummy!#$b#Mmmm, So goood!/104 220 221 223 233 243 340 591 612 276 66/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Abigail",
+		"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 emily",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 241 68 70/Thank you.#$b#I really love it./-80 206 211 224 731 18/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Emily",
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 emily",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 241 440 70/Thank you.#$b#I really love it./-80 206 211 224 731 18/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Emily" ,
+	"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 haley",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 421 88/Thank you.#$b#I really love it./-80 206 211 224 731 18/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Haley" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 haley",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 421 88/Thank you.#$b#I really love it./-80 206 211 224 731 18/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Haley",
+		"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 leah",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 426 651/Thank you.#$b#I really love it./-80 206 211 224 731 399/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Leah" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 leah",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 426 196/Thank you.#$b#I really love it./-80 206 211 224 731 169/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Leah" ,
+	"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 maru",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 787 400/Thank you.#$b#I really love it./-80 206 211 224 731 725 80/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Maru" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 maru",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 787 400/Thank you.#$b#I really love it./-80 206 211 224 731 726 80/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Maru" ,
+	"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 penny",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 376 /Thank you.#$b#I really love it./-80 206 211 224 731 20/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Penny" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 penny",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 254/Thank you.#$b#I really love it./-80 206 211 224 731 20/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Penny" ,
+	"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 Sophia",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 595/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Sophia" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 Sophia",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 595/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Sophia",
+		"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 Olivia",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 124/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Olivia" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 Olivia",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 124/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Olivia",
+		"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 Victor",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 444/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Victor" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 Victor",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 444/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Victor",
+		"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 John",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 720/Thank you.#$b#I really love it./-80 206 211 224 731 608/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	  "When": {"Loe2run.ChildToNPC/FirstChildParent": "John" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 John",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 720 /Thank you.#$b#I really love it./-80 206 211 224 731 608/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	  "When": {"Loe2run.ChildToNPC/SecondChildParent": "John" ,
+	  "Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 Shiela",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 199/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	  "When": {"Loe2run.ChildToNPC/FirstChildParent": "Sheila" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 Shiela",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 200/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Sheila",
+		"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+	  
+{"LogName": "NPC Gift Tastes 1 Gregory",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 424/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Gregory" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"Female"},},
+      
+{"LogName": "NPC Gift Tastes 2 Gregory",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 424/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Gregory",
+		"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+	  
+{"LogName": "NPC Gift Tastes 1 Shiko",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 228/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Shiko",
+		"Loe2run.ChildToNPC/FirstChildGender":"Female" },},
+      
+{"LogName": "NPC Gift Tastes 2 Shiko",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 228/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Shiko" ,
+	"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1 Nikolai",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 210/Thank you.#$b#I really love it./-80 206 211 224 232/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Nikolai",
+		"Loe2run.ChildToNPC/FirstChildGender":"Female" },},
+      
+{"LogName": "NPC Gift Tastes 2 Nikolai",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 210/Thank you.#$b#I really love it./-80 206 211 224 232/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Nikolai" ,
+	"Loe2run.ChildToNPC/SecondChildGender":"Female"},},
+
+{"LogName": "NPC Gift Tastes 1",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 259/Thank you.#$b#I really love it./-80 206 211 224 731 276/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Denver",
+		"Loe2run.ChildToNPC/FirstChildGender":"Female" },},  
+      
+{"LogName": "NPC Gift Tastes 2",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 259/Thank you.#$b#I really love it./-80 206 211 224 731 276/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Denver" ,
+		 "Loe2run.ChildToNPC/SecondChildGender":"Female"},},  
+
+
+
+//Gift Taste Males
+
+
+{"LogName": "NPC Gift Tastes 1 krobus",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S SO MAGICAL!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 16/Thank you.#$b#I really love it./-80 206 211 224 731 80/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Krobus",
+		"Loe2run.ChildToNPC/FirstChildGender":"male"},},
+      
+{"LogName": "NPC Gift Tastes 2 Krobus",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S MAGICAL!#$b#So cool!/104 220 221 223 233 243 340 591 612 16/Thank you.#$b#I really love it./-80 206 211 224 731 80/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Krobus",
+		"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 wizard",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S SO MAGICAL!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 768 769/Thank you.#$b#I really love it./-80 206 211 224 731 80/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Wizard",
+		"Loe2run.ChildToNPC/FirstChildGender":"male"},},
+      
+{"LogName": "NPC Gift Tastes 2 wizard",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S MAGICAL!#$b#So cool!/220 221 223 233 243 340 612 768 769/Thank you.#$b#I really love it./-80 206 211 224 731 80/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Wizard",
+		"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 alex",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE IT!/220 221 223 233 243 340 591 612 201 212/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Alex" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"male"},},
+      
+{"LogName": "NPC Gift Tastes 2 alex",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 591 612 201 212/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Alex",
+		"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 elliot",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I IT!/220 221 223 233 243 340 612 637 715 732/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Elliott",
+		"Loe2run.ChildToNPC/FirstChildGender":"male" },},
+      
+{"LogName": "NPC Gift Tastes 2 Elliott",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+	"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 637 715 444/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Elliott" ,
+	"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 Harvey",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 342 237/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Harvey" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"male"},},
+      
+{"LogName": "NPC Gift Tastes 2 Harvey",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 342 237/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Harvey",
+		"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 sam",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 562 206/Thank you.#$b#I really love it./-80 211 224 731 167/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Sam" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"male"},},
+      
+{"LogName": "NPC Gift Tastes 2 sam",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 562 731/Thank you.#$b#I really love it./-80 206 211 224 167/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Sam" ,
+	"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 Sebastian",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 227/Thank you.#$b#I really love it./-80 206 211 224 731 80/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Sebastian",
+		"Loe2run.ChildToNPC/FirstChildGender":"male" },},
+      
+{"LogName": "NPC Gift Tastes 2 Sebastian",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 236/Thank you.#$b#I really love it./-80 206 211 224 731 80/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Sebastian",
+		"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 shane",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 215 260/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Shane" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"male"},},
+      
+{"LogName": "NPC Gift Tastes 2 shane",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 206 215 260/Thank you.#$b#I really love it./-80 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Shane",
+		"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 Abigail",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT LOOKS YUMMY!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 276 66/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Abigail",
+		"Loe2run.ChildToNPC/FirstChildGender":"male"},},
+      
+{"LogName": "NPC Gift Tastes 2 Abigail",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH wow! It looks yummy!#$b#Mmmm, So goood!/220 221 223 233 243 340 612 276 66/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Abigail",
+		"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 emily",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 241 68 70/Thank you.#$b#I really love it./-80 206 211 224 731 18/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Emily",
+		"Loe2run.ChildToNPC/FirstChildGender":"male"},},
+      
+{"LogName": "NPC Gift Tastes 2 emily",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 241 440 70/Thank you.#$b#I really love it./-80 206 211 224 731 18/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Emily" ,
+	"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 haley",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 421 88/Thank you.#$b#I really love it./-80 206 211 224 731 18/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Haley" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"male"},},
+      
+{"LogName": "NPC Gift Tastes 2 haley",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 421 88/Thank you.#$b#I really love it./-80 206 211 224 731 18/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Haley",
+		"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 leah",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 426 651/Thank you.#$b#I really love it./-80 206 211 224 731 399/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Leah" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"male"},},
+      
+{"LogName": "NPC Gift Tastes 2 leah",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 426 196/Thank you.#$b#I really love it./-80 206 211 224 731 169/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Leah" ,
+	"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 maru",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 787 400/Thank you.#$b#I really love it./-80 206 211 224 731 725 80/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Maru" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"male"},},
+      
+{"LogName": "NPC Gift Tastes 2 maru",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 787 400/Thank you.#$b#I really love it./-80 206 211 224 731 726 80/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Maru" ,
+	"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 penny",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 376 /Thank you.#$b#I really love it./-80 206 211 224 731 20/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Penny" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"male"},},
+      
+{"LogName": "NPC Gift Tastes 2 penny",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 254/Thank you.#$b#I really love it./-80 206 211 224 731 20/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Penny" ,
+	"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 Sophia",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 595/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Sophia" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"male"},},
+      
+{"LogName": "NPC Gift Tastes 2 Sophia",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 595/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Sophia",
+		"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 Olivia",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 124/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Olivia" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"male,"},},
+      
+{"LogName": "NPC Gift Tastes 2 Olivia",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 124/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Olivia",
+		"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 Victor",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 444/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Victor" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"male,"},},
+      
+{"LogName": "NPC Gift Tastes 2 Victor",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 444/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Victor",
+		"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 John",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 720/Thank you.#$b#I really love it./-80 206 211 224 731 608/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	  "When": {"Loe2run.ChildToNPC/FirstChildParent": "John" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"male,"},},
+      
+{"LogName": "NPC Gift Tastes 2 John",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 720 /Thank you.#$b#I really love it./-80 206 211 224 731 608/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	  "When": {"Loe2run.ChildToNPC/SecondChildParent": "John" ,
+	  "Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 Shiela",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 199/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	  "When": {"Loe2run.ChildToNPC/FirstChildParent": "Sheila" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"male,"},},
+      
+{"LogName": "NPC Gift Tastes 2 Shiela",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 200/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Sheila",
+		"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+	  
+{"LogName": "NPC Gift Tastes 1 Gregory",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 424/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Gregory" ,
+		"Loe2run.ChildToNPC/FirstChildGender":"male"},},
+      
+{"LogName": "NPC Gift Tastes 2 Gregory",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 424/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Gregory",
+		"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+	  
+{"LogName": "NPC Gift Tastes 1 Shiko",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 228/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Shiko",
+		"Loe2run.ChildToNPC/FirstChildGender":"male" },},
+      
+{"LogName": "NPC Gift Tastes 2 Shiko",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 228/Thank you.#$b#I really love it./-80 206 211 224 731/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Shiko" ,
+	"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1 Nikolai",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 101 210/Thank you.#$b#I really love it./-80 206 211 224 232/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Nikolai",
+		"Loe2run.ChildToNPC/FirstChildGender":"male" },},
+      
+{"LogName": "NPC Gift Tastes 2 Nikolai",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 101 210/Thank you.#$b#I really love it./-80 206 211 224 232/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Nikolai" ,
+	"Loe2run.ChildToNPC/SecondChildGender":"male"},},
+
+{"LogName": "NPC Gift Tastes 1",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+      "{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/220 221 223 233 243 340 612 259/Thank you.#$b#I really love it./-80 206 211 224 731 276/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/FirstChildParent": "Denver",
+		"Loe2run.ChildToNPC/FirstChildGender":"male" },},  
+      
+{"LogName": "NPC Gift Tastes 2",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/220 221 223 233 243 340 612 259/Thank you.#$b#I really love it./-80 206 211 224 731 276/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	"When": {"Loe2run.ChildToNPC/SecondChildParent": "Denver" ,
+		 "Loe2run.ChildToNPC/SecondChildGender":"male"},},  
+
+{"LogName": "NPC Gift Tastes 1 Mona",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/FirstChildName}}": "OH WOW! IT'S PERFECT!#$b#I LOVE YOU SO MUCH!/104 220 221 223 233 243 340 591 612 88/Thank you.#$b#I really love it./-80 206 211 224 731 393/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	  "When": {"Loe2run.ChildToNPC/FirstChildParent": "Mona",
+		  "Loe2run.ChildToNPC/FirstChildGender":"male" },},
+      
+{"LogName": "NPC Gift Tastes 2 Mona",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {"{{Loe2run.ChildToNPC/SecondChildName}}": "OH WOW! IT'S PERFECT!#$b#So cool!/104 220 221 223 233 243 340 591 612 88/Thank you.#$b#I really love it./-80 206 211 224 731 393/Why would you give me this? You're so mean!/-4 -2 -79/I'm sorry daddy!$s^I'm sorry mommy!$s#$b#What ever I did wrong, I promise not to do it again.$s/-20 -19 -81 -75 446 346 348 303 459/Thank you./-8 -6 -5 74/"},
+	   "When": {"Loe2run.ChildToNPC/SecondChildParent": "Mona",
+		   "Loe2run.ChildToNPC/SecondChildGender":"male" },},
+
+
+//MOVIE THEATER child 1
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/ConcessionTastes",
+    "Entries": {
+	"{{Loe2run.ChildToNPC/FirstChildName}}": {
+    "Name": "{{Loe2run.ChildToNPC/FirstChildName}}",
+    "LovedTags":     ["Candy", "Sweet", "Salty" ]   ,
+    "LikedTags":      [ "Joja", "Gourmet"  ]  ,
+    "DislikedTags":      [ "Healthy"    ]    
+      ,    },},},
+	
+
+//MOVIE THEATER child 2
+	
+	{
+    "Action": "EditData",
+    "Target": "Data/ConcessionTastes",
+    "Entries": {	"{{Loe2run.ChildToNPC/SecondChildName}}": {
+    "Name": "{{Loe2run.ChildToNPC/SecondChildName}}",
+    "LovedTags":     ["Candy", "Sweet", "Salty" ]   ,
+    "LikedTags":      [ "Joja", "Gourmet"  ]  ,
+    "DislikedTags":      [ "Healthy"  ]   
+	,},    },},
+		
+]}

@@ -1,0 +1,7 @@
+{
+  "spring": "610 BoardingHouse 40 20 2 jade_groundread/800 Town 63 98 2 jade_groundread/1100 Town 53 69 0/1230 Town 63 98 2 jade_groundread/1300 Town 63 98 2 jade_read/2000 BoardingHouse 40 20 2 jade_groundread",
+  "summer": "610 BoardingHouse 40 20 2 jade_groundread/800 Town 63 98 2 jade_groundread/1100 Town 53 69 0/1230 Town 63 98 2 jade_groundread/1300 Town 63 98 2 jade_read/2000 BoardingHouse 40 20 2 jade_groundread",
+  "winter": "610 BoardingHouse 40 20 2 jade_groundread/800 Town 63 98 2 jade_groundread/1100 Town 53 69 0/1230 Town 63 98 2 jade_groundread/1300 Town 63 98 2 jade_read/2000 BoardingHouse 40 20 2 jade_groundread",
+  "fall": "610 BoardingHouse 40 20 2 jade_groundread/800 Town 63 98 2 jade_groundread/1100 Town 53 69 0/1230 Town 63 98 2 jade_sit/1300 Town 63 98 2 jade_groundread/2000 BoardingHouse 40 20 2 jade_groundread",
+  "rain": "610 BoardingHouse 40 20 2 jade_groundread/1100 Saloon 35 18 0/2000 BoardingHouse 40 20 2 jade_groundread",
+}

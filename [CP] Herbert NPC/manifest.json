@@ -1,0 +1,14 @@
+{
+
+  "Name": "Herbert Custom NPC Mod",
+  "Author": "WatchfulTigerlily",
+  "Description": "Add a custom NPC called Herbert to the game.",
+  "Version": "1.11.0",
+  "UniqueID": "tiger.herbnpc",
+  "UpdateKeys": [ "" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+
+
+}

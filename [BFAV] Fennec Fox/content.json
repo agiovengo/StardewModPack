@@ -1,0 +1,46 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Fennec Fox",
+			"Types": [
+				{
+					"Type": "Fennec Fox",
+					"DeluxeProduceLuck": 0.0,
+					"Data": "1/7/770/Fox Treasure/rabbit/0/0/0/0/0/0/0/0/0/false/Barn/32/32/32/32/15/5/null/0/5000/Fennec Fox/Barn",
+					"Sprites": {
+						"Adult": "assets/Fennec_Fox.png",
+						"Baby": "assets/BabyFennec_Fox.png"
+					}
+				},
+				{
+					"Type": "Albino Fennec Fox",
+					"DeluxeProduceLuck": 0.0,
+					"Data": "1/7/567/Mysterious Artifact/rabbit/0/0/0/0/0/0/0/0/0/false/Barn/32/32/32/32/15/5/null/0/5000/Albino Fennec Fox/Barn",
+					"Sprites": {
+						"Adult": "assets/Albino_Fennec_Fox.png",
+						"Baby": "assets/BabyAlbino_Fennec_Fox.png",
+					}
+				}
+			],
+			"Buildings": [
+				"Big Barn",
+				"Deluxe Barn",
+			],
+			"AnimalShop": {
+				"Name": "Fennec Fox",
+				"Description": "These foxes love to dig! They'll leave part of what they find for you.",
+				"Price": 10000,
+				"Icon": "assets\\animal_shop_fennecfox.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

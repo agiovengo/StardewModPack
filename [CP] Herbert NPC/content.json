@@ -1,0 +1,658 @@
+{
+  "Format": "1.10.0",
+  "DynamicTokens": [
+            {
+            "Name": "WeatherVariant",
+            "Value": "Rain",
+            "When":
+            {
+                "Season": "spring, summer, fall",
+                "Weather": "rain, storm, snow",
+            },
+        },
+        {
+      "Name": "WeatherVariant",
+            "Value": "Sun",
+            "When":
+            {
+                "Weather": "sun, wind",
+		 "IsOutdoors": "true",
+            },
+    },
+    {
+      "Name": "WeatherVariant",
+      "Value": "Snow",
+      "When":
+      {
+        "Season": "winter",
+        "Weather": "snow, rain, storm",
+	"IsOutdoors": "true",
+      },
+    },
+    {
+      "Name": "WeatherVariant",
+      "Value": "Base",
+      "When":
+      {
+	"IsOutdoors": "true",
+      },
+    },         
+            
+        {
+            "Name": "Festival",
+            "Value": "EggFestival",
+            "When":
+            {
+                "DayEvent": "egg festival"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "FlowerDance",
+            "When":
+            {
+                "DayEvent": "flower dance"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "IceFestival",
+            "When":
+            {
+                "DayEvent": "festival of ice"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "Luau",
+            "When":
+            {
+                "DayEvent": "luau"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SpiritsEve",
+            "When":
+            {
+                "DayEvent": "spirit's eve"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SVFair",
+            "When":
+            {
+                "DayEvent": "stardew valley fair"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "WinterStar",
+            "When":
+            {
+                "DayEvent": "feast of the winter star"
+            }
+        },
+          {
+            "Name": "Festival",
+            "Value": "MoonlightJellies",
+            "When":
+            {
+                "DayEvent": "dance of the moonlight jellies"
+            }
+        },
+        ],
+  "Changes": [
+
+    {
+
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Herbert": "adult/neutral/outgoing/neutral/male/datable/null/Other/summer 4//Herbertshome 1 5 1/Herbert",
+
+      }
+    },
+
+    {
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Herbert": "A gift? And an expensive one at that. Thank you. I like this a lot./348 336 434 163 166 72/I quite like it. I'll accept this./60 62 64 66 68 70/I highly doubt this is an acceptable gift./80 330/This is absoloutely disgusting and offensive./2 16 22 24 78 222/A present? Okay. Thanks. I can put this somewhere.$1/-4/",
+      }
+    },
+
+    {
+
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+		"herbert_poem": "16/16 16 17 17 17 18 18 18 19 19 19 20 20 20 21 21 21 22 22 22 23 23 23 24 24 24 25 25 25 26 26 26 27 27/27",
+		"herbert_read": "29/29 29 30 30 30 31 31/31",
+		"herbert_garden": "36/36 36 37 37 37 38 38 38 39 39/39",
+		"herbert_cry": "44/44 44 45 45 45 46 46 46 47 47/47",
+		"herbert_lunch": "32/32 32 32 32 32 32/32",
+
+
+      }
+    },
+
+    {
+
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Herbert",
+      "FromFile": "assets/Schedule/ScheduleDialogue.json"
+
+    },
+
+    {
+
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Herbert0": "I wanted to get you the most expensive ring, darling. But your pendant but that diamond to shame.$3",
+        "Herbert1": "Please let me know if you have any second thoughts, my dear.$3"
+      }
+    },
+
+    { 
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+        "Utility.cs.5371": "@... Herbert... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and husband!$h",
+        "Utility.cs.5377": "@... Herbert... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+
+        "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Herbert in the bonds of marriage.",
+        "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Herbert in the bonds of marriage."
+      },
+      "When": {
+        "Relationship:Herbert": "Engaged, Married"
+      }
+    },
+
+
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Herbert",
+      "FromFile": "assets/Image/Portraits/HerbertP_Spring_Outfit_Base.png",
+    },
+    {
+      "LogName": "Sprites",
+      "Action": "Load",
+      "Target": "Characters/Herbert",
+      "FromFile": "assets/Image/Sprites/HerbertS_Spring_Outfit_Base.png",
+    },
+      {
+      "LogName": "Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Herbert",
+      "FromFile": "assets/Image/Portraits/HerbertP_{{season}}_Outfit_{{WeatherVariant}}.png",
+    },
+    {
+      "LogName": "Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Herbert",
+      "FromFile": "assets/Image/Sprites/HerbertS_{{season}}_Outfit_{{WeatherVariant}}.png",
+    },
+    {
+
+
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Herbert",
+      "FromFile": "assets/Image/Sprites/Festivals/HerbertS_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "egg festival",
+    }
+    },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Herbert",
+      "FromFile": "assets/Image/Sprites/Festivals/HerbertS_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "flower dance",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Herbert",
+      "FromFile": "assets/Image/Sprites/Festivals/HerbertS_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "luau",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Herbert",
+      "FromFile": "assets/Image/Sprites/Festivals/HerbertS_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "spirit's eve",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Herbert",
+      "FromFile": "assets/Image/Sprites/Festivals/HerbertS_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "festival of ice",
+      }
+      },
+      {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Herbert",
+      "FromFile": "assets/Image/Sprites/Festivals/HerbertS_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "stardew valley fair",
+      }
+      },
+      {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Herbert",
+      "FromFile": "assets/Image/Sprites/Festivals/HerbertS_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "feast of the winter star",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Herbert",
+      "FromFile": "assets/Image/Sprites/Festivals/HerbertS_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "dance of the moonlight jellies",
+      }
+    },
+       
+        {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Herbert",
+      "FromFile": "assets/Image/Portraits/Festivals/HerbertP_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "egg festival",
+      }
+    },
+    {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Herbert",
+      "FromFile": "assets/Image/Portraits/Festivals/HerbertP_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "flower dance",
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Herbert",
+      "FromFile": "assets/Image/Portraits/Festivals/HerbertP_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "luau",
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Herbert",
+      "FromFile": "assets/Image/Portraits/Festivals/HerbertP_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "spirit's eve",
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Herbert",
+      "FromFile": "assets/Image/Portraits/Festivals/HerbertP_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "festival of ice",
+      }
+      },
+      {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Herbert",
+      "FromFile": "assets/Image/Portraits/Festivals/HerbertP_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "stardew valley fair",
+      }
+      },
+      {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Herbert",
+      "FromFile": "assets/Image/Portraits/Festivals/HerbertP_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "feast of the winter star",
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Herbert",
+      "FromFile": "assets/Image/Portraits/Festivals/HerbertP_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "dance of the moonlight jellies",
+      }
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Herbert",
+      "FromFile": "assets/Dialogue/Dialogue.json"
+
+    },
+
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogue",
+      "FromFile": "assets/Dialogue/HerbertMarriageDialogue.json"
+    },
+
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Herbert",
+      "FromFile": "assets/Schedule/Schedule.json"
+
+    },
+
+    { 
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Herbert": "All this delicious food... I must have some sent back to the school when it re-opens.$7"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Herbert": "A new year! Thank goodness I never left back to the school. I get to spend my life here with you.$4"
+      },
+      "When": {
+        "Spouse:Herbert": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Herbert": "How flattering.$1#$e#Although I have a talent for many things, dancing is not one of them.$1#$e#How sweet of you to ask, however.$7"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Herbert": "Do have fun today. If you decide to dance I'll be supporting you from the sidelines.$3"
+      },
+      "When": {
+        "Spouse:Herbert": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Herbert": "I must say, the Governor is a strange chap. Intriguing. I must get to know him better.$7#$e#Whenever he'd come here in previous years I paid no attention to him.$1",
+        "Herbert_spouse": "I didn't fail to notice the amount of crops on our farm. Perhaps you could add something to the soup?$3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Herbert": "I'm very tempted to write something about those jellies. Inspiring, aren't they?$9",
+        "Herbert_spouse": "Evening dear. If you get cold I brought us some blankets.$4"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Herbert": "How intriguing... those glowing Jellies. I must ask my Grandfather more about them.$7"
+      },
+      "When": {
+        "Spouse:Herbert": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Herbert": "This fair is ridiculous. That clown obviously isn't paid enough.$5",
+        "Herbert_spouse": "Welcome dear. I might head home early - I'm not fond of this festival."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Herbert": "I honestly do wish that clown would find a better job.$1"
+      },
+      "When": {
+        "Spouse:Herbert": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Herbert": "I'm truely horrified by this place. Those skeletons aren't real...$2#$e#Right?$6#$b#Well, at least being lost in this maze means I don't have to face them.$1",
+        "Herbert_spouse": "Don't worry! I'll protect you!$9"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Herbert": "I brought a few extra scarves. You won't catch me with a cold any time soon.$7#$b#Also, I noticed this strange snow-creature. It's very amusing.$3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Herbert": "Make me proud darling!$9"
+      },
+      "When": {
+        "Spouse:Herbert": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Herbert": "My favourite time of year. I must not forget to write to my parents this Christmas.$3#$e#Do you write to your parents at Christmas?"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Herbert": "You don't need to get me a present. You're worth far more than anything expensive.$4"
+      },
+      "When": {
+        "Spouse:Herbert": "True"
+      }
+    },
+
+
+    {
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": {
+		"Herbertshome.1": "Herbert's childhood teddy. His name is Little Merp!",
+		"Herbertshome.2": "Dear Herbert,^We received your letter about your rejection from Vanedale Prep and are writing to you from Washington.^We would like you to know that we are extremely disappointed in you.^How dare you disrespect our family name in such a way. However, your father will fix this little issue.^I'm sure making an inquiry at work will sort things out.^But at times like these we wish we never had a son. -Your parents.",
+		"Herbertshome.3": "Fabric? It's from Emily. Does Herbert make his own clothes?",
+		"Herbertshome.4": "It's a study book all about Law. It hasn't been touched in a while. Some pages are ripped out.",
+		"Herbertshome.5": "His fridge is full of exotic foods. The smell is mouth-watering.",
+		"Herbertshome.6": "Herbert forgot to close his laptop. His emails are open. He has 102 unopened emails from his parents. How strange.",
+		"Herbertshome.7": "A family photograph! Herbert is a child here, and stood next to two very scary looking people. A woman with short black hair and a man whose bald.",
+		"Herbertsproperty.1": "Herbert's Summer House this way.",
+		"Herbertsproperty.2": "I wonder if Herbert uses this often. I didn't think Herbert would ever enjoy star-gazing.",
+		"Herbertsproperty.3": "What a cute plant! Herbert must be taking care of it well.",
+		"Herbertsproperty.4": "Herbert's been gardening when he's not studying.",
+		"Herbertsproperty.5": "Herbert's mailbox. There's an envelope in here. The writing is extremely curly.",
+		"Herbertsproperty.6": "The small beach below is littered with rubbish. I hope none of this is Herbert's.",
+		"Herbertsproperty.7": "A little deck chair! Herbert likes to sit and write here in the summer.",
+		"Herbertsproperty.8": "Herbert's favourite place to sit and read. Apparently this tree has been here for decades.",
+		"Herbertsproperty.9": "Lewis gave this house to Herbert as a gift for his birthday since Herbert wanted his own place to spend summers in Pelican Town.",
+		"Herbertsproperty.10": "An empty plant pot. Herbert will be planting something here soon.",
+		"HerbertSpouseRoom.1": "A pile of unopened envelopes that Herbert left here. They all have different handwriting. They must be from his relatives.",
+		"HerbertSpouseRoom.2": "A footstool so Herbert can reach his high-up bookshelf. How cute!",
+		"HerbertSpouseRoom.3": "Post-it notes which all have different reminders on.^Pink: Remember to write back to relatives and thank for condolences etc.^Yellow: Remember to take back library books.^Blue: Remember to set schedule for visiting Lewis.",
+		"HerbertSpouseRoom.4": "Now that he's decided not to become a lawyer, Herbert can let his gardening aspiration flourish.",
+		}
+	},
+
+
+	{
+		"LogName": "Herbert's Messages",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Herbert",
+		"Entries": {
+			"give_flowersA": "Oh my...$6#$b#Do you really... you're in love with me?$6#$b#I didn't know! I had no idea that you loved me just as much as I loved you.$6#$b#Thank you, so much. I've never felt like this before.$4",
+			"give_flowersB": "I promise to take care of you and love you every single day.$4#$e#You're the most important thing to me in the world.$4",
+			"give_pendant": "You really... want to spend the rest of your life with me?$4#$b#You - you love me enough to want me?$4#$b#No one's ever... no one's ever wanted that with me before.$2#$b#I accept! I'll ask my Grandfather for his blessing. Do your parents know about us? Should we ask for their blessing?$4#$b#Our wedding will be arranged for three days in time!$4",
+			"stardrop_gift": "I would give you anything you ever asked for. Here's a token of my adoration for you. You really are everything to me, darling.$4",
+			"rejectNPCA": "No thank you.$1",
+			"rejectNPCB": "Flattering, but I'm not interested.$1",
+			"reject_two_heartA": "@, we are mere acquaintances. I do not think of you like that. I apologise for hurting your feelings.$1",
+			"reject_two_heartB": "We are hardly friends. I'm very sorry, but I'm not interested in you.$1",
+			"reject_four_heartA": "Oh...$1#$b#I didn't expect this.$1#$b#@ dear, you're my friend. I-I apologise for giving you false signals.$1",
+			"reject_four_heartB": "@ you're my friend. I'd hate to ruin our companionship.$1",
+			"engageA": "I do hope something has affected your current mental state, because you have failed to forget you are ENGAGED.$5#$b#Did you hear me correctly? ENGAGED.$5#$b#So you're the unfaithful type it seems.$5",
+			"engageB": "I never took you for the unfaithful type.$5#$b#True colours shine through don't they?$5",
+			"marriedA": "I recently went to lunch with %spouse, and you were all they could talk about.$5#$b#How DARE you ask for something like this!$5",
+			"marriedB": "Your spouse deserves far better than someone as unfaithful as you.$5",
+			"refusal_knownA": "I adore your company, but I am not ready to take the next step yet.$1",
+			"refusal_knownB": "I'd hate to make a rushed mistake. I would never want to ruin our relationship.$1",
+			"refusal_botherA": "Please slow down. This is far too fast.$",
+			"refusal_botherB": "No.$1",
+			"refusal_no_heartsA": "My goodness - you are absoloutely insane!$6#$b#I was intending to get to know you but perhaps I'd rather stay away.$6#$b#Far... far away.$1",
+			"refusal_no_heartsB": "Please tell me this is some sort of twisted humor that you have.$1",
+
+		},
+	},
+	{
+		"LogName": "Engaged to Herbert",
+		"Target": "Characters/Dialogue/Herbert",
+		"Action": "EditData",
+		"When": {
+			"Relationship:Herbert": "Engaged",
+			},
+		"Entries": {
+			"give_flowersA": "Thank you my darling!$4#$b#How kind of you!$4",
+			"give_flowersB": "This is beyond endearing. I love you too.$4",
+			"give_pendant": "My dear, I hope you're feeling okay. You do remember proposing, right?$1",
+			"engageA": "We are engaged my darling. It's okay, you don't need to propose again.$3",
+			"engageB": "No need, I still proudly have my other pendant.",
+
+			},
+		},
+		{
+			"LogName": "Married to Herbert",
+			"Target": "Characters/Dialogue/Herbert",
+			"Action": "EditData",
+			"When": {
+				"Relationship:Herbert": "Married",
+				},
+			"Entries": {
+				"give_flowersA": "No one has ever made me happier. Thank you.$4",
+				"give_flowersB": "Thank you, my love.$4",
+				"marriedA": "Hm? Oh! Haha. You're a strange one, my dear.$4",
+				"marriedB": "Oh? How lovely.$1",
+			},
+		},
+
+
+		{
+
+      			"LogName": "HerbertEvent",
+      			"Action": "EditData",
+      			"Target": "Data/Events/Forest",
+      			"Entries": {
+					"958599/f Herbert 1000/t 1300 1500/w sunny/n HerbertStudy": "playful/39 11/farmer 49 12 3 Herbert 40 11 1 Gunther 37 107 1/skippable/pause 500/speak Herbert \"So you got my letter! Oh good! I'm grateful that you wanted to come meet me.$3\"/pause 100/move farmer -8 0 3/pause 50/move farmer 0 -1 3/pause 200/speak Herbert \"I got some books from the library for us to read together. And I was hoping perhaps you could teach me a little about farming?#$b#Then I can teach you a little about what I learn!$3\"/pause 200/speak Herbert \"Deal?$4\"/pause 300/emote farmer 20/pause 100/textAboveHead Herbert \"Great!\"/pause 500/speak Herbert \"Shall we begin?\"/question fork1 \"#Alright, only that I forgot my gardening book. Can we pick it up at the library?#I didn't know I had to bring books.\"/fork rejection/friendship Herbert 250/pause 500/speak Herbert \"You forgot to bring a book to a reading session?$1#$b#Okay, it's fine. We can go to the library - I have some books to drop off anyways.\"/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap ArchaeologyHouse/warp farmer 4 10/warp Herbert 5 10/warp Gunther 3 8 2/viewport 4 10 true/positionOffset farmer 0 10/pause 500/faceDirection Herbert 3/pause 50/faceDirection farmer 1/pause 500/speak Herbert \"Okay, let's find the farming section.#$b#You know where it is, right?\"/pause 50/faceDirection Herbert 1/pause 500/move Herbert 3 0 1/move Herbert 0 2 1/pause 200/speak Herbert \"'A guide to game modding' Well this won't help us at all, will it?\"/pause 100/move Herbert 0 1 1/pause 500/speak Herbert \"'Gaming effects - what too much Gaming can do to you' You know I'm starting to think I'm in the wrong section.$1\"/pause 500/move farmer -1 0 0/pause 500/speak Gunther \"What can I do for you today, @? Have any new artifacts to bring in or looking for a specific book?\"/pause 200/speak Gunther \"'Gardening and farming books'! Why, shouldn't I be asking you that question?$1#$b#Those books are on the back bottom shelves.\"/pause 200/emote farmer 32/pause 500/viewport move 10 -6 900/move farmer 5 0 1/pause 50/move farmer 0 -5 0/pause 50/move farmer 7 0 1/pause 50/faceDirection farmer 0/pause 200/speak Herbert \"Have you found them @?\"/pause 200/move farmer 2 0 0/pause 500/move farmer -1 0 0/pause 200/emote farmer 32/pause 200/speak Herbert \"You found them? Great!$3\"/pause 50/move Herbert 0 -8 0/pause 50/move Herbert 7 0 1/pause 50/faceDirection Herbert 0/pause 200/textAboveHead Herbert \"Good.\"/pause 500/speak Herbert \"Okay, let's borrow it, come along.\"/pause 200/faceDirection farmer 3/move Herbert -7 0 1/globalFade/viewport -1000 -1000/changeToTemporaryMap Forest/warp farmer 49 12/warp Herbert 53 12/warp Gunther 13 55/viewport 40 10 true/pause 500/move farmer -7 0 3/move Herbert -12 0 3/move farmer 0 -2 2/move Herbert 0 -2 2/pause 200/emote farmer 20/speak Herbert \"Well, what are we waiting for?$3#$b#Come sit.$3\"/faceDirection farmer 3/faceDirection Herbert 1/globalFade/viewport -1000 -1000/message \"You spend the rest of the afternoon with Herbert, reading and discussing topics. He is pleasantly surprised that you know what he's talking about most of the time.\"/pause 1000/end",
+				"rejection": "pause 500/textAboveHead Herbert \"Uhm. What.\"/pause 200/speak Herbert \"You, uhm... you didn't know you had to bring books?$1#$b#But that's the whole point of a study session...$1\"/pause 200/emote Herbert 28/pause 200/speak Herbert \"Perhaps I should have been more specific... or maybe I should have known you can't read properly...$1#$b#It's fine. Let's pick some up at the library for you.\"/pause 500/globalFade/viewport -1000 -1000/changeToTemporaryMap ArchaeologyHouse/warp farmer 4 10/warp Herbert 5 10/warp Gunther 3 8 2/viewport 4 10 true/positionOffset farmer 0 10/pause 500/faceDirection Herbert 3/pause 50/faceDirection farmer 1/pause 500/speak Herbert \"Okay, let's find the farming section.#$b#You know where it is, right?\"/pause 50/faceDirection Herbert 1/pause 500/move Herbert 3 0 1/move Herbert 0 2 1/pause 200/speak Herbert \"'A guide to game modding' Well this won't help us at all, will it?\"/pause 100/move Herbert 0 1 1/pause 500/speak Herbert \"'Gaming effects - what too much Gaming can do to you' You know I'm starting to think I'm in the wrong section.$1\"/pause 500/move farmer -1 0 0/pause 500/speak Gunther \"What can I do for you today, @? Have any new artifacts to bring in or looking for a specific book?\"/pause 200/speak Gunther \"'Gardening and farming books'! Why, shouldn't I be asking you that question?$1#$b#Those books are on the back bottom shelves.\"/pause 200/emote farmer 32/pause 500/viewport move 10 -6 900/move farmer 5 0 1/pause 50/move farmer 0 -5 0/pause 50/move farmer 7 0 1/pause 50/faceDirection farmer 0/pause 200/speak Herbert \"Have you found them @?\"/pause 200/move farmer 2 0 0/pause 500/move farmer -1 0 0/pause 200/emote farmer 32/pause 200/speak Herbert \"You found them? Great!$3\"/pause 50/move Herbert 0 -8 0/pause 50/move Herbert 7 0 1/pause 50/faceDirection Herbert 0/pause 200/textAboveHead Herbert \"Good.\"/pause 500/speak Herbert \"Okay, let's borrow it, come along.\"/pause 200/faceDirection farmer 3/move Herbert -7 0 1/globalFade/viewport -1000 -1000/changeToTemporaryMap Forest/warp farmer 49 12/warp Herbert 53 12/warp Gunther 13 55/viewport 40 10 true/pause 500/move farmer -7 0 3/move Herbert -12 0 3/move farmer 0 -2 2/move Herbert 0 -2 2/pause 200/emote farmer 20/speak Herbert \"Well, what are we waiting for?$3#$b#Come sit.$3\"/faceDirection farmer 3/faceDirection Herbert 1/globalFade/viewport -1000 -1000/message \"You spend the rest of the afternoon with Herbert, reading and discussing topics. He is pleasantly surprised that you know what he's talking about most of the time.\"/pause 1000/end",
+	}
+
+},
+		{
+			"LogName": "HerbertEvent",
+      			"Action": "EditData",
+      			"Target": "Data/Events/Beach",
+      			"Entries": {
+
+					"967211/f Herbert 500/t 900 1300/w sunny": "jaunty/28 4/farmer 38 1 2 Herbert 27 4 2 Willy 87 40 2/skippable/showFrame Herbert 31/pause 200/move farmer 0 4 2/move farmer -11 0 0/pause 500/speak Herbert \"@? Oh hello! For a moment I thought you were someone else.$3#$b#What brings you here today? Relaxing by the beach after a day's work?\"/pause 500/emote farmer 8/pause 200/speak Herbert \"Well, I don't usually pick the beach to have a good study session - the sand gets everywhere, I'm afraid.$1#$b#I've been waiting for Willy for the past half an hour. He's late.#$b#So I've decided to simply do some light reading while I wait.$3\"/pause 500/move farmer 1 0 3/move farmer 0 -1 3/pause 500/speak Herbert \"Say, can I ask you a question, @? I need a second opinion.#$b#I'm thinking of writing a book. I was, personally, thinking of writing a textbook about physics. What do you think?\"/question fork1 \"#You should definitely write a book about something you like. If physics is the subject for you, do it!#How about a novel of some kind? It could be like sci-fi or maybe adventure?\"/fork adventure/pause 500/speak Herbert \"Well, thank you. You've made up my mind!$3#$b#Ah, hm. Let's see. I'll call it 'An insight to Physics - For Beginners'. How does that sound?$3\"/pause 500/emote farmer 20/pause 200/speak Herbert \"Well then, speaking of, I did bring some spare paper. Perhaps I should get started. Now, help me out with the introduction. I don't want to sound too formal, but also not too informal.#$b#This book writing is challenging stuff.$1\"/pause 200/showFrame Herbert 26/pause 200/emote farmer 40/pause 700/emote Herbert 56/pause 100/speak Herbert \"Aha! How does this sound as an introduction.$3#$b#*clears throat*$1#$b#'The world of Physics is a challenging place. That's why I have decided to write a book about it.'\"/pause 200/emote farmer 36/speak Herbert \"Yes? No? Oh - no? Okay I'll try again.$1\"/pause 200/warp Willy 26 21/faceDirection farmer 2/pause 200/speak Herbert \"Hmm? What is it?\"/pause 500/emote farmer 32/pause 200/showFrame Herbert 0/pause 100/emote Herbert 32/move Willy 0 -14 0/move Willy 1 0 0/pause 200/speak Herbert \"Ah! Willy! You took your time, didn't you chap?$3\"/pause 100/emote Willy 16/pause 300/speak Willy \"Sorry about that, Herbert. I was chasing this huge fish - a real whopper. Some oversized trout. You should have seen it!$1#$b#Oh, hello @! Didn't see you there.$1#$b#Anyways, he brought me into much deeper waters than I meant to go. Sorry about how long it took to get back.$2\"/pause 200/speak Herbert \"Oh don't worry about it, you're here now! Are you ready to head back into the sea?$3\"/pause 200/speak Willy \"Never been more ready.$1#$b#I'll see you later, @. I see you were keeping Herbert company.$1\"/pause 200/faceDirection Herbert 1/speak Herbert \"Goodbye, @. Thanks for helping me with my book!\"/pause 200/faceDirection farmer 3/emote farmer 20/move Willy 0 13 2/faceDirection farmer 2/move Herbert 0 13 2/pause 200/speak Herbert \"I'll be back from the fishing trip in a few hours, @. I'll see you then!$3\"/globalFade/viewport -1000 -1000/end",
+				"adventure": "pause 200/speak Herbert \"Oh no no, definitely not. I may have a love for literature but I'd never attempt writing my own novel.$1#$b#You don't seem to know me very well, do you?$1\"/pause 200/speak Herbert \"No matter, you can help me write my Physics textbook instead.$3\"/pause 100/emote farmer 16/pause 200/speak Herbert \"Well then, speaking of, I did bring some spare paper. I should get started. Now, help me out with the introduction. I don't want to sound too formal, but also not too informal.#$b#This book writing is challenging stuff.$1\"/pause 200/showFrame Herbert 27/pause 200/emote farmer 40/pause 700/emote Herbert 56/pause 100/speak Herbert \"Aha! How does this sound as an introduction.$3#$b#*clears throat*$1#$b#'The world of Physics is a challenging place. That's why I have decided to write a book about it.'\"/pause 200/emote farmer 36/speak Herbert \"Yes? No? Oh - no? Okay I'll try again.$1\"/pause 200/warp Willy 26 21/faceDirection farmer 2/pause 200/speak Herbert \"Hmm? What is it?\"/pause 500/emote farmer 32/pause 200/showFrame Herbert 0/pause 100/emote Herbert 32/move Willy 0 -14 0/move Willy 1 0 0/pause 200/speak Herbert \"Ah! Willy! You took your time, didn't you chap?$3\"/pause 100/emote Willy 16/pause 300/speak Willy \"Sorry about that, Herbert. I was chasing this huge fish - a real whopper. Some oversized trout. You should have seen it!$1#$b#Oh, hello @! Didn't see you there.$1#$b#Anyways, he brought me into much deeper waters than I meant to go. Sorry about how long it took to get back.$2\"/pause 200/speak Herbert \"Oh don't worry about it, you're here now! Are you ready to head back into the sea?$3\"/pause 200/speak Willy \"Never been more ready.$1#$b#I'll see you later, @. I see you were keeping Herbert company.$1\"/pause 200/faceDirection Herbert 1/speak Herbert \"Goodbye, @. Thanks for helping me with my book!\"/pause 200/emote farmer 20/move Willy 0 13 2/faceDirection farmer 2/move Herbert 0 13 2/pause 200/speak Herbert \"I'll be back from the fishing trip in a few hours, @. I'll see you then!$3\"/globalFade/viewport -1000 -1000/end",	
+	}
+},
+	
+		{
+			"LogName": "HerbertEvent",
+      			"Action": "EditData",
+      			"Target": "Data/Events/JojaMart",
+      			"Entries": {
+					"977211/f Herbert 1500/t 900 1100/w sunny": "jaunty/15 26/farmer 13 16 3 Herbert 15 26 0 Lewis 15 24 2/skippable/pause 500/move farmer 0 -1 3/pause 200/emote Herbert 8/pause 200/speak Herbert \"You look really uneasy in here, Lewis. What's wrong? I only wanted to get some cola.$1\"/pause 200/speak Lewis \"Problem? What problem? There's no problem. I would just prefer you to buy at Pierre's. Joja is not a trustworthy company.$2\"/pause 200/speak Herbert \"But grandfather - how could you say that? Your daughter and son-in-law both are Joja managers.$5#$b#They wouldn't work there if the company was untrustworthy.$1\"/pause 200/move farmer 0 4 2/pause 200/speak Lewis \"I know, I know, there's just a lot they aren't telling you.$2#$b#Sure, they're meeting with Joja boards around the world to discuss buisness on their trip...$2#$b#Probably earning lots... But you would know all about that wouldn't you?$2#$b#I heard you're planning on working for Joja for some experience before becoming a lawyer? Am I correct?$2\"/pause 200/faceDirection Herbert 3/speak Herbert \"Yes, you are correct, Grandfather.$1\"/pause 100/faceDirection Herbert 0/speak Lewis \"Then there's really no need for you to listen to my ramblings. Though, did you hear what they plan to do to my community centre?$2\"/pause 200/speak Lewis \"You see, my old community center, if it's not repaired they're going to take it.$w#$b#And I suppose... since your mother is not yet in my will, she has no say over this.$2#$b#Not that she'd want one.$2#$b#So what do you think about that? Hm Herbert?$2\"/pause 500/emote Herbert 40/pause 200/speak Herbert \"I know you care a lot about that community center. When I was younger I remember when it was open...$1\"/pause 500/speak Lewis \"But times change and you want to change with them, don't you? So you're just going to give them my community centre?$2\"/pause 200/emote farmer 16/move farmer 0 3 2/move farmer -3 0 3/move farmer 0 4 2/move farmer 2 0 1/pause 100/faceDirection Herbert 3/speak Herbert \"@? Can we help you?$1\"/question fork1 \"#Of course Herbert isn't going to do that! He wouldn't!#Well, maybe Herbert should. As you say, times change.\"/fork rejection/emote Herbert 16/speak Herbert \"@! This doesn't have anything to do with you!$5#$b#I apologise for @'s behaviour. I don't understand why they're getting involed.$2\"/pause 500/speak Lewis \"Ah, you know the farmer? I'm glad to know you feel the same about this as I do.#$b#Herbert, I already explained all this to @. They support me.$1\"/pause 500/speak Herbert \"I'll consult with my parents about this. Maybe they'll know what Joja wants to do with the community centre. It might not be that bad.$1\"/pause 500/faceDirection Herbert 2/pause 50/speak Lewis \"Now wait a moment there, young man. Leave your parents out of this. They don't care about what I want.\"/pause 400/faceDirection Herbert 0/speak Herbert \"But-$6\"/pause 200/speak Lewis \"I'm serious, Herbert.$2\"/pause 200/speak Herbert \"Alright Lewis. I won't.$2\"/pause 200/speak Herbert \"Let's go, @.\"/pause 200/move Herbert 0 1 2/move Herbert -7 0 3/faceDirection farmer 3/speak Lewis \"Help us, @. Help me keep the community centre.$2\"/globalFade/viewport -1000 -1000/end",
+				"rejection": "pause 500/speak Lewis \"But @ - what about what we discussed -\"/pause 500/speak Herbert \"That's nice of you @, but this really doesn't involve you.$1\"/pause 500/speak Lewis \"It has everything to do with @, and with the residents of Pelican Town, Herbert.$5\"/pause 200/speak Herbert \"Look, Lewis, I'm not saying I'm just going to hand Joja the community centre. I just need to weigh up my options.\"/pause 300/speak Herbert \"Mr Morris promised me a position at Joja if I gave them the community centre... with pay.\"/pause 500/faceDirection Herbert 2/pause 50/speak Lewis \"But- you could find different means of work. You don't want to follow your parents-$2\"/pause 400/faceDirection Herbert 0/speak Herbert \"What?$6\"/pause 200/speak Lewis \"I- mean - Joja isn't what they're telling -  I'm sorry I didn't mean-$2\"/pause 200/speak Herbert \"Whatever, Lewis.$4\"/pause 200/speak Herbert \"Let's go, @.\"/pause 200/move Herbert 0 1 2/move Herbert -7 0 3/faceDirection farmer 3/speak Lewis \"Help us, @. Please, Help save the community centre.$2\"/globalFade/viewport -1000 -1000/end",
+			
+		},
+},
+
+		{
+			"LogName": "HerbertEvent",
+			"Action": "Load",
+			"Target": "Data/Events/Herbertsproperty",
+			"FromFile": "assets/Events/Herbertsproperty.json",
+
+		},
+
+
+		{
+			"LogName": "HerbertEvent",
+			"Action": "Load",
+			"Target": "Data/Events/Saloon",
+			"FromFile": "assets/Events/Saloon.json",
+
+		},
+	
+	]
+}
+		
+		

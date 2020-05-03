@@ -50,7 +50,7 @@
         {
          "Action": "Load",
          "Target": "Maps/Tent",
-         "FromFile": "assets/{{Recolor}}/{{Size}}/{{season}}_LinusTreehouse.tbin",
+         "FromFile": "assets/{{Recolor}}/{{Size}}/{{season}}/{{season}}_LinusTreehouse.tbin",
          "When": {
          	"Recolor": "Eemie",
           "season": "summer, winter"
@@ -60,7 +60,7 @@
         {
           "Action": "EditMap",
           "Target": "Maps/Mountain",
-          "FromFile": "assets/{{Recolor}}/{{Size}}/{{season}}_Treehouse.tmx",
+          "FromFile": "assets/{{Recolor}}/{{Size}}/{{season}}/{{season}}_Treehouse.tmx",
           "ToArea": {"X": 26, "Y": 0, "Width": 7, "Height": 8 },
           "When": {
           	"Recolor": "Eemie",
@@ -72,7 +72,7 @@
         {
          "Action": "Load",
          "Target": "Maps/Tent",
-         "FromFile": "assets/{{Recolor}}/{{Size}}/{{SpringColor}}/{{season}}_LinusTreehouse.tbin",
+         "FromFile": "assets/{{Recolor}}/{{Size}}/{{season}}/{{SpringColor}}/{{season}}_LinusTreehouse.tbin",
          "When": {
          	"Recolor": "Eemie",
           "season": "spring"
@@ -82,7 +82,7 @@
         {
           "Action": "EditMap",
           "Target": "Maps/Mountain",
-          "FromFile": "assets/{{Recolor}}/{{Size}}/{{SpringColor}}/{{season}}_Treehouse.tmx",
+          "FromFile": "assets/{{Recolor}}/{{Size}}/{{season}}/{{SpringColor}}/{{season}}_Treehouse.tmx",
           "ToArea": {"X": 26, "Y": 0, "Width": 7, "Height": 8 },
           "When": {
           	"Recolor": "Eemie",
@@ -94,7 +94,7 @@
         {
          "Action": "Load",
          "Target": "Maps/Tent",
-         "FromFile": "assets/{{Recolor}}/{{Size}}/{{FallColor}}/{{season}}_LinusTreehouse.tbin",
+         "FromFile": "assets/{{Recolor}}/{{Size}}/{{season}}/{{FallColor}}/{{season}}_LinusTreehouse.tbin",
          "When": {
          	"Recolor": "Eemie",
           "season": "fall"
@@ -104,7 +104,7 @@
         {
           "Action": "EditMap",
           "Target": "Maps/Mountain",
-          "FromFile": "assets/{{Recolor}}/{{Size}}/{{FallColor}}/{{season}}_Treehouse.tmx",
+          "FromFile": "assets/{{Recolor}}/{{Size}}/{{season}}/{{FallColor}}/{{season}}_Treehouse.tmx",
           "ToArea": {"X": 26, "Y": 0, "Width": 7, "Height": 8 },
           "When": {
           	"Recolor": "Eemie",

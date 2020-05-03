@@ -1,0 +1,25 @@
+// used for creating schedules
+
+// facedirection 0-up 1-right 2-down 3-left
+
+// AFTERSPAWN: 
+// vanilla: Forest 40 11 2 jade_groundread
+// boarding: BoardingHouse 40 20 2 jade_groundread
+
+// BENCHSIT: 
+// vanilla: Town 70 91 2
+// SVE: Town 63 98 2 jade_groundread
+// KIM: Town 64 98 2 jade_groundread
+
+// ALEXDOGVISIT: 
+// vanilla: Town 52 71 0
+// SVE: Town 53 69 0
+// KIM: Town 53 69 0
+
+{ 
+  "spring": "610 AFTERSPAWN/800 BENCHSIT jade_sit/1000 BENCHSIT jade_read/1100 ALEXDOGVISIT/1230 BENCHSIT jade_sit/1300 BENCHSIT jade_read/2000 AFTERSPAWN",
+  "summer": "610 AFTERSPAWN/800 BENCHSIT jade_sit/1000 BENCHSIT jade_read/1100 ALEXDOGVISIT/1230 BENCHSIT jade_sit/1300 BENCHSIT jade_read/2000 AFTERSPAWN",
+  "winter": "610 AFTERSPAWN/800 Town 70 89 2 jade_sit/1000 Town 70 89 2 jade_read/1100 ALEXDOGVISIT/1230 BENCHSIT jade_sit/1300 Town 70 89 2 jade_read/2000 AFTERSPAWN",
+  "fall": "610 AFTERSPAWN/800 Town 70 89 2 jade_sit/1000 Town 70 89 2 jade_read/1100 ALEXDOGVISIT/1230 BENCHSIT jade_sit/1300 Town 70 89 2 jade_read/2000 AFTERSPAWN",
+  "rain": "610 AFTERSPAWN/1100 Saloon 35 18 0/2000 AFTERSPAWN",
+}

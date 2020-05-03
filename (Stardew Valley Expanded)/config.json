@@ -1,0 +1,11 @@
+{
+  "SeasonalEdits": "true",
+  "ReplaceDefaultFences": "true",
+  "ReplaceHardwoodFences": "true",
+  "CanWalkOverBeachTidepools": "false",
+  "LowerProfitMargins": "false",
+  "BalancedCrafting": "false",
+  "HarderBuildingConstruction": "false",
+  "StrongerMonsters": "false",
+  "MatureEvents": "false"
+}

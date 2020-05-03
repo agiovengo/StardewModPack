@@ -1,5 +1,5 @@
 ﻿{
-	"Format": "0.1",
+	"Format": "0.4",
 	"Categories": [
 		{
 			"Action": "Create",
@@ -8,8 +8,8 @@
 				{
 					"Type": "River Lung",
 					/* (Coloring inspired by Haku from Studio Ghibli's "Spirited away")- These playful dragons grow longer with age and the ancient ones can grow to be so long they can stretch through an entire river system. They frolic through the ripples and waves, helping to escort endangered schools of fish until they reach the ocean.*/
-					"DeluxeLuckChance": 0.01,
-					"Data": "2/7/155/800/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/River Lung/Barn",
+					"DeluxeLuckChance": 0.001,
+					"Data": "8/7/155/797/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/River Lung/Barn",
 					"Sprites": {
 						"Adult": "assets/RiverDragon.png",
 						"Baby": "assets/BabyRiverDragon.png"
@@ -18,8 +18,8 @@
 				{
 					"Type": "Mountain Lung",
 					/* Living deep within the earth these dragons are often the reason why the cave systems are so vast, unpredictable, and everchanging. They like to collect ores and other interesting objects that they find while creating the cave networks to help provide homes for other underworld creatures.*/
-					"DeluxeLuckChance": 0.001,
-					"Data": "3/7/749/74/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Mountain Lung/Barn",
+					"DeluxeLuckChance": 0.0001,
+					"Data": "4/7/749/72/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Mountain Lung/Barn",
 					"Sprites": {
 						"Adult": "assets/MountainDragon.png",
 						"Baby": "assets/BabyMountainDragon.png"
@@ -28,8 +28,8 @@
 				{
 					"Type": "Lava Lung",
 					/* Dragons from the molten depths of the earth, their scales are hot to the touch and their mane is formed of flames. As they dive through the volcanic molten seas, they might come back with melted segments of valuable ores or charred coals.*/
-					"DeluxeLuckChance": 0.01,
-					"Data": "1/7/382/337/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Lava Lung/Barn",
+					"DeluxeLuckChance": 0.001,
+					"Data": "5/7/336/337/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Lava Lung/Barn",
 					"Sprites": {
 						"Adult": "assets/LavaDragon.png",
 						"Baby": "assets/BabyLavaDragon.png"
@@ -38,8 +38,8 @@
 				{
 					"Type": "Storm Lung",
 					/* These dragons are often glimpsed during heavy rains as they fly through the dark clouds, controlling the course of the storm as they go. Their bodies store tremendous amounts of electrical energy and their roars can easily call forth storms. */
-					"DeluxeLuckChance": 0.01,
-					"Data": "7/7/787/681/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Storm Lung/Barn",
+					"DeluxeLuckChance": 0.0,
+					"Data": "4/7/787/-1/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Storm Lung/Barn",
 					"Sprites": {
 						"Adult": "assets/StormDragon.png",
 						"Baby": "assets/BabyStormDragon.png"
@@ -48,8 +48,8 @@
 				{
 					"Type": "Pond Lung",
 					/* The most mysterious of the Lung as they are the smallest species, rarely reaching sizes bigger than young dragons. Often sightings of these dragons are written off as a tourist never seeing a real salamander before. They threw away their horns for a feathered mane. Each feather contains several bundles of power, with it they can change the contents of any liquid. They enjoy sitting in water, letting it flow over their feathers as they purify bodies of water of polutants. */
-					"DeluxeLuckChance": 0.05,
-					"Data": "2/5/812/445/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Pond Lung/Barn",
+					"DeluxeLuckChance": 0.005,
+					"Data": "3/5/394/445/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Pond Lung/Barn",
 					"Sprites": {
 						"Adult": "assets/PondDragon.png",
 						"Baby": "assets/BabyPondDragon.png"
@@ -58,7 +58,7 @@
 				{
 					"Type": "Creek Lung",
 					/* The most mysterious of the Lung as they are the smallest species, rarely reaching sizes bigger than young dragons. Often sightings of these dragons are written off as a tourist never seeing a real salamander before. They threw away their horns for a feathered mane. Each feather contains several bundles of power, with it they can change the contents of any liquid. They enjoy sitting in water, letting it flow over their feathers as they purify bodies of water of polutants. */
-					"DeluxeLuckChance": 0.01,
+					"DeluxeLuckChance": 0.001,
 					"Data": "5/5/349/432/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Creek Lung/Barn",
 					"Sprites": {
 						"Adult": "assets/CreekDragon.png",
@@ -68,11 +68,71 @@
 				{
 					"Type": "Sky Lung",
 					/* Most live their entire life never seeing the rulers of the great wind currents. These Sky dragons live high up in the atmosphere, sometimes never once setting foot on the ground. They use their wings to sweep the wind across the globe, imbuning it with oxygen so all creatures beneath the sky can breathe. */
-					"DeluxeLuckChance": 0.001,
-					"Data": "7/7/444/74/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sky Lung/Barn",
+					"DeluxeLuckChance": 0.0001,
+					"Data": "10/7/444/74/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sky Lung/Barn",
 					"Sprites": {
 						"Adult": "assets/SkyDragon.png",
 						"Baby": "assets/BabySkyDragon.png"
+					}
+				},
+				{
+					"Type": "Forest Lung",
+					/* The oldest forests of the world are always protected by one of these dragons. Ancient forests are so steeped in magic that they attract evil like vultures to carrion. As part of the forest the offender into the ground to become fertilizer for new life.*/
+					"DeluxeLuckChance": 0.0001,
+					"Data": "5/7/724/631/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Forest Lung/Barn",
+					"Sprites": {
+						"Adult": "assets/ForestDragon.png",
+						"Baby": "assets/BabyForestDragon.png"
+					}
+				},
+				{
+					"Type": "Flower Lung",
+					/* This dragon can change its size to whatever it desires allowing it to cultivate even the most delicate flowers. Avid gardeners will sometimes spot them curled up and taking a nap on the inside of a flower. */
+					"DeluxeLuckChance": 0.01,
+					"Data": "2/7/340/595/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Flower Lung/Barn",
+					"Sprites": {
+						"Adult": "assets/FlowerDragon.png",
+						"Baby": "assets/BabyFlowerDragon.png"
+					}
+				},
+				{
+					"Type": "Spectre Lung",
+					/* These dragons escort the souls of the dead to whatever lies on the other size. Some humans are afraid of these creatures but those that have had a close encounter with death recognize their warmth. It had been cold in death, until the dragon had arrived to gently remind them it was not their time. How kind of them to meet you at the end of your journey, as it would be incredibly sad to walk that last path alone. */
+					"DeluxeLuckChance": 0.0001,
+					"Data": "5/7/561/413/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Specter Lung/Barn",
+					"Sprites": {
+						"Adult": "assets/SpectreDragon.png",
+						"Baby": "assets/BabySpectreDragon.png"
+					}
+				},
+				{
+					"Type": "Abyss Lung",
+					/* No one really knows what these dragons do, deep in the dark fathoms of space. All anyone knows is that once they submerged into the darkness thousands of years ago, the attacks that once killed millions ceased. As if it had been nothing but a simple legend all along.*/
+					"DeluxeLuckChance": 0.0005,
+					"Data": "2/7/769/553/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Abyss Lung/Barn",
+					"Sprites": {
+						"Adult": "assets/AbyssDragon.png",
+						"Baby": "assets/BabyAbyssDragon.png"
+					}
+				},
+				{
+					"Type": "Celestial Lung",
+					/* The keepers of planets, of stars, and some legends even say to the gates of heaven. They make the cores of stars their nests and use the excess energy released to aid in orbiting the planets around them. Many stars that should have died out aeons ago are kept alight by these dragons. */
+					"DeluxeLuckChance": 0.001,
+					"Data": "2/7/768/578/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Celestial Lung/Barn",
+					"Sprites": {
+						"Adult": "assets/CelestialDragon.png",
+						"Baby": "assets/BabyCelestialDragon.png"
+					}
+				},
+				{
+					"Type": "Time Lung",
+					/* This dragon is surprisingly unassuming, except for the gold globes continuously orbiting around its head and the clock on its tail that is ever ticking away, you might mistake this as a normal dragon. The dragon of times four eyes are always looking at something mortals could never comprehend. One eye is looking backward into the past, another toward the future, the third witnessing the present. No one knows what the four eye gazes at. */
+					"DeluxeLuckChance": 0.0001,
+					"Data": "6/7/454/417/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Time Lung/Barn",
+					"Sprites": {
+						"Adult": "assets/TimeDragon.png",
+						"Baby": "assets/BabyTimeDragon.png"
 					}
 				}
 			],

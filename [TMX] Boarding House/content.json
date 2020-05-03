@@ -1,4 +1,5 @@
 {
+  "loadLate": true,
   "addMaps": [   
     {
       "name": "BuffalosRanch",

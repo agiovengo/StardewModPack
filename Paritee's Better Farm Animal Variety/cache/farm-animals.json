@@ -321,6 +321,46 @@
       }
     },
     {
+      "Category": "Birds",
+      "Types": [
+        {
+          "Type": "Cardinal",
+          "Data": "1/0/770/216/parrot/8/32/48/32/8/32/48/32/1/false/Coop/16/16/16/16/3/8/null/642/1500/Cardinal/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Birds\\assets/cardinal.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Toucan",
+          "Data": "1/0/770/216/parrot/8/32/48/32/8/32/48/32/1/false/Coop/16/16/16/16/3/8/null/642/1500/Toucan/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Birds\\assets/toucan.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Coop",
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Bird",
+        "Description": "These Birds come in all sorts of variations!",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Birds\\assets\\animal_shop_birds.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
       "Category": "Crow",
       "Types": [
         {
@@ -344,6 +384,45 @@
         "Name": "Crow",
         "Description": "Crows like to collect branches for nest building and the occasional shiny object.",
         "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Crows (bfav unofficial update)\\assets\\animal_shop_crow.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Dodos",
+      "Types": [
+        {
+          "Type": "Brown Dodo",
+          "Data": "1/0/182/254/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Brown Dodo/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Dodos\\assets/Brown_Dodo.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "White Dodo",
+          "Data": "1/0/174/254/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/White Dodo/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": null,
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Dodos\\assets/White_Dodo.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Dodo",
+        "Description": "Flightless birds that aren't known for their intelligence",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Dodos\\assets\\animal_shop_dodo.png",
         "Exclude": [
           "Void Chicken"
         ]
@@ -394,6 +473,45 @@
         "Name": "Easter Bunny",
         "Description": "These festive rabbits lay brightly-colored eggs!",
         "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Easter Bunny\\assets\\Animal_Shop_Easter_Bunny.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
+      "Category": "Fennec Fox",
+      "Types": [
+        {
+          "Type": "Fennec Fox",
+          "Data": "1/7/770/Fox Treasure/rabbit/0/0/0/0/0/0/0/0/0/false/Barn/32/32/32/32/15/5/null/0/5000/Fennec Fox/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Fennec Fox\\assets/BabyFennec_Fox.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Fennec Fox\\assets/Fennec_Fox.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Albino Fennec Fox",
+          "Data": "1/7/567/Mysterious Artifact/rabbit/0/0/0/0/0/0/0/0/0/false/Barn/32/32/32/32/15/5/null/0/5000/Albino Fennec Fox/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Fennec Fox\\assets/BabyAlbino_Fennec_Fox.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Fennec Fox\\assets/Albino_Fennec_Fox.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Fennec Fox",
+        "Description": "These foxes love to dig! They'll leave part of what they find for you.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Fennec Fox\\assets\\animal_shop_fennecfox.png",
         "Exclude": [
           "Void Chicken"
         ]
@@ -488,7 +606,7 @@
       "Types": [
         {
           "Type": "River Lung",
-          "Data": "2/7/155/800/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/River Lung/Barn",
+          "Data": "8/7/155/797/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/River Lung/Barn",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
             "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/BabyRiverDragon.png",
@@ -499,7 +617,7 @@
         },
         {
           "Type": "Mountain Lung",
-          "Data": "3/7/749/74/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Mountain Lung/Barn",
+          "Data": "4/7/749/72/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Mountain Lung/Barn",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
             "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/BabyMountainDragon.png",
@@ -510,7 +628,7 @@
         },
         {
           "Type": "Lava Lung",
-          "Data": "1/7/382/337/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Lava Lung/Barn",
+          "Data": "5/7/336/337/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Lava Lung/Barn",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
             "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/BabyLavaDragon.png",
@@ -521,7 +639,7 @@
         },
         {
           "Type": "Storm Lung",
-          "Data": "7/7/787/681/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Storm Lung/Barn",
+          "Data": "4/7/787/-1/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Storm Lung/Barn",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
             "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/BabyStormDragon.png",
@@ -532,7 +650,7 @@
         },
         {
           "Type": "Pond Lung",
-          "Data": "2/5/812/445/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Pond Lung/Barn",
+          "Data": "3/5/394/445/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Pond Lung/Barn",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
             "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/BabyPondDragon.png",
@@ -554,11 +672,77 @@
         },
         {
           "Type": "Sky Lung",
-          "Data": "7/7/444/74/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sky Lung/Barn",
+          "Data": "10/7/444/74/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sky Lung/Barn",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
             "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/BabySkyDragon.png",
             "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/SkyDragon.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Forest Lung",
+          "Data": "5/7/724/631/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Forest Lung/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/BabyForestDragon.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/ForestDragon.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Flower Lung",
+          "Data": "2/7/340/595/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Flower Lung/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/BabyFlowerDragon.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/FlowerDragon.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Spectre Lung",
+          "Data": "5/7/561/413/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Specter Lung/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/BabySpectreDragon.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/SpectreDragon.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Abyss Lung",
+          "Data": "2/7/769/553/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Abyss Lung/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/BabyAbyssDragon.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/AbyssDragon.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Celestial Lung",
+          "Data": "2/7/768/578/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Celestial Lung/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/BabyCelestialDragon.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/CelestialDragon.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Time Lung",
+          "Data": "6/7/454/417/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Time Lung/Barn",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/BabyTimeDragon.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Lung Dragons\\assets/TimeDragon.png",
             "ReadyForHarvest": null
           },
           "Localization": {}
@@ -836,6 +1020,46 @@
         "Description": "Domesticated deer that produces milk.",
         "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Trent's New Animals\\assets\\animal_shop_deer.png",
         "Exclude": null
+      }
+    },
+    {
+      "Category": "Turkeys",
+      "Types": [
+        {
+          "Type": "Brown Turkey",
+          "Data": "1/3/180/182/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/7/4/null/641/1000/Brown Turkey/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Turkeys\\assets/BabyBrownTurkey.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Turkeys\\assets/BrownTurkey.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "White Turkey",
+          "Data": "1/3/176/174/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/1000/White Turkey/Coop",
+          "DeluxeProduceLuck": 0.0,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Turkeys\\assets/BabyWhiteTurkey.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Turkeys\\assets/WhiteTurkey.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Coop",
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Turkey",
+        "Description": "These turkeys will leave eggs for you every day once grown!",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Turkeys\\assets\\animal_shop_turkeys.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
       }
     }
   ]

@@ -1,0 +1,181 @@
+{ 
+    "festivalSpots": [  
+		
+		
+		{
+        "name": "first child name goes here",
+        "map": "Town-EggFestival", 
+        "position": [16, 69],
+        "direction": 3,
+		"position2": [25, 69],
+		"direction2": 1
+        },	
+		{
+        "name": "first child name goes here",
+        "map": "Forest-FlowerFestival", 
+        "position": [19, 25],
+        "direction": 2,
+		"position2": [21, 24],
+        "direction2": 2
+        },
+		{
+        "name": "first child name goes here",
+        "map": "Beach-Luau", 
+        "position": [25, 15],
+        "direction": 3,
+	    "position2": [33, 15],
+        "direction2": 0
+        },
+		{
+        "name": "first child name goes here",
+        "map": "Beach-Jellies",
+        "position": [30, 10],
+        "direction": 1
+        },
+		{
+        "name": "first child name goes here",
+        "map": "Town-Fair", 
+        "position": [66, 65],
+        "direction": 2
+        },
+		{
+        "name": "first child name goes here",
+        "map": "Town-Halloween", 
+        "position": [43, 37],
+        "direction": 0
+        },
+		{
+        "name": "first child name goes here",
+        "map": "Forest-IceFestival", 
+        "position": [71, 41],
+        "direction": 0,
+		"position2": [71, 41],
+        "direction2": 0
+        },
+		{
+        "name": "first child name goes here",
+        "map": "Town-Christmas", 
+        "position": [31, 68],
+        "direction": 3
+        },	
+		
+		
+		
+		{
+        "name": "Zoey",
+        "map": "Town-EggFestival", 
+        "position": [16, 69],
+        "direction": 3,
+		"position2": [25, 69],
+		"direction2": 1
+        },	
+		{
+        "name": "Zoey",
+        "map": "Forest-FlowerFestival", 
+        "position": [19, 25],
+        "direction": 2,
+		"position2": [21, 24],
+        "direction2": 2
+        },
+		{
+        "name": "Zoey",
+        "map": "Beach-Luau", 
+        "position": [25, 15],
+        "direction": 3,
+	    "position2": [33, 15],
+        "direction2": 0
+        },
+		{
+        "name": "Zoey",
+        "map": "Beach-Jellies",
+        "position": [30, 10],
+        "direction": 1
+        },
+		{
+        "name": "Zoey",
+        "map": "Town-Fair", 
+        "position": [66, 65],
+        "direction": 2
+        },
+		{
+        "name": "Zoey",
+        "map": "Town-Halloween", 
+        "position": [43, 37],
+        "direction": 0
+        },
+		{
+        "name": "Zoey",
+        "map": "Forest-IceFestival", 
+        "position": [71, 41],
+        "direction": 0,
+		"position2": [71, 41],
+        "direction2": 0
+        },
+		{
+        "name": "Zoey",
+        "map": "Town-Christmas", 
+        "position": [31, 68],
+        "direction": 3
+        },	
+		
+		
+		
+		{
+        "name": "Orchid",
+        "map": "Town-EggFestival", 
+        "position": [16, 69],
+        "direction": 3,
+		"position2": [25, 69],
+		"direction2": 1
+        },	
+		{
+        "name": "Orchid",
+        "map": "Forest-FlowerFestival", 
+        "position": [19, 25],
+        "direction": 2,
+		"position2": [21, 24],
+        "direction2": 2
+        },
+		{
+        "name": "Orchid",
+        "map": "Beach-Luau", 
+        "position": [25, 15],
+        "direction": 3,
+	    "position2": [33, 15],
+        "direction2": 0
+        },
+		{
+        "name": "Orchid",
+        "map": "Beach-Jellies",
+        "position": [30, 10],
+        "direction": 1
+        },
+		{
+        "name": "Orchid",
+        "map": "Town-Fair", 
+        "position": [66, 65],
+        "direction": 2
+        },
+		{
+        "name": "Orchid",
+        "map": "Town-Halloween", 
+        "position": [43, 37],
+        "direction": 0
+        },
+		{
+        "name": "Orchid",
+        "map": "Forest-IceFestival", 
+        "position": [71, 41],
+        "direction": 0,
+		"position2": [71, 41],
+        "direction2": 0
+        },
+		{
+        "name": "Orchid",
+        "map": "Town-Christmas", 
+        "position": [31, 68],
+        "direction": 3
+        },	
+		
+    ]
+}

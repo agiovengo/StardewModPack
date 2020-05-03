@@ -1,0 +1,15 @@
+{	
+"rain": "",	    
+"summer_4": "",
+"9": "",
+"23": "",
+"winter_4": "",	 
+
+"Mon": "",
+"Tue": "",
+"Wed": "GOTO Tue",
+"Thu": "",
+"Fri": "GOTO Tue",
+"Sat": "",
+"Sun": ""
+}

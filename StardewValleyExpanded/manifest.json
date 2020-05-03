@@ -1,9 +1,9 @@
 {
 
-  "Name": "Stardew Valley Expanded - Code",
-  "Author": "Swoo + FlashShifter",
+  "Name": "Stardew Valley Expanded",
+  "Author": "FlashShifter, Swoo, and super-aardvark",
   "Description": "Adds coded elements to the game",
-  "Version": "1.9.5",
+  "Version": "1.10.6",
   "MinimumApiVersion": "3.0",
   "UpdateKeys": [ "Nexus:???" ],
   "UniqueID": "FlashShifter.SVECode",

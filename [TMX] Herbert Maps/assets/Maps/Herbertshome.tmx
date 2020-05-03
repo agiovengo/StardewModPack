@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="12" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="14">
+ <properties>
+  <property name="Warp" value="3 12 Herbertsproperty 14 21"/>
+  <property name="asdf" type="bool" value="false"/>
+ </properties>
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="240" columns="12">
+  <image source="farmhouse_tiles" width="192" height="320"/>
+ </tileset>
+ <tileset firstgid="2417" name="walls" tilewidth="16" tileheight="16" tilecount="512" columns="16">
+  <image source="walls_and_floors" width="256" height="512"/>
+ </tileset>
+ <layer id="1" name="Back" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxr5GBgaCQRF3ARh2HqG7iIwyC17twMDIeB7CNcqDRMDbLYQah6EVYGBlEgFgNicSC+zAXBV9BomHoToBpTIDYDYnNWTPsigWJRrAj1IUB2KBCHAXE4K3azryCZj839IBrdnTD1uMxDdych89HdCVOPzWxsNAiA1F8Esi9BzQXRF3HQIPMBmdNXMQ==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="7" name="TileData" x="144" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Herbertshome.4&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Buildings" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJyNkb0OAUEQgOfuFHcUtOJpBCVaet6B8hJ6pQdAraDzAJQ4hWi0Eon/xEXjS24T52wwyZednflms9l1bZGE/MYCFzcu/0cXPxup5U2RgvleGxkiY+gpvxN/UcOtw5z+ApbgwQqGyu+TD4zgrBZuG07sz3CBK9xgornPt5gqP8ds3vjs7yI1T/lr6huN73CvIpSgDFvl+7gPjR+NvfLTzGZgFpo5sD+qd63wWVW44/u2/qwk/ZQV5A3WJsSc4I/d0Ds5oZqOJ9WTK7Q=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="3" name="TileData" x="32" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Herbertshome.1&quot;"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="32" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Herbertshome.6&quot;"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="64" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Herbertshome.2&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Herbertshome.3&quot;"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="96" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Herbertshome.4&quot;"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="160" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Herbertshome.5&quot;"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="144" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Herbertshome.7&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzjYmBg4CYS8wCxIxA/guLJrAiMTcyVAQKYGCHYhpmBoYuJgeEWmhgMwNS3AsXbGBlQwAaQeiZUMZj65UC5FWjqsQGY+uNAtSdIUA8CikyY8i5AP+oCxfWAWJ8JVT0xAKZ+I9AtL4H6VyK56TyQfwHJzh+MxJt/AIgloO5ZCMSLgHgxVG4JEC/DgpcD8QokMxKh4s0E7AIAp7IgOQ==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+</map>

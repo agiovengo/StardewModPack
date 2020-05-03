@@ -140,6 +140,80 @@
             }
         },
 
+        // Experimental Festival Stuff
+        {
+            "Name": "Festival",
+            "Value": "EggFestival",
+            "When":
+            {
+                "DayEvent": "egg festival",
+                "LocationName": "Temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "FlowerDance",
+            "When":
+            {
+                "DayEvent": "flower dance",
+                "LocationName": "Temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "IceFestival",
+            "When":
+            {
+                "DayEvent": "festival of ice",
+                "LocationName": "Temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "Luau",
+            "When":
+            {
+                "DayEvent": "luau",
+                "LocationName": "Temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "MoonlightJellies",
+            "When":
+            {
+                "DayEvent": "dance of the moonlight jellies",
+                "LocationName": "Temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SpiritsEve",
+            "When":
+            {
+                "DayEvent": "spirit's eve",
+                "LocationName": "Temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SVFair",
+            "When":
+            {
+                "DayEvent": "stardew valley fair",
+                "LocationName": "Temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "WinterStar",
+            "When":
+            {
+                "DayEvent": "feast of the winter star",
+                "LocationName": "Temp"
+            }
+        },
+
         // Misc
 
         {
@@ -222,6 +296,14 @@
         },
         {
             "Name": "MermaidPendantOverlay_Relationship",
+            "Value": "Harvey",
+            "When":
+            {
+                "Relationship:Harvey": "Married, Engaged",
+            }
+        },
+        {
+            "Name": "MermaidPendantOverlay_Relationship",
             "Value": "Leah",
             "When":
             {
@@ -277,6 +359,7 @@
             "When":
             {
                 "AllowBachelorsToBeFlowerKing": "false",
+                "EnableFlowerQueen": "true"
             }
         },
         {
@@ -285,6 +368,23 @@
             "When":
             {
                 "AllowBachelorsToBeFlowerKing": "true",
+                "EnableFlowerQueen": "true"
+            }
+        },
+        {
+            "Name": "JasFlowerQueen",
+            "Value": "{{Random: Jas, Disabled | JasFlowerQueen}}",
+            "When":
+            {
+                "EnableFlowerQueen": "true"
+            }
+        },
+        {
+            "Name": "VincentFlowerQueen",
+            "Value": "{{Random: Vincent, Disabled | VincentFlowerQueen}}",
+            "When":
+            {
+                "EnableFlowerQueen": "true"
             }
         },
 
@@ -306,6 +406,11 @@
         {
             "AllowValues": "VCSO, DesertDove, SCS, Vanilla",
             "Default": "DesertDove"
+        },
+        "EnableFlowerQueen":
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
         },
         "AllowBachelorsToBeFlowerKing":
         {
@@ -830,30 +935,6 @@
         // Haley
 
         {
-            "LogName": "Haley Fall Sun",
-            "Action": "EditImage",
-            "Target": "Characters/Haley, Portraits/Haley",
-            "FromFile": "{{Target}}/Haley_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:Red, Blue | HaleyFallSunColor}}.png",
-            "When":
-            {
-                "Season": "fall",
-                "Weather": "sun, wind",
-                "HasFile:{{Target}}/Haley_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:Red, Blue | HaleyFallSunColor}}.png": true,
-            }
-        },
-        {
-            "LogName": "Haley Fall Rain",
-            "Action": "EditImage",
-            "Target": "Characters/Haley, Portraits/Haley",
-            "FromFile": "{{Target}}/Haley_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:RedScarf, BlueScarf, BlueJacket, RedJacket | HaleyFallRainColor}}.png",
-            "When":
-            {
-                "Season": "fall",
-                "Weather": "rain, storm",
-                "HasFile:{{Target}}/Haley_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:RedScarf, BlueScarf, BlueJacket, RedJacket | HaleyFallRainColor}}.png": true,
-            }
-        },
-        {
             "LogName": "Haley Spring Sun",
             "Action": "EditImage",
             "Target": "Characters/Haley, Portraits/Haley",
@@ -875,6 +956,30 @@
                 "Season": "spring",
                 "Weather": "rain, storm",
                 "HasFile:{{Target}}/Haley_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:NoSunglasses, Stripes, Sunglasses | HaleySpringRainVariant}}.png": true,
+            }
+        },
+        {
+            "LogName": "Haley Fall Sun",
+            "Action": "EditImage",
+            "Target": "Characters/Haley, Portraits/Haley",
+            "FromFile": "{{Target}}/Haley_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:Red, Blue | HaleyFallSunColor}}.png",
+            "When":
+            {
+                "Season": "fall",
+                "Weather": "sun, wind",
+                "HasFile:{{Target}}/Haley_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:Red, Blue | HaleyFallSunColor}}.png": true,
+            }
+        },
+        {
+            "LogName": "Haley Fall Rain",
+            "Action": "EditImage",
+            "Target": "Characters/Haley, Portraits/Haley",
+            "FromFile": "{{Target}}/Haley_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:RedScarf, BlueScarf, BlueJacket, RedJacket | HaleyFallRainColor}}.png",
+            "When":
+            {
+                "Season": "fall",
+                "Weather": "rain, storm",
+                "HasFile:{{Target}}/Haley_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:RedScarf, BlueScarf, BlueJacket, RedJacket | HaleyFallRainColor}}.png": true,
             }
         },
         {
@@ -913,7 +1018,6 @@
                 "DayOfWeek": "Monday",
                 "Weather": "sun, wind",
                 "Spouse:Haley": false,
-                "HasFile:{{Target}}/Haley_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:Red, Blue | HaleyFallSunColor}}.png": true,
             }
         },
 
@@ -1034,17 +1138,6 @@
             }
         },
         {
-            "LogName": "Harvey Fall - Indoor Rain",
-            "Action": "EditImage",
-            "Target": "Characters/Harvey, Portraits/Harvey",
-            "FromFile": "{{Target}}/Harvey_{{Season}}{{WeatherVariant}}_{{Random:Scarf, Green | HarveyFallRainVariant}}.png",
-            "When":
-            {
-                "Season": "fall",
-                "Weather": "rain, storm"
-            },
-        },
-        {
             "LogName": "Harvey Spring - Indoor",
             "Action": "EditImage",
             "Target": "Characters/Harvey, Portraits/Harvey",
@@ -1053,6 +1146,17 @@
             {
                 "Season": "spring",
                 "Weather": "sun, wind",
+            },
+        },
+        {
+            "LogName": "Harvey Fall - Indoor Rain",
+            "Action": "EditImage",
+            "Target": "Characters/Harvey, Portraits/Harvey",
+            "FromFile": "{{Target}}/Harvey_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:Scarf, Green | HarveyFallRainVariant}}.png",
+            "When":
+            {
+                "Season": "fall",
+                "Weather": "rain, storm"
             },
         },
         {
@@ -1072,11 +1176,26 @@
             "FromFile": "{{Target}}/Harvey_MustacheOverlay.png",
             "When":
             {
-                "HarveyFacialHair": "Mustache"
+                "HarveyFacialHair": "Mustache",
+                "DayEvent:spirit's eve": false,
             },
             "PatchMode": "Overlay"
         },
-        /*{
+        {
+            "LogName": "Harvey - Mustache Overlay",
+            "Action": "EditImage",
+            "Target": "Characters/Harvey, Portraits/Harvey",
+            "FromFile": "{{Target}}/Harvey_MustacheOverlay.png",
+            "When":
+            {
+                "HarveyFacialHair": "Mustache",
+                "DayEvent:spirit's eve": true,
+                "LocationName": "Farm"
+            },
+            "PatchMode": "Overlay"
+        },
+        /*
+        {
             "LogName": "Harvey - Dad",
             "Action": "EditImage",
             "Target": "Characters/Harvey, Portraits/Harvey",
@@ -1095,11 +1214,10 @@
             "LogName": "Harvey Main - Mermaid Pendant",
             "Action": "EditImage",
             "Target": "Portraits/Harvey",
-            "FromFile": "Portraits/{{MermaidPendantOverlay}}/Harvey/Harvey_{{Season}}{{IndoorVariant}}{{WeatherVariant}}.png",
+            "FromFile": "Portraits/{{MermaidPendantOverlay}}/{{MermaidPendantOverlay_Relationship}}/Harvey_{{Season}}{{IndoorVariant}}{{WeatherVariant}}.png",
             "When":
             {
-                "HasFile:Portraits/{{MermaidPendantOverlay}}/Harvey/Harvey_{{Season}}{{IndoorVariant}}{{WeatherVariant}}.png": true,
-                "Relationship:Harvey": "Married, Engaged",
+                "HasFile:Portraits/{{MermaidPendantOverlay}}/{{MermaidPendantOverlay_Relationship}}/Harvey_{{Season}}{{IndoorVariant}}{{WeatherVariant}}.png": true,
             },
             "PatchMode": "Overlay"
         },
@@ -1107,24 +1225,10 @@
             "LogName": "Harvey Main - Mermaid Pendant",
             "Action": "EditImage",
             "Target": "Portraits/Harvey",
-            "FromFile": "Portraits/{{MermaidPendantOverlay}}/Harvey/Harvey_{{Season}}{{WeatherVariant}}.png",
+            "FromFile": "Portraits/{{MermaidPendantOverlay}}/{{MermaidPendantOverlay_Relationship}}/Harvey_{{Season}}{{WeatherVariant}}.png",
             "When":
             {
-                "HasFile:Portraits/{{MermaidPendantOverlay}}/Harvey/Harvey_{{Season}}{{WeatherVariant}}.png": true,
-                "Relationship:Harvey": "Married, Engaged",
-            },
-            "PatchMode": "Overlay"
-        },
-        {
-            "LogName": "Harvey Fall Rain - Mermaid Pendant",
-            "Action": "EditImage",
-            "Target": "Portraits/Harvey",
-            "FromFile": "Portraits/{{MermaidPendantOverlay}}/Harvey/Harvey_{{Season}}{{WeatherVariant}}_{{Random:Scarf, Green | HarveyFallRainVariant}}.png",
-            "When":
-            {
-                "Season": "fall",
-                "Weather": "rain, storm",
-                "Relationship:Harvey": "Married, Engaged",
+                "HasFile:Portraits/{{MermaidPendantOverlay}}/{{MermaidPendantOverlay_Relationship}}/Harvey_{{Season}}{{WeatherVariant}}.png": true,
             },
             "PatchMode": "Overlay"
         },
@@ -1132,15 +1236,27 @@
             "LogName": "Harvey Spring Sun - Mermaid Pendant",
             "Action": "EditImage",
             "Target": "Portraits/Harvey",
-            "FromFile": "Portraits/{{MermaidPendantOverlay}}/Harvey/Harvey_{{Season}}{{WeatherVariant}}_{{Random:NoVest, Sweater | HarveySpringVariant}}.png",
+            "FromFile": "Portraits/{{MermaidPendantOverlay}}/{{MermaidPendantOverlay_Relationship}}/Harvey_{{Season}}{{WeatherVariant}}_{{Random:NoVest, Sweater | HarveySpringVariant}}.png",
             "When":
             {
                 "Season": "spring",
                 "Weather": "sun, wind",
-                "Relationship:Harvey": "Married, Engaged",
             },
             "PatchMode": "Overlay"
         },
+        {
+            "LogName": "Harvey Fall Rain - Mermaid Pendant",
+            "Action": "EditImage",
+            "Target": "Portraits/Harvey",
+            "FromFile": "Portraits/{{MermaidPendantOverlay}}/{{MermaidPendantOverlay_Relationship}}/Harvey_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:Scarf, Green | HarveyFallRainVariant}}.png",
+            "When":
+            {
+                "Season": "fall",
+                "Weather": "rain, storm",
+            },
+            "PatchMode": "Overlay"
+        },
+
 
         // Krobus (Krobus is a little different and only targets him on the farm)
 
@@ -1788,13 +1904,14 @@
         // Harvey
 
         {
-            "LogName": "Harvey Spriti's Eve Character Sprites",
+            "LogName": "Harvey Spirit's Eve Character Sprites",
             "Action": "EditImage",
             "Target": "Characters/Harvey",
-            "FromFile": "Characters/Festivals/{{Festival}}/Harvey_{{Festival}}_{{Random:PlagueDoctor, Pilot | HarveySpiritsEveVariant}}.png",
+            "FromFile": "Characters/Festivals/{{Festival}}/Harvey_{{Festival}}_{{Random:PlagueDoctor, Pilot | HarveySpiritsEveVariant}}_{{HarveyFacialHair}}.png",
             "When":
             {
-                "DayEvent:spirit's eve": true
+                "DayEvent:spirit's eve": true,
+                "HarveyFacialHair": "Mustache, Shaved"
             },
         },
 
@@ -2000,13 +2117,14 @@
         // Harvey
 
         {
-            "LogName": "Harvey Spriti's Eve Portrait Sprites",
+            "LogName": "Harvey Spirit's Eve Portrait Sprites",
             "Action": "EditImage",
             "Target": "Portraits/Harvey",
-            "FromFile": "Portraits/Festivals/{{Festival}}/Harvey_{{Festival}}_{{Random:PlagueDoctor, Pilot | HarveySpiritsEveVariant}}.png",
+            "FromFile": "Portraits/Festivals/{{Festival}}/Harvey_{{Festival}}_{{Random:PlagueDoctor, Pilot | HarveySpiritsEveVariant}}_{{HarveyFacialHair}}.png",
             "When":
             {
-                "DayEvent:spirit's eve": true
+                "DayEvent:spirit's eve": true,
+                "HarveyFacialHair": "Mustache, Shaved"
             },
         },
 
@@ -2243,7 +2361,7 @@
             "ToArea":
             {
                 "X": 0,
-                "Y": 228,
+                "Y": 288,
                 "Width": 48,
                 "Height": 32
             },
@@ -2299,7 +2417,6 @@
             "When":
             {
                 "DayEvent": "flower dance",
-                "HasMod:Candidus42.RandomFlowerQueen": false,
             }
         },
         {
@@ -2310,7 +2427,6 @@
             "When":
             {
                 "DayEvent": "flower dance",
-                "HasMod:Candidus42.RandomFlowerQueen": false,
             }
         },
 
@@ -2324,8 +2440,7 @@
             "When":
             {
                 "DayEvent": "flower dance",
-                "FlowerQueen:Shane": true,
-                "HasMod:Candidus42.RandomFlowerQueen": false,
+                "JasFlowerQueen": "Jas"
             }
         },
         {
@@ -2336,8 +2451,7 @@
             "When":
             {
                 "DayEvent": "flower dance",
-                "FlowerQueen:Shane": true,
-                "HasMod:Candidus42.RandomFlowerQueen": false,
+                "JasFlowerQueen": "Jas"
             }
         },
 
@@ -2351,8 +2465,7 @@
             "When":
             {
                 "DayEvent": "flower dance",
-                "FlowerQueen:Sam": true,
-                "HasMod:Candidus42.RandomFlowerQueen": false,
+                "VincentFlowerQueen": "Vincent"
             }
         },
         {
@@ -2363,8 +2476,7 @@
             "When":
             {
                 "DayEvent": "flower dance",
-                "FlowerQueen:Sam": true,
-                "HasMod:Candidus42.RandomFlowerQueen": false,
+                "VincentFlowerQueen": "Vincent"
             }
         },
 

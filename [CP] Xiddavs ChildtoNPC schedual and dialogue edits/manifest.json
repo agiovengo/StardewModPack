@@ -1,0 +1,33 @@
+{
+  "Name": "seasonal kid take after spouse NPC edits",
+  "Author": "xiddav",
+  "Description": " Child To NPC and look like your spouse.",
+  "Version": "1.1.9",
+  "UniqueID": "xiddav.seasonalkidtakeafterspouseNPCedits",
+  "UpdateKeys": [],
+  "ContentPackFor": {    "UniqueID": "Pathoschild.ContentPatcher" },
+  "Dependencies": [
+  {	  "UniqueID": "xiddav.seasonalkidtakeafterspouseNPC",
+	  "IsRequired": true, },
+    {	  "UniqueID": "Loe2run.ChildToNPC",
+	  "IsRequired": true, },
+{"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+   "IsRequired": true,},
+{      "UniqueID": "Fellowclown.Nikolai",
+  "IsRequired": false,},
+{      "UniqueID": "Fellowclown.JohnNpc",
+  "IsRequired": false,},
+{      "UniqueID": "Fellowclown.LyellLocation.X",
+  "IsRequired": false,},
+{      "UniqueID": "Papaya.ShikoTakahashi",
+  "IsRequired": false,},
+{         "UniqueID": "balverines.Denver",
+  "IsRequired": false,},
+{      "UniqueID": "CPBoardingHouse",
+  "IsRequired": false,},
+{      "UniqueID": "Zilsara.Mona",
+  "IsRequired": false,},
+{         "UniqueID": "Wolf.RomRas",
+  "IsRequired": false,}
+  ]
+}

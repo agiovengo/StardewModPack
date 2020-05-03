@@ -1,0 +1,39 @@
+﻿
+{
+  "addMaps": [
+    {
+      "name": "Herbertshome",
+      "file": "assets/Maps/Herbertshome.tmx"
+  
+    },
+    {
+      "name": "Herbertsproperty",
+      "file": "assets/Maps/Herbertsproperty.tbin"
+    },
+  ],
+ "mergeMaps": [
+    {
+      "name": "Town",
+      "file": "assets/Maps/TownHerbert.tbin",
+      "position": [ 111, 92 ],
+      "addWarps": [
+        "119 95 Herbertsproperty 1 31"
+      ],
+      "conditions": "LC not Luau.hasMod('LemurKat.EastScarpe.TMX')"
+    }
+      
+  ],
+    
+  "onlyWarps":[
+      {
+        "name": "Town", 
+        "addWarps": [
+          "120 100 HerbertsProperty 0 31 120 101 HerbertsProperty 0 31"
+                      ],
+        "conditions": "LC Luau.hasMod('LemurKat.EastScarpe.TMX')"
+      }
+
+
+
+  ]
+}

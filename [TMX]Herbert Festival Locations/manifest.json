@@ -1,0 +1,11 @@
+{
+  "Name": "Herbert Festival Locations",
+  "Author": "WatchfulTigerlily",
+  "Version": "1.0.0",
+  "Description": "Herbert's Festival Locations",
+  "UniqueID": "tiger.herbfestival",
+  "UpdateKeys": [ "" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  }
+}

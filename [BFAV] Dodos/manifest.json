@@ -1,0 +1,12 @@
+{
+  "Name": "BFAV Dodos",
+  "Author": "Ciriun and Kitsutsune",
+  "Version": "0.1",
+  "Description": "Adds Dodos that don't replace chickens",
+  "UniqueID": "CiriunKitsu.BFAVDodos",
+  "MinimumApiVersion": "2.5",
+   "UpdateKeys": [],
+	"ContentPackFor": {
+			"UniqueID": "Paritee.BetterFarmAnimalVariety"
+		}
+}

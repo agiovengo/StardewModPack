@@ -203,6 +203,15 @@
 {       
 	 "Action": "EditData",
 	 "Target": "data/events/Town",
+	 "When": {"HasMod:FlashShifter.StardewValleyExpandedCP":true},
+	 "Entries": {"44120004/f Sheila 1000/t 1900 2300":"nightTime/19 83/Sheila 16 83 3 farmer 15 77 2/skippable/move farmer 0 5 2/animate Sheila false false 1000 16 16/pause 1000/faceDirection Sheila 3/speak Sheila \"@! You scared me!$3#$b#I was... watching Sam.$s\"/speak Sheila \"$q -1 null#...#$r -1 0 stalk1#Why are you doing that?#$r -1 0 stalk2#That is creepy!\"/fork stalker/pause 500/speak Sheila \"$q -1 null#Sorry, that sounds a little creepy.#$r -1 25 stalk3#If Sam likes someone else, you should let it go.#$r -1 50 stalk4#You're a grown woman and Sam is just a boy. You own a business and you deserve an equal!\"/pause 500/speak Sheila \"Thanks, @, I should really get over him.$1\"/emote Sheila 32/pause 250/emote farmer 32/end",
+	 "stalker":"emote Sheila 12/move Sheila -1 0 0/move farmer 1 0 3/move Sheila 0 -12 0/end",
+	 },
+     },
+{       
+	 "Action": "EditData",
+	 "Target": "data/events/Town",
+	 "When": {"HasMod:FlashShifter.StardewValleyExpandedCP":false},
 	 "Entries": {"44120004/f Sheila 1000/t 1900 2300":"nightTime/19 83/Sheila 16 83 3 farmer 16 77 2/skippable/move farmer 0 5 2/animate Sheila false false 1000 16 16/pause 1000/faceDirection Sheila 3/speak Sheila \"@! You scared me!$3#$b#I was... watching Sam.$s\"/speak Sheila \"$q -1 null#...#$r -1 0 stalk1#Why are you doing that?#$r -1 0 stalk2#That is creepy!\"/fork stalker/pause 500/speak Sheila \"$q -1 null#Sorry, that sounds a little creepy.#$r -1 25 stalk3#If Sam likes someone else, you should let it go.#$r -1 50 stalk4#You're a grown woman and Sam is just a boy. You own a business and you deserve an equal!\"/pause 500/speak Sheila \"Thanks, @, I should really get over him.$1\"/emote Sheila 32/pause 250/emote farmer 32/end",
 	 "stalker":"emote Sheila 12/move farmer -1 0 3/move Sheila 0 -12 0/end",
 	 },
@@ -753,80 +762,6 @@
 			"BuffaloRanch": "Buffalo Ranch Open Monday to Thursday 9:00 AM to 7:00 PM, Fridays and Saturdays 9:00 AM to 5:00 PM Closed Sundays.",					"BuffaloRanch1": "This is the Ranch's shipping bin. It's full of buffalo milk and buffalo cheese.",
 
 		},
-	},
-	{
-      "Action": "EditData",
-      "Target": "Strings/StringsFromMaps",
-	  "When": {"HasMod:annachibi.SorrenNPC":true,
-	  "HasMod:DragYourself":true,
-	  "HasMod:balverines.Denver":true,
-	  },
-	  
-      "Entries": {
-	  "BoardingHouse.3": "It's the Guests Register! Entries: Sorren, Denver and Laffayette",
-	  
-	  	},
-	},
-	{
-      "Action": "EditData",
-      "Target": "Strings/StringsFromMaps",
-	  "When": {"HasMod:annachibi.SorrenNPC":true,
-	  "HasMod:DragYourself":false,
-	  "HasMod:balverines.Denver":true,
-	  },
-	  
-      "Entries": {
-	  "BoardingHouse.3": "It's the Guests Register! Entries: Sorren and Denver",
-	  
-	  	},
-	},
-	{
-      "Action": "EditData",
-      "Target": "Strings/StringsFromMaps",
-	  "When": {"HasMod:annachibi.SorrenNPC":true,
-	  "HasMod:DragYourself":false,
-	  "HasMod:balverines.Denver":false,
-	  },
-      "Entries": {
-	  "BoardingHouse.3": "It's the Guests Register! Entries: Sorren",
-	  
-	  	},
-	},
-	{
-      "Action": "EditData",
-      "Target": "Strings/StringsFromMaps",
-	  "When": {"HasMod:annachibi.SorrenNPC":false,
-	  "HasMod:DragYourself":true,
-	  "HasMod:balverines.Denver":false,
-	  },	  
-      "Entries": {
-	  "BoardingHouse.3": "It's the Guests Register! Entries: Laffayette",
-	  
-	  	},
-	},
-	{
-      "Action": "EditData",
-      "Target": "Strings/StringsFromMaps",
-	  "When": {"HasMod:annachibi.SorrenNPC":false,
-	  "HasMod:DragYourself":true,
-	  "HasMod:balverines.Denver":true,
-	  },	  
-      "Entries": {
-	  "BoardingHouse.3": "It's the Guests Register! Entries: Denver and Laffayette",
-	  
-	  	},
-	},
-	{
-      "Action": "EditData",
-      "Target": "Strings/StringsFromMaps",
-	  "When": {"HasMod:annachibi.SorrenNPC":false,
-	  "HasMod:DragYourself":false,
-	  "HasMod:balverines.Denver":true,
-	  },	  
-      "Entries": {
-	  "BoardingHouse.3": "It's the Guests Register! Entries: Denver",
-	  
-	  	},
 	},
 	{   
 	 "LogName": "Joe's 4-Heart Event",

@@ -1,0 +1,117 @@
+{ 
+    "festivalSpots": [  
+			
+		
+		{
+        "name": "second child name goes here",
+        "map": "Town-EggFestival", 
+        "position": [22, 53],
+        "direction": 0,
+		"position2": [26, 66],
+		"direction2": 1
+        },	
+		{
+        "name": "second child name goes here",
+        "map": "Forest-FlowerFestival", 
+        "position": [6, 34],
+        "direction": 2,
+		"position2": [9, 30],
+        "direction2": 0
+        },
+		{
+        "name": "second child name goes here",
+        "map": "Beach-Luau", 
+       "position": [35, 11],
+        "direction": 2,
+	   "position2": [33, 12],
+        "direction2": 1
+        },
+		{
+        "name": "second child name goes here",
+        "map": "Beach-Jellies", 
+        "position": [26, 36], 
+        "direction": 2
+        },
+		{
+        "name": "second child name goes here",
+        "map": "Town-Fair", 
+		"position": [20,26],
+		"direction": 1
+        },
+		{
+        "name": "second child name goes here",
+        "map": "Town-Halloween", 
+        "position": [20, 60],
+        "direction": 1
+        },
+		{
+        "name": "second child name goes here",
+        "map": "Forest-IceFestival", 
+        "position": [88, 34],
+        "direction": 0
+        },
+		{
+        "name": "second child name goes here",
+        "map": "Town-Christmas", 
+        "position": [24, 49],
+        "direction": 1
+        },
+		
+		
+		
+		{
+        "name": "Tommy",
+        "map": "Town-EggFestival", 
+        "position": [22, 53],
+        "direction": 0,
+		"position2": [26, 66],
+		"direction2": 1
+        },	
+		{
+        "name": "Tommy",
+        "map": "Forest-FlowerFestival", 
+        "position": [6, 34],
+        "direction": 2,
+		"position2": [9, 30],
+        "direction2": 0
+        },
+		{
+        "name": "Tommy",
+        "map": "Beach-Luau", 
+       "position": [35, 11],
+        "direction": 2,
+	   "position2": [33, 12],
+        "direction2": 1
+        },
+		{
+        "name": "Tommy",
+        "map": "Beach-Jellies", 
+        "position": [26, 36], 
+        "direction": 2
+        },
+		{
+        "name": "Tommy",
+        "map": "Town-Fair", 
+		"position": [20,26],
+		"direction": 1
+        },
+		{
+        "name": "Tommy",
+        "map": "Town-Halloween", 
+        "position": [20, 60],
+        "direction": 1
+        },
+		{
+        "name": "Tommy",
+        "map": "Forest-IceFestival", 
+        "position": [88, 34],
+        "direction": 0
+        },
+		{
+        "name": "Tommy",
+        "map": "Town-Christmas", 
+        "position": [24, 49],
+        "direction": 1
+        },
+    ]
+}

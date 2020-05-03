@@ -1,0 +1,113 @@
+[
+	{
+		"Id": "HerbertBook",
+		"GroupId": "Herbert.Mail",
+		"Title": "A Letter from Herbert", 
+		"Text": "Dear @^I was wondering if you could do me a favour. Could you return this book to the library for me?^I found it in some foliage and I would return it myself but I'm afraid that I don't have time^As my schedule is extremely full.^I'm sure it will be appreciated if you do.^Thank you.^	-Herbert.",
+		"Attachments": [{"Type": "Object", "Name":"Lost Book", "Stack": 1},],
+		"WhichBG": 0,
+       		"Repeatable": false, 
+		"FriendshipConditions": 
+		[
+			{
+				"NpcName": "Herbert", 
+				"FriendshipLevel": 4, 
+			}
+		],
+
+	},
+	
+	{
+		"Id": "HerbertStudy",
+		"GroupID": "Herbert.Mail",
+		"Title": "A letter from Herbert",
+		"Text": "Dear @^I have some free time today, so I was wondering if you'd like to join me for a little reading/studying session later?^I'm thinking about maybe 1pm, if that's fine with you.^If so, meet me in the forest outside Marnie's ranch!^I hope to see you there,^	-Herbert",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"FriendshipConditions": 
+		[
+			{ 
+				"NpcName": "Herbert", 
+				"FriendshipLevel": 4,
+			}
+			
+		],
+ 
+
+	},
+
+	{
+		"Id": "HerbertEgg",
+		"GroupID": "Herbert.Mail",
+		"Title": "A letter from Herbert",
+		"Text": "Dear @^Will you be attending the egg festival this spring? It is my understanding that it will be your first festival here in Pelican Town!^So I thought perhaps you'd like some advice.^Abigail always wins, so try to beat her! But beware, she's tough competition.^Good luck,^	-Herbert",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"Date": "12 spring Y1", 
+
+ 
+
+	},
+	
+	{
+		"Id": "Herbertheartevent",
+		"GroupID": "Herbert.Mail",
+		"Title": "An urgent letter",
+		"Text": "Dear @^I would like to invite you over to my house for lunch!^Would you come at 1:00pm? There's no need to bring anything apart from your self. If today does not suit you, we can re-arrange for another time if you'd like.^I look forward to seeing you!	-Herbert",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"FriendshipConditions": 
+		[
+			{ 
+				"NpcName": "Herbert", 
+				"FriendshipLevel": 8,
+			}
+			
+		],
+
+
+
+	},
+
+	{
+		"Id": "HerbertPie",
+		"GroupID": "Herbert.Mail",
+		"Title": "A letter from Herbert",
+		"Text": "Dear @^I don't want to come across as rude or disrespectful in any way, but there's only one vegetable that I really, really dislike.^Rhubarb.^Someone sent me this pie this morning just to spite me for a laugh. I think it was Shane.^Now, I didn't want to put a good pie to waste so I thought maybe you'd like it?^So, here.^ 	-Herbert",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"Attachments": [{"Type": "Object", "Index":"222", "Stack": 1},], 
+		"FriendshipConditions": 
+		[
+			{ 
+				"NpcName": "Herbert", 
+				"FriendshipLevel": 6,
+			}
+			
+
+
+
+		],
+	},
+ 
+
+	{
+		"Id": "Herbertheartafter",
+		"GroupID": "Herbert.Mail",
+		"Title": "A letter from Herbert",
+		"Text": "Dear @^I cannot even begin to explain how sorry I am after you having to see me in that state yesterday.^I need to explain everything in person, so I'd really appreciate it if you'd meet me for dinner at the saloon?^I'll understand if you don't want to. I've arranged a private room for 7:00pm. I'll wait for you.^But I'll understand if you don't show up.^	-Love Herbert",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"EventsSeen": [987551231],		
+
+
+
+
+	},
+]
+
+
+
+
+
+

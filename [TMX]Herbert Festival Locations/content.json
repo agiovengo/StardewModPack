@@ -1,0 +1,56 @@
+{
+  "name": "Herbert Festival Locations",
+  "version": "1.0.0", 
+  "author": "WatchfulTigerlily",
+  "festivalSpots": 
+	[  
+		{
+		"name": "Herbert",
+	    "map": "Town-EggFestival", 
+		"position": [42, 72],
+		"direction": 2
+		},
+		{
+		"name": "Herbert",
+	    "map": "Forest-FlowerFestival", 
+		"position": [8, 38],
+		"direction": 0
+		},
+		{
+		"name": "Herbert",
+	    "map": "Beach-Luau", 
+		"position": [34, 15],
+		"direction": 2
+		},
+		{
+		"name": "Herbert",
+	    "map": "Beach-Jellies", 
+		"position": [14, 31],
+		"direction": 1
+		},
+		{
+		"name": "Herbert",
+	    "map": "Town-Fair", 
+		"position": [32, 66],
+		"direction": 3
+		},
+		{
+		"name": "Herbert",
+	    "map": "Town-Halloween", 
+		"position": [37, 28],
+		"direction": 2
+		},
+		{
+		"name": "Herbert",
+	    "map": "Forest-IceFestival", 
+		"position": [71, 17],
+		"direction": 3
+		},
+		{
+		"name": "Herbert",
+	    "map": "Town-Christmas", 
+		"position": [38, 59],
+		"direction": 2
+		},
+	]
+}

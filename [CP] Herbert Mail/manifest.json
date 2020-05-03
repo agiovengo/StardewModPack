@@ -1,0 +1,12 @@
+{
+	"Name": "[MFM] Herbert Mail",
+	"Author": "WatchfulTigerlily",
+	"Version": "1.4",
+	"Description": "Adds custom mail for Herbert.",
+	"UniqueID": "tiger.herbmail",
+	"MinimumApiVersion": "2.11.3",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

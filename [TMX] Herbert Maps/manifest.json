@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Herbert's maps",
+  "Author": "WatchfulTigerlily",
+  "Version": "1.0.5",
+  "Description": "Adds Herbert's house and access to it.",
+  "UniqueID": "tiger.herbmapss",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": [ "" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.6.4",
+    },
+}

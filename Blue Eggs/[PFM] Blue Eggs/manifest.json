@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[PFM] Blue Eggs",
+	"Author": "uberkwefty",
+	"Version": "1.0.0",
+	"Description": "Allows blue eggs to make blue mayo.",
+	"UniqueID": "uberkwefty.blueeggsForProducerFrameworkMod",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": ["Nexus:5875"],
+	"Dependencies": [
+		{
+			"UniqueID": "DIGUS.ProducerFrameworkMod"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

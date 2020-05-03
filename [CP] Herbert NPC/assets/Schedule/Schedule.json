@@ -1,0 +1,15 @@
+																																	
+
+
+{
+
+  "spring": "900 Herbertshome 1 5 1/1000 Herbertsproperty 21 29 2 herbert_read \"Strings\\schedules\\Herbert:read.000\"/1200 ArchaeologyHouse 12 10 2 herbert_read \"Strings\\schedules\\Herbert:read.000\"/1430 ArchaeologyHouse 10 10 3 \"Strings\\schedules\\Herbert:read.001\"/1500 Forest 39 17 2 \"Strings\\schedules\\Herbert:spring.000\"/1700 Forest 69 24 \"Strings\\schedules\\Herbert:winter.000\"/1900 Herbertshome 1 5 1",
+  "marriage_Mon": "1000 ManorHouse 3 5 3 \"Strings\\schedules\\Herbert:marriage.000\"/1200 ArchaeologyHouse 21 5 0 \"Strings\\schedules\\Herbert:read.001\"/1400 ArchaeologyHouse 18 9 2 herbert_read \"Strings\\schedules\\Herbert:read.000\"/1700 Forest 93 39 2 herbert_poem \"Strings\\schedules\\Herbert:read.001\"/1900 ManorHouse 3 5 0",
+  "summer": "900 Herbertshome 1 5 1/1000 Herbertsproperty 20 21 3 \"Strings\\schedules\\Herbert:summer.000\"/1100 Forest 53 22 2 herbert_poem \"Strings\\schedules\\Herbert:read.000\"/1400 Town 47 108 3 herbert_lunch \"Strings\\schedules\\Herbert:spring.000\"/1500 Town 38 69 2 herbert_poem \"Strings\\schedules\\Herbert:summer.001\"/2000 Herbertshome 1 5 1",
+  "fall_7": "900 Herbertshome 1 5 1/1000 Hospital 4 6 1 \"Strings\\schedules\\Herbert:hospital.000\"/1200 ManorHouse 7 5 1/1300 Forest 53 22 2 herbert_poem \"Strings\\schedules\\Herbert:read.001\"/1500 Town 47 108 3 herbert_lunch \"Strings\\schedules\\Herbert:spring.000\"/1700 Forest 39 17 2 \"Strings\\schedules\\Herbert:read.001\"/1900 Herbertshome 1 5 1",
+  "fall": "900 Herbertshome 1 5 1/1000 ArchaeologyHouse 13 9 0 \"Strings\\schedules\\Herbert:fall.000\"/1200 ArchaeologyHouse 18 9 2 herbert_read \"Strings\\schedules\\Herbert:fall.001\"/1500 Beach 25 36 2 \"Strings\\schedules\\Herbert:read.001\"/1700 Beach 12 5 herbert_read \"Strings\\schedules\\Herbert:read.000\"/1900 Herbertshome 1 5 1",
+  "winter": "900 Herbertshome 1 5 1/1000 ArchaeologyHouse 13 9 0 \"Strings\\schedules\\Herbert:fall.000\"/1200 ArchaeologyHouse 18 9 2 herbert_read \"Strings\\schedules\\Herbert:fall.001\"/1500 Beach 25 36 2 \"Strings\\schedules\\Herbert:read.001\"/1700 Beach 12 5 herbert_read \"Strings\\schedules\\Herbert:read.000\"/1900 Herbertshome 1 5 1",
+  "rain": "900 Herbertshome 1 5 1/1000 Herbertsproperty 21 29 2 herbert_read \"Strings\\schedules\\Herbert:rain.000\"/1100 Herbertshome 10 5 0 \"Strings\\schedules\\Herbert:read.001\"/1200 Herbertshome 7 5 0 \"Strings\\schedules\\Herbert:summer.001\"/1400 Herbertshome 4 5 0 \"Strings\\schedules\\Herbert:read.001\"/1600 ArchaeologyHouse 5 10 0 \"Strings\\schedules\\Herbert:read.002\"/1900 Herbertshome 1 5 1"
+}
+
+

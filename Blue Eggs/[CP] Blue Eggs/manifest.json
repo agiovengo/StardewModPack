@@ -1,0 +1,13 @@
+{
+  "Name": "[CP] Blue Eggs",
+  "Author": "uberkwefty",
+  "Version": "1.0.0",
+  "Description": "Makes Blue Chickens lay blue eggs",
+  "UniqueID": "uberkwefty.blueeggs",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:5875"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher", // the ID of required mod
+    "MinimumVersion": "1.9.2" // optional
+  }
+}

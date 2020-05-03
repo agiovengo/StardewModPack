@@ -1,0 +1,15 @@
+{
+
+  "Name": "Herbert Spouse Rooms",
+  "Author": "WatchfulTigerlily",
+  "Description": "Adds Herbert's spouse rooms.",
+  "Version": "1.1.0",
+  "UniqueID": "tiger.herbnpcspouse",
+  "UpdateKeys": [ "" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+  }
+
+
+}
