@@ -1,0 +1,11 @@
+{
+   "Name": "BFAV Raincrows",
+   "Author": "Landy",
+   "Version": "1.0",
+   "Description": "Adds Raincrows as coop animals using BFAV.",
+   "UniqueID": "Landy.BFAVRaincrows",
+   "UpdateKeys": [ "" ],
+   "ContentPackFor": {
+     "UniqueID": "Paritee.BetterFarmAnimalVariety"
+   }
+}

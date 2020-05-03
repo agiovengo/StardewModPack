@@ -1,0 +1,8 @@
+{
+	"Entries": {
+		"57960002/f Jade 1000/t 1900 2200": "continue/45 10/farmer 53 10 3 Jade 41 10 3/skippable/playMusic musicboxsong/pause 2000/message \"제이드가 혼잣말을 하고 있다. 그녀는 당신이 있는것을 눈치채지 못했다.\"/pause 1000/speak Jade \"제발 이리와 요정들아, 아무에게도 너희들에 대해서 말하지 않을테니까..제발...나도 피곤해...$2\"/speak Jade \"#$q 579603 이게 무슨 의미야#...##$r 579603 250 prayWithJade#(Comfort Jade)#$r 579604 -750 prayMock#Stop talking to a tree, you look crazy.#$r 579605 0 praySilent#(Stay silent)\"/pause 500/fork 579603 prayWithJade/pause 500/fork 579604 prayMock/pause 500/fork 579605 praySilent/pause 500/message \"만약에 당신이 이것을 읽을 수 있다면,당신의 포크들은 실패한다!\"/end",
+		"prayWithJade": "pause 150/move farmer -11 0 3/move farmer 0 -1 0/move farmer -1 0 3/emote Jade 16/speak Jade \"%firstnameletter-@... 얼마나...신경쓰지 않은거야...$6\"/pause 2000/message \"제이드는 소매로 눈물을 닦는다.\"/pause 2000/speak Jade \"내가 어렸을 때, 우리 엄마는 내 방을 요정처럼 꾸미셨어.$6#$b#난 그것을 모두 없애지 못했어. 그들이 내 곁에 있는 줄 알고 눈에 띄지 않게 숨어서 위로가 되었지.$6#$b#응원해줘..$7\"/pause 1500/emote Jade 28/pause 1500/speak Jade \"여기서는 따돌림 당하지 않을 줄 알았는데, 지금도 그래.$6\"/pause 1000/pause 3000/speak Jade \"여기 있어줘서 고마워.$7\"/pause 2000/globalFade/viewport -1000 -1000/end",
+		"prayMock": "faceDirection Jade 1/emote Jade 16/message \"제이드도 울고 있었던 모양이다. 그녀는 당신을 노려봤다.\"/speak Jade \"이건...이건 아냐...$6\"/emote Jade 28/faceDirection Jade 2/speed Jade 7/move Jade 0 6 2/speed Jade 7/move Jade -15 0 3/pause 1000/globalFade/viewport -1000 -1000/end",
+		"praySilent": "pause 150/emote Jade 28/speak Jade \"왜 대답 안 해? 네가 거기 있다는 신호만 있으면 돼. 제발. 난 뭔가 필요해.#$b#이게 내가 가진 전부야.$6\"/pause 3000/emote Jade 28/message \"제이드는 그 침묵에 흐느껴 운다. 당신은 그녀를 떠나기로 결정했다.\"/globalFade/viewport -1000 -1000/end",	 
+	}
+}

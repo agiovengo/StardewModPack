@@ -1,0 +1,5 @@
+{
+	"Entries": {
+		"57960006/f Jade 1500/t 900 1600": "continue/37 90/Penny 37 86 2 Jade 37 89 2 Vincent 36 90 0 Jas 38 90 0 farmer 29 80 2/skippable/speed farmer 2/move farmer 0 6 2/speed farmer 2/move farmer 7 0 1/faceDirection farmer 2/pause 1000/speak Penny \"Morning, @. Jade insisted on taking over todays lesson plan.#$b#Although it feels more like I gained another student.$h\"/speak Jade \"...and that's how the morpho dragonfly's lungs are in its wings!$h\"/speak Jas \"Gross!$3\"/speak Vincent \"Cool!$h\"/emote Jade 32/speak Penny \"I hope she doesn't scare Jas too badly...$h\"/globalFade/viewport -1000 -1000/end",
+	}
+}

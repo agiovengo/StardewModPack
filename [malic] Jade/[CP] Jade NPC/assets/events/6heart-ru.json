@@ -1,0 +1,5 @@
+{
+	"Entries": {
+		"57960006/f Jade 1500/t 900 1600": "continue/37 90/Penny 37 86 2 Jade 37 89 2 Vincent 36 90 0 Jas 38 90 0 farmer 29 80 2/skippable/speed farmer 2/move farmer 0 6 2/speed farmer 2/move farmer 7 0 1/faceDirection farmer 2/pause 1000/speak Penny \"Доброе утро, @. Джейд настояла на том, чтобы взять на себя план сегодняшнего урока.#$b#Хотя это больше похоже на то, что у меня появился ещё один ученик.$h\"/speak Jade \"...и вот лёгкие Морфо-стрекозы. Они находятся на её крыльях!$h\"/speak Jas \"Фууу!$3\"/speak Vincent \"Круто!$h\"/emote Jade 32/speak Penny \"Надеюсь, она не слишком сильно напугала Джас...$h\"/globalFade/viewport -1000 -1000/end",
+	}
+}

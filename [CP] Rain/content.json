@@ -1,0 +1,67 @@
+{
+	"Format": "1.10.0",
+	"Changes": [
+		{
+			"LogName": "NPC Manifestation",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Entries": 
+			{	
+				"Rain": "teen/rude/outgoing/negative/female/datable/Gus/Other/fall 1//Trailer 14 5/Rain"			
+			},
+		},
+		 
+		{
+			"LogName": "NPC Portrait",
+			"Action": "Load",
+			"Target": "Portraits/Rain",
+			"FromFile": "assets/img/portrait.png"
+		},
+
+		{
+			"LogName": "NPC Sprite",
+			"Action": "Load",
+			"Target": "Characters/Rain",
+			"FromFile": "assets/img/spritesheet.png"
+		},
+
+		{
+			"LogName": "GiftTaste",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"Entries": 
+			{
+				"Rain": "Wow! You really get me!/126 60 203 730 795/I like this./799 769 305 613 394/I dislike this./206 196/I hate this./421 176 18/You remembered owo/-4/",
+			}
+		},
+
+		{
+			"LogName": "Dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Rain",
+			"FromFile": "assets/Dialogue/dialogue.json"
+		},
+
+		{
+		
+			"LogName": "Schedule", 
+			"Action": "Load",
+			"Target": "Characters/schedules/Rain",
+			"FromFile": "assets/Schedule/Schedule.json",
+			
+		},
+
+
+		//Locations: Town 42 72 2 (Stood outside Pierre's), Town 50 49 1 (Stood by tree in town), ArchaeologyHouse 17 10 0 (Library stood at bookshelf), AnimalShop 13 14 2 (Marnie's ranch)
+		{ //2 heart event, museum 6:30 am - 10:00 am
+  		
+  			"LogName": "RainEvent",
+  			"Action": "EditData",
+  			"Target": "Data/Events/Town",
+  			"Entries": 
+  			{
+    			"958564/f Rain 500/t 1130 1530/w sunny": "playful/71 71/farmer 74 74 3 Rain 58 71 1 Penny 71 70 2 Pam 75 70 2 Haley 74 72 3/skippable/move Rain 11 0 1/speak Penny \"Suprise!!\"/move Penny 0 1 3/speak Penny \"I threw you a get well party and invited the whole town! I hope this cheers you up some and helps you make some new friends!$1\"/emote Rain 8/pause 1000/speak Rain \"Um.. Why would you ever think that this is a good idea? I'm not even sick?\"/speak Haley \"Then why do you mope around every minute of the day?$3\"/speak Rain \"Well, we can't all be spoiled little brats, now can we, Miss Prissy?$3\"/speak Haley \"I'm one of the only ones who didn't dislike you enough to show up, and this is how you treat me?!$5\"/speak Penny \"Why don't we all have some cake?$1\"/speak Pam \"...I told her not to do it.$2\"/speak Haley \"I'll take some cake...reason that I'm here.$3\"/move Rain 0 1 1/move Rain 4 0 1/speak Rain \"I thought you were here because your parents don't care enough about you to take you on their adventures.$3\"/speak Haley \"*Throws cake in face* Never talk to me again!$5\"/move Haley 0 1 3/move Haley 10 0 3/move Haley 0 -2 3/move Haley 6 0 3/speak Rain \"Penny, please don't ever do anything 'nice' for me again.$2\"/pause 500/globalFade/viewport -1000 -1000/end"
+  			}
+    	},
+	]
+}

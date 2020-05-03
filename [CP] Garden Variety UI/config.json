@@ -1,0 +1,9 @@
+{
+  "BaseColor": "Seed",
+  "SeasonalInterface": "true",
+  "SeasonalColorScheme": "desaturated",
+  "UseColoredFont": "true",
+  "UseRansHeartsCompat": "false",
+  "1to9Hearts": "flower",
+  "MaxHeart": "heart"
+}

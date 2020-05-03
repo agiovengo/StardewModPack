@@ -1,0 +1,11 @@
+{ // facedirection 0-up 1-right 2-down 3-left
+  "spring": "610 BoardingHouse 40 20 2 jade_groundread/800 Town 43 77 2 jade_sit/1000 Town 43 77 2 jade_read/1100 Town 52 71 0/1230 Town 43 77 2 jade_sit/1300 Town 43 77 2 jade_read/2000 BoardingHouse 40 20 2 jade_groundread",
+  "summer": "610 BoardingHouse 40 20 2 jade_groundread/800 Town 43 77 2 jade_sit/1000 Town 43 77 2 jade_read/1100 Town 52 71 0/1230 Town 43 77 2 jade_sit/1300 Town 43 77 2 jade_read/2000 BoardingHouse 40 20 2 jade_groundread",
+  "winter": "610 BoardingHouse 40 20 2 jade_groundread/800 Town 43 77 2 jade_sit/1000 Town 43 77 2 jade_read/1100 Town 52 71 0/1230 Town 43 77 2 jade_sit/1300 Town 43 77 2 jade_read/2000 BoardingHouse 40 20 2 jade_groundread",
+  "fall": "610 BoardingHouse 40 20 2 jade_groundread/800 Town 43 77 2 jade_sit/1000 Town 43 77 2 jade_read/1100 Town 52 71 0/1230 Town 43 77 2 jade_sit/1300 Town 43 77 2 jade_read/2000 BoardingHouse 40 20 2 jade_groundread",
+  "rain": "610 BoardingHouse 40 20 2 jade_groundread/1100 Saloon 35 18 0/2000 BoardingHouse 40 20 2 jade_groundread",
+}
+
+// spawn point: BoardingHouse 40 20 2
+// bench sit: Town 43 77 2
+// alex dog watch: Town 52 71 0

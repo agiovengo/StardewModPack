@@ -1,0 +1,10 @@
+﻿[
+    { // 1 wood to 1 coal
+        "ProducerName":"Charcoal Kiln",
+        "InputIdentifier":"388", // Wood
+        "InputStack": 10,
+        "MinutesUntilReady":"10",
+        "OutputIdentifier":"382", // Coal
+	"OutputStack": 10,
+   }
+]

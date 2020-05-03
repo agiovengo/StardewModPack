@@ -1,0 +1,12 @@
+{
+   "Name": "BFAV Easter Bunny",
+   "Author": "Tarniyar",
+   "Version": "1.1.1",
+   "Description": "Adds Easter Bunnies as coop animals using BFAV.",
+   "UniqueID": "Tarniyar.BFAV.EasterBunny",
+   "MinimumApiVersion": "2.10.0",
+   "UpdateKeys": ["Nexus:5739"],
+   "ContentPackFor": {
+      "UniqueID": "Paritee.BetterFarmAnimalVariety",
+   }
+}

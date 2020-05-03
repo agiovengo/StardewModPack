@@ -1,0 +1,13 @@
+{
+    "Name": "[BAGI] Junimo Jelly/Wine pack",
+    "Author": "slackeroz",
+    "Version": "1.0.0",
+    "Description": "Resprites junimo wine and jelly.",
+    "UniqueID": "slackeroz.JunimoTrees",
+    "MinimumApiVersion": "3.0.1",
+    "ContentPackFor":
+    {
+        "UniqueID": "cat.betterartisangoodicons",
+        "MinimumVersion": "1.4.0"
+    }
+}

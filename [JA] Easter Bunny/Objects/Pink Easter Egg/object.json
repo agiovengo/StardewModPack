@@ -1,0 +1,11 @@
+{
+    "Name": "Pink Easter Egg",
+    "Description": "A lovely, bright pink egg that came from a ... rabbit?",
+    "Category": "Egg",
+    "Edibility": 50,
+    "Price": 500,
+    "IsColored": false,
+    "Recipe": null,
+
+    
+}

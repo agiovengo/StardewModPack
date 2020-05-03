@@ -1,0 +1,11 @@
+{
+    "Name": "Pink Easter Mayonnaise",
+    "Description": "Mayonnaise made from a pink Easter egg. It smells like bubblegum.",
+    "Category": "ArtisanGoods",
+    "Edibility": -300,
+    "Price": 750,
+    "IsColored": false,
+    "Recipe": null,
+
+
+}

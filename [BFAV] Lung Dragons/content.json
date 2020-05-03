@@ -1,0 +1,97 @@
+﻿{
+	"Format": "0.1",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Lung Dragons",
+			"Types": [
+				{
+					"Type": "River Lung",
+					/* (Coloring inspired by Haku from Studio Ghibli's "Spirited away")- These playful dragons grow longer with age and the ancient ones can grow to be so long they can stretch through an entire river system. They frolic through the ripples and waves, helping to escort endangered schools of fish until they reach the ocean.*/
+					"DeluxeLuckChance": 0.01,
+					"Data": "2/7/155/800/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/River Lung/Barn",
+					"Sprites": {
+						"Adult": "assets/RiverDragon.png",
+						"Baby": "assets/BabyRiverDragon.png"
+					}
+				},
+				{
+					"Type": "Mountain Lung",
+					/* Living deep within the earth these dragons are often the reason why the cave systems are so vast, unpredictable, and everchanging. They like to collect ores and other interesting objects that they find while creating the cave networks to help provide homes for other underworld creatures.*/
+					"DeluxeLuckChance": 0.001,
+					"Data": "3/7/749/74/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Mountain Lung/Barn",
+					"Sprites": {
+						"Adult": "assets/MountainDragon.png",
+						"Baby": "assets/BabyMountainDragon.png"
+					}
+				},
+				{
+					"Type": "Lava Lung",
+					/* Dragons from the molten depths of the earth, their scales are hot to the touch and their mane is formed of flames. As they dive through the volcanic molten seas, they might come back with melted segments of valuable ores or charred coals.*/
+					"DeluxeLuckChance": 0.01,
+					"Data": "1/7/382/337/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Lava Lung/Barn",
+					"Sprites": {
+						"Adult": "assets/LavaDragon.png",
+						"Baby": "assets/BabyLavaDragon.png"
+					}
+				},
+				{
+					"Type": "Storm Lung",
+					/* These dragons are often glimpsed during heavy rains as they fly through the dark clouds, controlling the course of the storm as they go. Their bodies store tremendous amounts of electrical energy and their roars can easily call forth storms. */
+					"DeluxeLuckChance": 0.01,
+					"Data": "7/7/787/681/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Storm Lung/Barn",
+					"Sprites": {
+						"Adult": "assets/StormDragon.png",
+						"Baby": "assets/BabyStormDragon.png"
+					}
+				},
+				{
+					"Type": "Pond Lung",
+					/* The most mysterious of the Lung as they are the smallest species, rarely reaching sizes bigger than young dragons. Often sightings of these dragons are written off as a tourist never seeing a real salamander before. They threw away their horns for a feathered mane. Each feather contains several bundles of power, with it they can change the contents of any liquid. They enjoy sitting in water, letting it flow over their feathers as they purify bodies of water of polutants. */
+					"DeluxeLuckChance": 0.05,
+					"Data": "2/5/812/445/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Pond Lung/Barn",
+					"Sprites": {
+						"Adult": "assets/PondDragon.png",
+						"Baby": "assets/BabyPondDragon.png"
+					}
+				},
+				{
+					"Type": "Creek Lung",
+					/* The most mysterious of the Lung as they are the smallest species, rarely reaching sizes bigger than young dragons. Often sightings of these dragons are written off as a tourist never seeing a real salamander before. They threw away their horns for a feathered mane. Each feather contains several bundles of power, with it they can change the contents of any liquid. They enjoy sitting in water, letting it flow over their feathers as they purify bodies of water of polutants. */
+					"DeluxeLuckChance": 0.01,
+					"Data": "5/5/349/432/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Creek Lung/Barn",
+					"Sprites": {
+						"Adult": "assets/CreekDragon.png",
+						"Baby": "assets/BabyCreekDragon.png"
+					}
+				},
+				{
+					"Type": "Sky Lung",
+					/* Most live their entire life never seeing the rulers of the great wind currents. These Sky dragons live high up in the atmosphere, sometimes never once setting foot on the ground. They use their wings to sweep the wind across the globe, imbuning it with oxygen so all creatures beneath the sky can breathe. */
+					"DeluxeLuckChance": 0.001,
+					"Data": "7/7/444/74/rainsound/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/10000/Sky Lung/Barn",
+					"Sprites": {
+						"Adult": "assets/SkyDragon.png",
+						"Baby": "assets/BabySkyDragon.png"
+					}
+				}
+			],
+			"Buildings": [
+				"Big Barn",
+				"Deluxe Barn"
+			],
+			"AnimalShop": {
+				"Name": "Lung",
+				"Description": "These dragons are the decendants of ancient dragon gods from ages long forgotten. If a natural area is prosperous enough, they will reveal themselves and protect the land, occasionally granting passerbys with gifts from their domain. Newly hatched Lung cannot walk, instead they use their powers to float.",
+				"Icon": "assets/animal_shop_lungdragon.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

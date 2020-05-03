@@ -1,0 +1,8 @@
+{
+	"Name": "Junimo",
+	"Description": "A guardian spirit of the forest. Also happens to taste quite delicious!",
+	"Price": 150,
+	"Category": "Fruit",
+	"Edibility": 25,
+	"Recipe": null,
+}

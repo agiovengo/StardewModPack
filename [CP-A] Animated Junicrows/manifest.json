@@ -1,0 +1,13 @@
+{
+   "Name": "Animated Junimo Scarecrows",
+   "Author": "Sparrow",
+   "Version": "2.2",
+   "Description": "Replaces scarecrows with littly bouncy junimos!",
+   "UniqueID": "Sparrow.Junicrows",
+   "MinimumApiVersion": "2.10.0",
+   "UpdateKeys": [ "Nexus:3996" ],
+   "ContentPackFor": {
+     "UniqueID": "Pathoschild.ContentPatcher",
+	 "MinimumVersion": "1.6.0"
+  }
+}

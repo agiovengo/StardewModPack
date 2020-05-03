@@ -1,0 +1,11 @@
+{
+   "Name": "[JA] Junimo Trees",
+   "Author": "slackeroz",
+   "Description": "adds Junimo Trees.",
+   "Version": "1.0.0",
+   "UniqueID": "slackeroz.JA.JunimoTrees",
+   "UpdateKeys": [],
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

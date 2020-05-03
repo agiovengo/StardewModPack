@@ -1,0 +1,12 @@
+{
+    "Name": "Rain",
+    "Author": "Landy",
+    "Version": "0.0.1",
+    "MinimumApiVersion": "3.3.0",
+    "Description": "Test",
+    "UniqueID": "Landy.Rain",
+    "ContentPackFor": {
+	"UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "UpdateKeys": [ "" ],
+}

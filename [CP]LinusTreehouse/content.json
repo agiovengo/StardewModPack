@@ -1,0 +1,217 @@
+{
+	"Format": "1.11",
+
+	"ConfigSchema": {
+
+		"SpringColor": {
+			"AllowValues": "green, pink",
+			"Default": "pink"
+			},
+		"FallColor": {
+			"AllowValues": "green, orange",
+			"Default": "green"
+			},
+		"Size": {
+			"AllowValues": "small, large",
+			"Default": "small"				
+			},
+		"Recolor": {
+			"AllowValues" : "Eemie, FoliageRedone, None",
+			"Default": "None"
+		}
+	},
+
+	"Changes": [
+
+		//No Recolor or Foliage Redone
+		{
+         "Action": "Load",
+         "Target": "Maps/Tent",
+         "FromFile": "assets/{{Recolor}}/{{Size}}/{{season}}_LinusTreehouse.tbin",
+         "When": {
+         	"Recolor": "None, FoliageRedone"
+         }
+      	},
+
+        {
+          "Action": "EditMap",
+          "Target": "Maps/Mountain",
+          "FromFile": "assets/{{Recolor}}/{{Size}}/{{season}}_Treehouse.tmx",
+          "ToArea": {"X": 26, "Y": 0, "Width": 7, "Height": 8 },
+          "When": {
+          	"Recolor": "None, FoliageRedone"
+          }
+        },
+
+		//Eemie Recolor
+
+
+		    //Summer/winter
+        {
+         "Action": "Load",
+         "Target": "Maps/Tent",
+         "FromFile": "assets/{{Recolor}}/{{Size}}/{{season}}_LinusTreehouse.tbin",
+         "When": {
+         	"Recolor": "Eemie",
+          "season": "summer, winter"
+         }
+      	},
+
+        {
+          "Action": "EditMap",
+          "Target": "Maps/Mountain",
+          "FromFile": "assets/{{Recolor}}/{{Size}}/{{season}}_Treehouse.tmx",
+          "ToArea": {"X": 26, "Y": 0, "Width": 7, "Height": 8 },
+          "When": {
+          	"Recolor": "Eemie",
+            "season": "summer, winter"
+          }
+        },
+
+        //Spring
+        {
+         "Action": "Load",
+         "Target": "Maps/Tent",
+         "FromFile": "assets/{{Recolor}}/{{Size}}/{{SpringColor}}/{{season}}_LinusTreehouse.tbin",
+         "When": {
+         	"Recolor": "Eemie",
+          "season": "spring"
+         }
+        },
+
+        {
+          "Action": "EditMap",
+          "Target": "Maps/Mountain",
+          "FromFile": "assets/{{Recolor}}/{{Size}}/{{SpringColor}}/{{season}}_Treehouse.tmx",
+          "ToArea": {"X": 26, "Y": 0, "Width": 7, "Height": 8 },
+          "When": {
+          	"Recolor": "Eemie",
+            "season": "spring"
+          }
+        },
+
+        //Fall
+        {
+         "Action": "Load",
+         "Target": "Maps/Tent",
+         "FromFile": "assets/{{Recolor}}/{{Size}}/{{FallColor}}/{{season}}_LinusTreehouse.tbin",
+         "When": {
+         	"Recolor": "Eemie",
+          "season": "fall"
+         }
+        },
+
+        {
+          "Action": "EditMap",
+          "Target": "Maps/Mountain",
+          "FromFile": "assets/{{Recolor}}/{{Size}}/{{FallColor}}/{{season}}_Treehouse.tmx",
+          "ToArea": {"X": 26, "Y": 0, "Width": 7, "Height": 8 },
+          "When": {
+          	"Recolor": "Eemie",
+            "season": "fall"
+          }
+        },
+
+        //Data
+        //Small
+      	{
+      		"Action": "EditData",
+      		"Target": "Data/NPCDispositions",
+      		"Entries": {
+      			"Linus": "adult/neutral/shy/positive/male/not-datable/null/Town/winter 3//Tent 2 7/Linus"
+      		},
+      		"When": {
+      			"Size": "small"
+      		}
+      	},
+      	//Large
+      	{
+      		"Action": "EditData",
+      		"Target": "Data/NPCDispositions",
+      		"Entries": {
+      			"Linus": "adult/neutral/shy/positive/male/not-datable/null/Town/winter 3//Tent 13 5/Linus"
+      		},
+      		"When": {
+      			"Size": "large"
+      		}
+      	},
+      	//Small
+        {
+          "Action": "EditData",
+          "Target": "Strings/StringsFromMaps",
+          "Entries": {
+            "ltlbBook.1": "This is Linus' personal journal... Better not read it.",
+            "ltlbGarden.1": "There are various medicinal and seasoning herbs in here.#They are flourishing in here!"
+          },
+          "When": {
+          	"Size": "small"
+          }
+        },
+
+        //Large
+        {
+          "Action": "EditData",
+          "Target": "Strings/StringsFromMaps",
+          "Entries": {
+            "ltlbBook.1": "This is Linus' personal journal... Better not read it.",
+            "ltlbNote.1": "It's a recipe for fish tacos...# Hmmm, the secret ingredient is scratched out.",
+            "ltlbTV.1": "The TV is set to a nature channel...#\"Now everything I brought with me can be used. My sport coat here, can be fashioned into a backpack of sorts...#I’m going to wear what was once one of my pant legs, as a hat.\"#That can't be right.",
+            "ltlbTable.1": "Mmmm... it smells delicious!"
+          },
+          "When": {
+          	"Size": "large"
+          }
+        },
+
+      	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Linus",
+            "Entries": {
+                "Fri": "Please don't damage my house.#$e#It's happened before.$s",
+                "fall_Sun": "I used to live in a tent, moving town to town before I settling down in Stardew Valley",
+                "fall_Thurs6": "I find writing in my journal to be an excellent way to relax my mind at night.",
+                "fall_Fri4": "Living in a tree is nice, I wake up everyday to the music of the birds.",
+                "Sun": "#$1 linusVandal#Someone was throwing rocks at my windows last night... I just had to wait it out.$s$k#I don't like to stay in one place for too long. There's just too much to experience in the world.",
+                "winter_Mon": "It can get really cold if you live in a tree.",
+                "winter_Wed": "I think I'd prefer to be left alone today if you don't mind.",
+                "winter_Sun": "I slept on the floor in a sleeping bag as a young man, but now my back is too sore for that.",
+                "winter_Sat2": "I have to stock up during the year to have enough food for these months."
+                }
+            },
+        //Large Schedule
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Linus",
+            "Entries": {
+                "rain": "700 Tent 13 5 0/930 Mountain 25 5 1/1010 Tent 5 5 0/1500 Mountain 17 7 2/1900 Tent 6 15 1",
+                "winter_15": "1100 Mountain 28 9 1/1600 Beach 19 4 2 \"Strings\\schedules\\Linus:winter_15.000\"/2330 Tent 3 16 2 linus_sleep",
+                "summer": "630 Mountain 39 5 1/940 Mountain 44 27 1 square_3_3/1300 Mountain 48 35 2 square_3_3/1600 Mountain 28 9 1/2000 Mountain 25 5 1/2020 Tent 16 14 2/2300 Tent 3 16 2 linus_sleep",
+                "fall": "700 Mountain 25 5 1/740 Mountain 28 9 1/900 Railroad 20 57 2 square_5_5/1400 Mountain 44 18 1/1800 Tent 16 14 2/2300 Tent 3 16 2 linus_sleep",
+                "winter": "1100 Mountain 28 9 1/1400 BathHouse_Entry 8 6 3 \"Strings\\schedules\\Linus:winter.000\"/1800 Tent 14 5 0/2000 Tent 4 8 3/2200 Tent 3 16 2 linus_sleep",
+                "spring": "630 Mountain 25 5 1/700 Mountain 28 9 1/930 Mountain 45 19 1/1400 Mountain 28 9 1/1900 Tent 14 5 0/2000 Tent 15 5 0/2030 Tent 4 8 3/2130 5 5 0/2300 Tent 3 16 2 linus_sleep"
+            },
+            "When": {
+            	"Size": "large"
+            }
+        },
+            
+        //Small Schedule
+
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Linus",
+            "Entries": {
+                "rain": "700 Tent 4 5 0/930 Mountain 25 5 1/1010 Tent 6 5 0/1500 Mountain 17 7 2/1900 Tent 6 5 0/2000 Tent 2 7 2/2200 Tent 7 8 2 linus_sleep",
+                "winter_15": "1100 Mountain 28 9 1/1600 Beach 19 4 2 \"Strings\\schedules\\Linus:winter_15.000\"/2330 Tent 7 8 2 linus_sleep",
+                "summer": "630 Mountain 39 5 1/940 Mountain 44 27 1 square_3_3/1300 Mountain 48 35 2 square_3_3/1600 Mountain 28 9 1/2000 Mountain 25 5 1/2020 Tent 2 7 2/2300 Tent 7 8 2 linus_sleep",
+                "fall": "700 Mountain 25 5 1/740 Mountain 28 9 1/900 Railroad 20 57 2 square_5_5/1400 Mountain 44 18 1/1800 Tent 2 7 2/2300 Tent 7 8 2 linus_sleep",
+                "winter": "1100 Mountain 28 9 1/1400 BathHouse_Entry 8 6 3 \"Strings\\schedules\\Linus:winter.000\"/1800 Tent 4 5 0/2000 Tent 3 8 3/2200 Tent 7 8 2 linus_sleep",
+                "spring": "630 Mountain 25 5 1/700 Mountain 28 9 1/930 Mountain 45 19 1/1400 Mountain 28 9 1/1900 Tent 7 5 0/2000 Tent 6 5 0/2030 Tent 3 8 3/2130 Tent 2 7 2/2300 Tent 7 8 2 linus_sleep"
+            },
+            "When": {
+            	"Size": "small"
+            }
+        }
+    ]
+
+}

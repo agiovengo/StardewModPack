@@ -1,0 +1,12 @@
+{
+   "Name": "[CP] Shardust's Fences Gate Flooring",
+   "Author": "Shardust",
+   "Version": "9.0.1",
+   "Description": "A series of Fences, Gate, Flooring Retextures",
+   "UniqueID": "Shardust.Fences.Gate.Flooring",
+   "MinimumApiVersion": "3.1.0",
+   "UpdateKeys": [ "Nexus:2790" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

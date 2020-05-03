@@ -1,0 +1,12 @@
+{
+  "Name": "Jade NPC - Spouse Room",
+  "Author": "Malic",
+  "Version": "1.0.2",
+  "Description": "Spouse Room for Jade",
+  "UniqueID": "malic.tmx.jadeNPCspouseroom",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+  }
+}

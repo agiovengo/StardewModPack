@@ -1,0 +1,11 @@
+{
+  "Name": "Jade NPC - Festival Locations",
+  "Author": "Malic",
+  "Version": "1.0.2",
+  "Description": "Jade's Festival Locations",
+  "UniqueID": "malic.tmx.jadeNPCfestivals",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  }
+}

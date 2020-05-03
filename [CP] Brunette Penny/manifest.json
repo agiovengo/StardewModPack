@@ -1,0 +1,17 @@
+{
+    "Name": "Brunette Penny for SVO for ContentPatcher",
+    "Author": "Tanpoponoko (Art) Paradigmnomad (Coding) & Various Contributors",
+    "Version": "1.0.3",
+    "Description": "Changes Penny into a brunette. Requires SVO.",
+    "UniqueID": "BrunettePenny.SeasonalOutfits",
+    "MinimumApiVersion": "2.11.3",
+    "ContentPackFor":
+    {
+        "UniqueID": "Pathoschild.ContentPatcher",
+    },
+    "Dependencies": [
+    {
+        "UniqueID": "Tanpoponoko.SeasonalOutfits",
+        "IsRequired": true
+    }],
+}

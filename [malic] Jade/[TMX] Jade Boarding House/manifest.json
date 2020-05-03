@@ -1,0 +1,15 @@
+{
+  "Name": "Jade NPC - Boarding House",
+  "Author": "Malic",
+  "Version": "1.0.2",
+  "Description": "Enables Boarding House support for Jade",
+  "UniqueID": "malic.tmx.jadeNPCboarding",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+  },
+  "Dependencies": [
+   { "UniqueID": "BusStopExpansion", "IsRequired": false }
+  ]
+}

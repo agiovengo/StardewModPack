@@ -1,0 +1,82 @@
+﻿{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Frog",
+			"Types": [
+				{
+					"Type": "Green Frog",
+					"DeluxeLuckChance": 0.2,
+					"Data": "3/5/86/70/croak/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/800/Green Frog/Coop",
+					"Sprites": {
+						"Adult": "assets/GreenFrog.png",
+						"Baby": "assets/GreenFrog.png"
+					}
+				},
+				{
+					"Type": "Pale Frog",
+					"DeluxeLuckChance": 0.2,
+					"Data": "3/5/86/70/croak/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/800/Pale Frog/Coop",
+					"Sprites": {
+						"Adult": "assets/PaleFrog.png",
+						"Baby": "assets/PaleFrog.png"
+					}
+				},
+				{
+					"Type": "Poison Dart Frog",
+					"DeluxeLuckChance": 0.2,
+					"Data": "3/5/86/70/croak/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/800/Poison Dart Frog/Coop",
+					"Sprites": {
+						"Adult": "assets/PoisonDart.png",
+						"Baby": "assets/PoisonDart.png"
+					}
+				},
+				{
+					"Type": "Tree Frog",
+					"DeluxeLuckChance": 0.2,
+					"Data": "3/5/86/70/croak/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/800/Tree Frog/Coop",
+					"Sprites": {
+						"Adult": "assets/TreeFrog.png",
+						"Baby": "assets/TreeFrog.png"
+					}
+				},
+				{
+					"Type": "Golden Poison Dart Frog",
+					"DeluxeLuckChance": 0.2,
+					"Data": "3/5/86/70/croak/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/800/Golden Poison Frog/Coop",
+					"Sprites": {
+						"Adult": "assets/GoldenPoisonFrog.png",
+						"Baby": "assets/GoldenPoisonFrog.png"
+					}
+				},
+				{
+					"Type": "Fire Bellied Toad",
+					"DeluxeLuckChance": 0.2,
+					"Data": "3/5/86/70/croak/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/800/Fire Bellied Toad/Coop",
+					"Sprites": {
+						"Adult": "assets/FireBellied.png",
+						"Baby": "assets/FireBellied.png"
+					}
+				}
+			],
+			"Buildings": [
+				"Coop",
+				"Big Coop",
+				"Deluxe Coop"
+			],
+			"AnimalShop": {
+				"Name": "Frog",
+				"Description": "These frogs love shiny objects! A happy adult will leave you gems from their collection. There are six different varieties!",
+				"Icon": "assets/animal_shop_frog.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

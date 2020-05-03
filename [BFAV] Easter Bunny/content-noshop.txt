@@ -1,0 +1,52 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Update",
+			"Category": "Dinosaur", // yes, this is on purpose
+			"Types": [
+				{
+					"Type": "Blue Easter Bunny",
+					"DeluxeProduceLuck": 0.5,
+					"Data": "5/5/Blue Easter Egg/446/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/643/10000/Blue Easter Bunny/Coop",
+					"Sprites": {
+						"Adult": "assets/EasterBunny_blue.png",
+						"Baby": "assets/EasterBunnyBaby_blue.png"
+					}
+					},
+					{
+					"Type": "Pink Easter Bunny",
+					"DeluxeProduceLuck": 0.5,
+					"Data": "5/5/Pink Easter Egg/446/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/643/10000/Pink Easter Bunny/Coop",
+					"Sprites": {
+						"Adult": "assets/EasterBunny_pink.png",
+						"Baby": "assets/EasterBunnyBaby_pink.png"
+					}
+					},
+					{
+					"Type": "Purple Easter Bunny",
+					"DeluxeProduceLuck": 0.5,
+					"Data": "5/5/Purple Easter Egg/446/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/643/10000/Purple Easter Bunny/Coop",
+					"Sprites": {
+						"Adult": "assets/EasterBunny_purple.png",
+						"Baby": "assets/EasterBunnyBaby_purple.png"
+					}
+					}
+			],
+			"Buildings": [
+				"Big Coop",
+				"Deluxe Coop",
+			],
+			"AnimalShop": {
+				"Name": null,
+				"Description": null,
+				"Price": null,
+				"Icon": null,
+			},
+			"ForceRemoveFromShop": true,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": false,
+			"ForceOverrideExclude": true
+		}
+	]
+}

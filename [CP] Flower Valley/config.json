@@ -1,0 +1,10 @@
+{
+  "BushStyle": "flower",
+  "JojaVarient": "standard",
+  "CommunityCenterVarient": "standard",
+  "UseFlowerValleyDigspot": "false",
+  "LogBridgeEnabled": "false",
+  "FlowerValleyDoorsEnabled": "true",
+  "FarmBuildingsEnabled": "true",
+  "FoliageEnabled": "true"
+}

@@ -1,0 +1,11 @@
+{
+  "mergeMaps": [
+    {
+      "name": "BoardingHouse",
+      "file": "JadeBoardingHouse.tmx",
+      "sourceArea": [ 0, 0, 11, 10 ],
+      "position": [ 35, 16 ],
+	  "removeEmpty": "true"
+    },
+  ]
+}

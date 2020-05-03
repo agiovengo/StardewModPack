@@ -1,0 +1,5 @@
+{
+	"Entries": {
+		"57960007/f Jade 2000/t 1800 2000": "continue/34 25/Jade 33 25 2 farmer 34 14 2/skippable/speed farmer 2/move farmer 0 11 2/pause 1000/playMusic musicboxsong/speak Jade \"안녕, @.$h\"/pause 1000/speak Jade \"난 요즘 훨씬 더 행복해, 너도 아니?#$b#마을 사람들이 나와 말을 하기 시작했어. 그 사람들이 너를 믿는지 궁금해.#$b#난 널 믿어. 넌 열심히 일하고, 아주 좋은 사람이니까.$4\"/pause 1000/positionOffset Jade 2 0/pause 100/positionOffset Jade 2 0/pause 1000/positionOffset Jade 2 0/pause 50/positionOffset Jade 4 0/pause 25/positionOffset Jade 2 0/pause 1000/positionOffset Jade 2 0/pause 50/positionOffset Jade 4 0/pause 50/positionOffset Jade 4 0/pause 10/pause 50/showFrame Jade 4/positionOffset Jade 2 0/pause 100/positionOffset Jade 0 -6/showFrame Jade 28/specificTemporarySprite heart 13 29/emote Jade 20/pause 1000/positionOffset Jade -6 6/showFrame Jade 0/pause 1000/emote farmer 60/pause 500/emote Jade 32/pause 1000/speak Jade \"...$4\"/globalFade/viewport -1000 -1000/end",
+	}
+}

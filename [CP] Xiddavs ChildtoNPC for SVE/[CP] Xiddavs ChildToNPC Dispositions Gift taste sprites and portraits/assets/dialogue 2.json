@@ -1,0 +1,16 @@
+{	"Mon": "Hey dad?^Hey mom?#$b#Can you teach me how to {{Random:keep bees, plant crops, use the stove, swim, chop a tree, use a slingshot, fish, ride a horse, start a fire, build a chest, pan for metal}}?",
+	"Tue": "{{Random:Why is the sky blue, Where do raindows come from, Why are there spots on the moon, Are ghosts real, When is grandma and grandpa coming to visit, Why do we need to sleep, How big is space, Where does the sun go at night, What are clouds made of, Are there aliens}}?",
+	"Wed": "The man that lives in a tent up the mountain smells weird...",
+	"Thu": "I love living on %farm farm.#$b#It's really quiet.#$b#Except for {{Loe2run.ChildToNPC/FirstChildName}} of course.",
+	"Fri": "%How's school going?#$b#Good...I actually like school.",
+	"Sat": "I get to chose what we have for dinner?$3#$b#Ummm... {{Random:pepper poppers, pumpkin pie, blackberry cobbler, round fruit, breakfast, chocolate cake, pink cake, milk and cookies, ice cream, steaks, BBQ ribs, spaghetti and meatballs, cheeseburgers, pizza, tacos, fried chicken, breadcrumb porkchops, chicken noodle soup}}?",
+	"Sun": "Hi dad.^Hi mom.",	
+	"spring_13_2": "Can I go to the egg hunt this year please?$2",
+	"spring_24_2": "I don't want to dance, but there's Gelatin that jiggles.#$b#So can I please go this time?$2",
+	"summer_11_2": "Can we add {{Random:Starfruit, Blobfish, Lava Eel, Goat Cheese, Large Goat Milk}} to the pot this year?#$b#Normal quality is good, but silver would be perfect.",
+  	"summer_28_2": "Can I come to the beach tonight?#$b# The jellies sound really cool.",
+	"fall_16_2": "I can't wait for Mr. Gus's all you can eat BBQ Ribs,#$b#Your cooking is good, but his is better.",
+    "fall_27_2": "The maze sounds really scary.#$b# Is there really monsters in it?",	
+  	"winter_8_2": "Good luck fishing on ice daddy.^Good luck fishing on ice mommy.#$b#I'll cheer you on from solid ground.",
+  	"winter_25_2": "Thank you daddy^Thank you mommy.#$b#I love my new book.$1"
+}

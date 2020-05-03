@@ -1,0 +1,316 @@
+{
+    "Format": "1.10",
+    "DynamicTokens": [
+
+       // Standard Dynamic Tokens
+       
+        {
+            "Name": "IndoorVariant", // Indoors
+            "Value": "_Indoor",
+            "When":
+            {
+                "IsOutdoors": "false"
+            },
+        },
+        {
+            "Name": "IndoorVariant", // Outdoors
+            "Value": "_Outdoor",
+            "When":
+            {
+                "IsOutdoors": "true"
+            },
+        },
+        {
+            "Name": "WeatherVariant", // Indoors/Outdoors
+            "Value": "_Sun",
+            "When":
+            {
+                "Season": "spring, summer, fall",
+                "Weather": "sun, wind",
+            },
+        },
+        {
+            "Name": "WeatherVariant", // Rain Indoors/Outdoors
+            "Value": "_Rain",
+            "When":
+            {
+                "Season": "spring, summer, fall",
+                "Weather": "rain, storm",
+            },
+        },
+        {
+            "Name": "WeatherVariant", // Snow Indoors/Outdoors
+            "Value": "_Snow",
+            "When":
+            {
+                "Season": "winter",
+                "Weather": "sun, wind, snow",
+            },
+        },
+
+        // Festivals
+
+        {
+            "Name": "Festival",
+            "Value": "EggFestival",
+            "When":
+            {
+                "DayEvent": "egg festival",
+                "LocationName": "Town"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "FlowerDance",
+            "When":
+            {
+                "DayEvent": "flower dance",
+                "LocationName": "Forest"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "IceFestival",
+            "When":
+            {
+                "DayEvent": "festival of ice",
+                "LocationName": "Forest"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "Luau",
+            "When":
+            {
+                "DayEvent": "luau",
+                "LocationName": "Beach"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "MoonlightJellies",
+            "When":
+            {
+                "DayEvent": "dance of the moonlight jellies",
+                "LocationName": "Beach"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SpiritsEve",
+            "When":
+            {
+                "DayEvent": "spirit's eve",
+                "LocationName": "Town"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SVFair",
+            "When":
+            {
+                "DayEvent": "stardew valley fair",
+                "LocationName": "Town"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "WinterStar",
+            "When":
+            {
+                "DayEvent": "feast of the winter star",
+                "LocationName": "Town"
+            }
+        },
+        {
+            "Name": "Wedding",
+            "Value": "WeddingOutfits",
+            "When":
+            {
+                "DayEvent": "wedding",
+            }
+        },
+
+        // Misc
+
+        {
+            "Name": "Swimsuits",
+            "Value": "Swimsuits",
+            "When":
+            {
+                "LocationName": "beach",
+                "Season": "summer",
+                "DayEvent:Luau": false,
+                "DayEvent:Dance of the Moonlight Jellies": false,
+                "SwimSuitsEnabled": "true"
+            }
+        },
+        {
+            "Name": "MermaidPendantOverlay",
+            "Value": "MermaidPendantOverlay",
+            "When":
+            {
+                "EnableMermaidPendants": "true"
+            }
+        },
+    ],
+
+    "ConfigSchema":
+    {
+        "SwimSuitsEnabled":
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "EnableMermaidPendants":
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },       
+    },
+
+    "Changes": [
+        
+        // Penny
+
+        {
+            "LogName": "Penny Main",
+            "Action": "EditImage",
+            "Target": "Characters/Penny, Portraits/Penny",
+            "FromFile": "{{Target}}/Penny_{{season}}{{IndoorVariant}}{{WeatherVariant}}.png",
+            "When":
+            {
+                "HasFile:{{Target}}/Penny_{{season}}{{IndoorVariant}}{{WeatherVariant}}.png": true,
+            },
+        },
+        {
+            "LogName": "Penny Main",
+            "Action": "EditImage",
+            "Target": "Characters/Penny, Portraits/Penny",
+            "FromFile": "{{Target}}/Penny_{{season}}{{WeatherVariant}}.png",
+            "When":
+            {
+                "HasFile:{{Target}}/Penny_{{season}}{{WeatherVariant}}.png": true,
+            },
+        },
+
+        // Penny Portraits Mermaid Pendant
+
+
+        {
+            "LogName": "Penny Pendant",
+            "Action": "EditImage",
+            "Target": "Portraits/Penny",
+            "FromFile": "Portraits/{{MermaidPendantOverlay}}/Penny/Penny{{WeatherVariant}}.png",
+            "When":
+            {
+                "HasFile:Portraits/{{MermaidPendantOverlay}}/Penny/Penny{{WeatherVariant}}.png": true,
+                "Relationship:Penny": "Married, Engaged",
+            },
+            "PatchMode": "Overlay",
+            "Disabled": true,
+        },
+        {
+            "LogName": "Penny Pendant",
+            "Action": "EditImage",
+            "Target": "Portraits/Penny",
+            "FromFile": "Portraits/{{MermaidPendantOverlay}}/Penny/Penny{{IndoorVariant}}{{WeatherVariant}}.png",
+            "When":
+            {
+                "HasFile:Portraits/{{MermaidPendantOverlay}}/Penny/Penny{{IndoorVariant}}{{WeatherVariant}}.png": true,
+                "Relationship:Penny": "Married, Engaged",
+            },
+            "PatchMode": "Overlay",
+            "Disabled": true,
+        },
+
+        // B E G I N  M A T E R N I T Y  S P R I T E S
+
+        {
+            "LogName": "Maternity",
+            "Action": "EditImage",
+            "Target": "Characters/{{Spouse}}, Portraits/{{Spouse}}",
+            "FromFile": "{{Target}}/{{Spouse}}_Maternity.png",
+            "When":
+            {
+                "Spouse": "Penny",
+                "Pregnant": true
+            }
+        },
+
+        // E N D  M A T E R N I T Y  S P R I T E S
+
+        // B E G I N  F E S T I V A L  S P I T E S
+
+        {
+            "LogName": "Festival Character Sprites",
+            "Action": "EditImage",
+            "Target": "Characters/Penny",
+            "FromFile": "Characters/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
+            "When":
+            {
+                "HasFile:Characters/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png": true,                
+            },
+        },
+
+        // E N D  F E S T I V A L  C H A R A C T E R S
+
+        // B E G I N  F E S T I V A L  P O R T R A I T S    
+
+        {
+            "LogName": "Festival Portrait Sprites",
+            "Action": "EditImage",
+            "Target": "Portraits/Penny",
+            "FromFile": "Portraits/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
+            "When":
+            {
+                "HasFile:Portraits/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png": true,
+            },
+        },
+
+        // E N D  F E S T I V A L  P O R T R A I T S    
+
+        // B E G I N  S W I M S U I T  C H A R A C T E R S
+       
+        {
+            "LogName": "Penny Swimsuits Character Sprites",
+            "Action": "EditImage",
+            "Target": "Characters/Penny",
+            "FromFile": "Characters/{{Swimsuits}}/PennySwim_{{Random:blue, yellow}}.png",
+            "Disabled": true
+        },
+
+        //  E N D  S W I M S U I T  C H A R A C T E R S
+
+        // B E G I N  S W I M S U I T  P O R T R A I T S
+        
+        {
+            "LogName": "Penny Swimsuits Portrait Sprites",
+            "Action": "EditImage",
+            "Target": "Portraits/Penny",
+            "FromFile": "Portraits/{{Swimsuits}}/PennyPortraitSwim_{{Random:blue, yellow}}.png",
+            "Disabled": true,
+
+        },
+
+        // E N D  S W I M S U I T  P O R T R A I T S
+
+        // B E G I N  W E D D I N G  C H A R A C T E R S
+
+        {
+            "LogName": "Wedding Sprites",
+            "Action": "EditImage",
+            "Target": "Characters/Penny",
+            "FromFile": "Characters/{{Wedding}}/{{TargetWithoutPath}}_Wedding.png",
+            "ToArea":
+            {
+                "X": 0,
+                "Y": 228,
+                "Width": 48,
+                "Height": 32
+            },
+        },
+
+        // E N D  W E D D I N G  C H A R A C T E R S
+    ]
+}

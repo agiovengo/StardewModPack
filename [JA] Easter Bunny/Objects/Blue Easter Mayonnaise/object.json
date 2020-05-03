@@ -1,0 +1,11 @@
+{
+    "Name": "Blue Easter Mayonnaise",
+    "Description": "Mayonnaise made from a blue Easter egg. It smells like cotton candy.",
+    "Category": "ArtisanGoods",
+    "Edibility": -300,
+    "Price": 750,
+    "IsColored": false,
+    "Recipe": null,
+
+    
+}

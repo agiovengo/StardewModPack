@@ -1,0 +1,11 @@
+{
+  "Name": "Jade NPC",
+  "Author": "Malic",
+  "Description": "Adds a custom NPC named Jade",
+  "Version": "1.3.3",
+  "UniqueID": "malic.cp.jadeNPC",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+   "UpdateKeys": [ "Nexus:5559" ]
+}

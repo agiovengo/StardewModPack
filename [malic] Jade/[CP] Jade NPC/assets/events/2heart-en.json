@@ -1,0 +1,6 @@
+{
+	"Entries": {
+		"57960001/f Jade 500/t 800 2000/w sunny": "continue/45 10/farmer 53 10 3 Jade 41 10 3/skippable/pause 2000/message \"You see Jade crouched down near the base of the tree, focused on something.\"/pause 1000/move farmer -1 0 3/emote Jade 16/faceDirection Jade 1/speak Jade \"Oh! Farmer! Check this out!$1\"/move farmer -10 0 3/emote Jade 32/speak Jade \"Look at this, I think it's a lithobius forficatus!$h\"/message \"Jade excitedly holds a centipede up to your face.\"/question fork1 \"#Y-yeah, that's cool!#Yoba, get that away from me!#\"/fork GetItAway/pause 1000/speak Jade \"Really? You really think so?$1\"/emote farmer 60/emote Jade 32/speak Jade \"They can live up to six years, and they develop new pairs of legs when they molt, and...!$1\"/message \"Jade continues to ramble about the centipede for a long time. She's clearly passionate.\"/friendship Jade 250/globalFade/viewport -1000 -1000/end",
+		"GetItAway": "pause 500/emote farmer 16/speed farmer 7/move farmer 3 0 1/faceDirection farmer 3/emote Jade 28/speak Jade \"Oh. Okay... Sorry...$2\"/move Jade 0 3 2/move Jade -15 0 3/friendship Jade -500/globalFade/viewport -1000 -1000/end"
+	}
+}

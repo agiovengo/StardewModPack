@@ -1,0 +1,170 @@
+{
+	"Format": "1.8",
+	"ConfigSchema": {
+		"Version": {
+			"AllowValues": "Default, Eemie",
+			"Default": "Default"
+			},
+		"DefaultSpring": {
+			"AllowValues": "Green, Pink",
+			"Default": "Green"
+			},
+		"EemieSpring": {
+			"AllowValues": "Green, Pink",
+			"Default": "Green"
+			},
+		"EemieFall": {
+			"AllowValues": "Green, Orange",
+			"Default": "Green"
+			}
+	},
+	"DynamicTokens": [
+        {
+            "Name": "EemieSpringColour",
+            "Value": "pink",
+            "When": { "EemieSpring": "Pink" }
+        },
+        {
+            "Name": "EemieSpringColour",
+            "Value": "green",
+            "When": { "EemieSpring": "Green" }
+        },
+		{
+            "Name": "EemieFallColour",
+            "Value": "orange",
+            "When": { "EemieFall": "Orange" }
+        },
+        {
+            "Name": "EemieFallColour",
+            "Value": "green",
+            "When": { "EemieFall": "Green" }
+        },
+        {
+            "Name": "DefaultSpringColour",
+            "Value": "green",
+            "When": { "DefaultSpring": "Green" }
+        },
+		{
+            "Name": "DefaultSpringColour",
+            "Value": "pink",
+            "When": { "DefaultSpring": "Pink" }
+        }
+    ],
+	"Changes": [
+		// Default Colours
+		{
+			"LogName": "Default Spring",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/spring_{{DefaultSpringColour}}.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+			"ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32 },
+			"AnimationFrameTime": 6,
+			"AnimationFrameCount": 22,
+			"When": { 
+				"Season": "spring",
+				"Version": "Default"
+				}
+		},
+		{
+			"LogName": "Default Summer",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/summer.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+			"ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32 },
+			"AnimationFrameTime": 6,
+			"AnimationFrameCount": 22,
+			"When": { 
+				"Season": "summer",
+				"Version": "Default"
+				}
+		},
+		{
+			"LogName": "Default Fall",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/fall.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+			"ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32 },
+			"AnimationFrameTime": 6,
+			"AnimationFrameCount": 22,
+			"When": { 
+				"Season": "fall",
+				"Version": "Default"
+				}
+		},
+		{
+			"LogName": "Default Winter",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/winter.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+			"ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32 },
+			"AnimationFrameTime": 60,
+			"AnimationFrameCount": 2,
+			"When": {
+				"Season": "winter",
+				"Version": "Default"
+				}
+		},
+		
+		// Eemie's Recolour
+		{
+			"LogName": "Eemie Summer",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/eemie/summer.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+			"ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32 },
+			"AnimationFrameTime": 6,
+			"AnimationFrameCount": 22,
+			"When": {
+				"Season": "summer",
+				"Version": "Eemie"
+				}
+		},
+		{
+			"LogName": "Eemie Spring",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/eemie/spring_{{EemieSpringColour}}.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+			"ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32 },
+			"AnimationFrameTime": 6,
+			"AnimationFrameCount": 22,
+			"When": { 
+				"Season": "spring",
+				"Version": "Eemie"
+				}
+		},
+		{
+			"LogName": "Eemie Fall",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/eemie/fall_{{EemieFallColour}}.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+			"ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32 },
+			"AnimationFrameTime": 6,
+			"AnimationFrameCount": 22,
+			"When": { 
+				"Season": "fall",
+				"Version": "Eemie"
+				}
+		},
+		{
+			"LogName": "Eemie Winter",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/eemie/winter.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+			"ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32 },
+			"AnimationFrameTime": 60,
+			"AnimationFrameCount": 2,
+			"When": { 
+				"Season:Winter": "true",
+				"Version": "Eemie"
+				}
+		}
+	]
+}

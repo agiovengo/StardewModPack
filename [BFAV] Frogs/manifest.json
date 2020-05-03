@@ -1,0 +1,12 @@
+﻿{
+	"Name": "BFAV_Frogs",
+	"Author": "sapphicursa",
+	"Version": "2.0.0-neuralwiles",
+	"Description": "Adds frogs as coop animals via BFAV.",
+	"UniqueID": "sapphicursa.BFAV_Frogs",
+	"MinimumApiVersion": "2.5",
+	"UpdateKeys": [ "Nexus:4319" ],
+	"ContentPackFor": {
+		"UniqueID": "Paritee.BetterFarmAnimalVariety"
+	}
+}

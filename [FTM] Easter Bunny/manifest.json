@@ -1,0 +1,13 @@
+{
+  "Name": "[FTM] Easter Egg Forage",
+  "Author": "Tarniyar",
+  "Version": "1.1.1",
+  "Description": "Adds Easter Bunny Eggs to Secret Woods",
+  "UniqueID": "Tarniyar.FTM.EasterBunny",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:5739"],
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.8.0"
+  }
+}

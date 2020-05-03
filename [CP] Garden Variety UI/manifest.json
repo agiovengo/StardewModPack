@@ -1,0 +1,19 @@
+{
+   "Name": "Garden Variety UI - Content Patcher Version",
+   "Author": "minervamaga and Seismothesaurus",
+   "Version": "3.2.0",
+   "Description": "Garden Variety UI updated for Content Patcher, and now with new colors!",
+   "UniqueID": "minervamaga.CP.GardenVarietyUI",
+   "MinimumApiVersion": "2.11.0",
+   "UpdateKeys": ["Nexus:3879"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+
+   "Dependencies": [
+   {
+      "UniqueID": "Ran.Hearts",
+      "IsRequired": false
+   },
+]
+}

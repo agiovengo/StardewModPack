@@ -1,0 +1,17 @@
+{
+  "Name": "Jade NPC - Festival Locations SVE",
+  "Author": "Malic",
+  "Version": "1.0.0",
+  "Description": "Jade's Festival Locations for SVE",
+  "UniqueID": "malic.tmx.jadeNPCfestivalSVE",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+      "IsRequired": false
+   }
+  ]
+}

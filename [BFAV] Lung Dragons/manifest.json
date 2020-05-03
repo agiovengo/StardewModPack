@@ -1,0 +1,11 @@
+﻿{
+	"Name": "BFAVLungDragons",
+	"Author": "stormdrakon",
+	"Version": "0.2",
+	"Description": "Adds Lung Dragons as seperate buyable farm animals using BFAV.",
+	"UniqueID": "stormdrakon.BFAVLungDragons",
+	"UpdateKeys": [ "Nexus:5761" ],
+	"ContentPackFor": {
+      "UniqueID": "Paritee.BetterFarmAnimalVariety"
+   }
+}

@@ -1,0 +1,6 @@
+{
+	"Entries": {
+		"57960001/f Jade 500/t 800 2000/w sunny": "continue/45 10/farmer 49 10 3 Jade 41 10 3/skippable/pause 2000/message \"제이드가 나무 밑둥 근처에 웅크려 앉아 무언가에 집중하고 있다.\"/pause 1000/move farmer -1 0 3/emote Jade 16/faceDirection Jade 1/speak Jade \"오! 농부! 이리와서 이것좀 봐봐!$1\"/move farmer -6 0 3/emote Jade 32/speak Jade \"이거봐.여기 지네가 있는것 같아!$h\"/message \"제이드는 흥분해서 지네를 당신의 얼굴에 갖다 댄다.\"/question fork1 \"#그,그래. 멋진걸!#이봐,그거 나한테서 치워!#\"/fork GetItAway/pause 1000/speak Jade \"정말? 정말 그렇게 생각하니?$1\"/emote farmer 60/emote Jade 32/speak Jade \"얘네들은 6년까지 살 수 있고, 성장 할 때 새로운 한 쌍의 다리를 성장 시키고,그리고...!$1\"/message \"제이드는 지네에 대해 한참 동안 계속 말한다.그녀는 조금 열정적인 여자인 것 같다.\"/friendship Jade 250/globalFade/viewport -1000 -1000/end",
+		"GetItAway": "pause 500/emote farmer 16/speed farmer 7/move farmer 3 0 1/faceDirection farmer 3/emote Jade 28/speak Jade \"아,그래.미안...$2\"/move Jade 0 3 2/move Jade -15 0 3/friendship Jade -500/globalFade/viewport -1000 -1000/end"
+	}
+}

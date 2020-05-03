@@ -1,0 +1,5 @@
+{
+    "Fruits": [ "Ancient Fruit", "Apple", "Apricot", "Blackberry", "Blueberry", "Cactus Fruit", "Cherry", "Coconut", "Cranberries", "Crystal Fruit", "Grape", "Hot Pepper", "Melon", "Orange", "Peach", "Pomegranate", "Rhubarb", "Salmonberry", "Spice Berry", "Starfruit", "Strawberry", "Wild Plum", "Junimo" ],
+    "Jelly": "assets/jelly.png",
+    "Wine": "assets/wine.png"
+}

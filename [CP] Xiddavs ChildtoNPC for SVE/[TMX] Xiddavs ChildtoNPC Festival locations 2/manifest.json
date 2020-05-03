@@ -1,0 +1,17 @@
+{
+  "Name": "Kids Festival Spots 2",
+  "Author": "Xiddav",
+  "Version": "1.1.7",
+  "Description": "Adds festival locations second child",
+  "UniqueID": "Xiddav.ChildtoNPCforSVETMX2",
+  "MinimumApiVersion": "3.0",
+  "UpdateKeys": [  ],
+  "ContentPackFor": { "UniqueID": "Platonymous.TMXLoader",},
+  "Dependencies": [
+   {	  
+	"UniqueID": "Loe2run.ChildToNPC",
+	  "IsRequired": true, },  
+{      "UniqueID": "Platonymous.Toolkit",
+      "IsRequired": true,}
+    ]
+}

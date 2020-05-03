@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[PFM] Easter Bunny",
+	"Author": "Tarniyar",
+	"Version": "1.1.1",
+	"Description": "Adds the ability to produce Easter Mayonnaise from the Mayonnaise Machine.",
+	"UniqueID": "Tarniyar.PFM.EasterBunny",
+	"MinimumApiVersion": "3.0.0",
+    "UpdateKeys": ["Nexus:5739"],
+	"Dependencies": [
+		{
+			"UniqueID": "Tarniyar.JA.EasterBunny"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

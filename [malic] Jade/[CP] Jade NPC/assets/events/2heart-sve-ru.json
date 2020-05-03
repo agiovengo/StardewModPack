@@ -1,0 +1,6 @@
+{
+	"Entries": {
+		"57960001/f Jade 500/t 800 2000/w sunny": "continue/45 10/farmer 49 10 3 Jade 41 10 3/skippable/pause 2000/message \"Вы видите Джейд, присевшую у основания дерева. Она очень сосредоточилась на чем-то.\"/pause 1000/move farmer -1 0 3/emote Jade 16/faceDirection Jade 1/speak Jade \"О! Фермер! Зацени это!$1\"/move farmer -6 0 3/emote Jade 32/speak Jade \"Посмотри на это. Я думаю, что это Костянка обыкновенная!$h\"/message \"Джейд взволнованно подносит сороконожку к вашему лицу.\"/question fork1 \"#Д-Да, это круто!#Ради Йобы, убери это от меня!#\"/fork GetItAway/pause 1000/speak Jade \"Неужели? Ты действительно так думаешь?$1\"/emote farmer 60/emote Jade 32/speak Jade \"Они могут жить до шести лет, и у них развиваются новые пары ног, когда они линяют, и.....!$1\"/message \"Джейд ещё долго продолжает бредить о сороконожке. Ей это действительно нравится.\"/friendship Jade 250/globalFade/viewport -1000 -1000/end",
+		"GetItAway": "pause 500/emote farmer 16/speed farmer 7/move farmer 3 0 1/faceDirection farmer 3/emote Jade 28/speak Jade \"Охх. Ладно... Извини...$2\"/move Jade 0 3 2/move Jade -15 0 3/friendship Jade -500/globalFade/viewport -1000 -1000/end"
+	}
+}

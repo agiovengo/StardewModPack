@@ -1,0 +1,7 @@
+{
+	"Entries": {
+		"57960008/f Jade 2500/t 600 700": "continue/64 21/Jade 64 17 2 farmer 64 15 2/skippable/pause 2000/playMusic musicboxsong/speak Jade \"안녕, @.$3\"/pause 1000/speak Jade \"농장이 참 멋지네.$1#$b#농장을 꾸미는데 많은 노력을 한거 같네.$1\"/pause 1000/faceDirection Jade 3/speak Jade \"넌 여기에 있는 다른 사람들과는 달라.#$b#다른 사람들은 너만큼 이 농장에 많은 노력을 하지는 않을 것 같아.#$b#넌 뭔가 특별해, @.\"/pause 1500/message \"제이드는 침묵 속에서 어색하게 주위를 둘러본다.\"/pause 1500/faceDirection Jade 0/speak Jade \"난...#$b#난 여기 너랑 있고 싶어.#$b#여, 여기에 같이...$4\"/speak Jade \"#$q 579606 null#...##$r 579607 250 kissJade#나도 너와 함께 있고 싶어.#$r 579608 -1500 rejectJade#난 너한테 그런 감정 없어, 제이드...\"/pause 500/fork 579607 kissJade/pause 500/fork 579608 rejectJade/pause 500/message \"만약 당신이 이것을 읽을 수 있다면, 당신의 포크는 실패하고 있다!\"/end",
+		"kissJade": "move farmer 1 0 1/faceDirection Jade 1/move farmer 0 1 2/faceDirection farmer 3/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/showFrame Jade 28/pause 500/pause 50/positionOffset farmer -2 0/pause 50/pause 50/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/positionOffset Jade 5 -4/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/animate farmer true true 100 101/pause 50/specificTemporarySprite heart 13 29/globalFade/viewport -1000 -1000/end",
+		"rejectJade": "pause 150/emote Jade 28/speak Jade \"난 집에 갈게, 미안해.$6\"/globalFade/viewport -1000 -1000/end",
+	}
+}

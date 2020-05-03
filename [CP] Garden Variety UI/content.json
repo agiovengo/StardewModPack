@@ -1,0 +1,273 @@
+{
+	"Format": "1.10",
+
+	"ConfigSchema": {
+
+        "BaseColor": {
+            "AllowValues": "AncientFruit, Apricot, Artichoke, Blueberry, BrownSugar, Celery, Charcoal, Concord, CottonCandy, Cranberry, Dragonfruit, Eggplant, Ice, Kale, Lavender, LemonChiffon, Lilac, Mint, OrangeJulius, Pear, Plum, Seed, Storm, Strawberry, Tangerine, Wheat, Yam",
+            "Default": "Seed",
+            "AllowBlank": true
+            },
+
+        "SeasonalInterface": {
+          "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false
+            },
+
+        "SeasonalColorScheme": {
+          "AllowValues": "desaturated, pastel, normal",
+            "Default": "desaturated",
+            "AllowBlank": false
+            },
+
+        "UseColoredFont": {
+          "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false
+            },
+
+        "UseRansHeartsCompat": {
+          "AllowValues": "true, false",
+            "Default": "false",
+            "AllowBlank": false
+            },
+
+        "1to9Hearts": {
+          "AllowValues": "heart, flower",
+            "Default": "flower",
+            "AllowBlank": false
+            },
+    
+        "MaxHeart": {
+          "AllowValues": "heart, flower",
+            "Default": "heart",
+            "AllowBlank": false
+            },  
+        },
+	
+	
+"Changes": [
+
+
+    //Seasonal fallback
+
+     {
+      "LogName": "Seasonal Fallback Main",
+      "Action": "EditImage",
+          "Patchmode": "Overlay",
+          "Target": "LooseSprites/Billboard, LooseSprites/chatBox, LooseSprites/Cursors, LooseSprites/Cursors2, LooseSprites/daybg, LooseSprites/DialogBoxGreen, LooseSprites/dye_bench, LooseSprites/EmoteMenu, LooseSprites/hoverBox, LooseSprites/JunimoNote, LooseSprites/LanguageButtons, LooseSprites/letterBG, LooseSprites/logo, LooseSprites/nightbg, LooseSprites/tailoring, LooseSprites/textBox, Maps/MenuTiles, Minigames/TitleButtons",
+          "FromFile": "assets/{{BaseColor}}/{{TargetWithoutPath}}.png",
+          "When": {
+            "HasFile:assets/{{BaseColor}}/{{TargetWithoutPath}}.png": true
+          }
+     },
+
+     {
+      "LogName": "Fallback Font Bold - Colored",
+      "Action": "EditImage",
+          "Patchmode": "Overlay",
+          "Target": "LooseSprites/font_bold",
+          "FromFile": "assets/{{BaseColor}}/font_bold.png",
+          "When": {
+            "UseColoredFont": true,
+            "HasFile:assets/{{BaseColor}}/{{TargetWithoutPath}}.png": true
+          }
+     },
+
+     {
+      "LogName": "Fallback Font - Plain",
+      "Action": "EditImage",
+          "Patchmode": "Overlay",
+          "Target": "LooseSprites/font_bold",
+          "FromFile": "assets/Storm/font_bold.png",
+          "When": {
+            "UseColoredFont": false,
+            "HasFile:assets/{{BaseColor}}/{{TargetWithoutPath}}.png": true
+          }
+     },
+
+
+    //Single Color
+
+     {
+      "LogName": "Non-seasonal Main",
+      "Action": "EditImage",
+          "Patchmode": "Overlay",
+          "Target": "LooseSprites/Billboard, LooseSprites/chatBox, LooseSprites/Cursors, LooseSprites/Cursors2, LooseSprites/daybg, LooseSprites/DialogBoxGreen, LooseSprites/dye_bench, LooseSprites/EmoteMenu, LooseSprites/hoverBox, LooseSprites/JunimoNote, LooseSprites/LanguageButtons, LooseSprites/letterBG, LooseSprites/logo, LooseSprites/nightbg, LooseSprites/tailoring, LooseSprites/textBox, Maps/MenuTiles, Minigames/TitleButtons",
+          "FromFile": "assets/{{BaseColor}}/{{TargetWithoutPath}}.png",
+          "When": {
+            "SeasonalInterface": false,
+            "HasFile:assets/{{BaseColor}}/{{TargetWithoutPath}}.png": true
+          }
+     },
+
+     {
+      "LogName": "Non-seasonal Cursors - Heart Box",
+      "Action": "EditImage",
+      "Patchmode": "Overlay",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/{{BaseColor}}/heartBox.png",
+          "ToArea": {"X":140, "Y":532, "Width":44, "Height":55, },
+          "When": {
+            "SeasonalInterface": false,
+            "UseRansHeartsCompat": false,
+            "HasMod:Ran.Hearts": false,
+            "HasFile:assets/{{BaseColor}}/heartBox.png": true
+          }
+     },
+
+     {
+      "LogName": "Non-seasonal Cursors - Max Heart",
+      "Action": "EditImage",
+      "Patchmode": "Overlay",
+        "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/{{BaseColor}}/maxHeart.png",
+        "ToArea": {"X":269, "Y":495, "Width":11, "Height":11, },
+        "When": {
+            "SeasonalInterface": false,
+            "UseRansHeartsCompat": false,
+            "HasMod:Ran.Hearts": false,
+            "HasFile:assets/{{BaseColor}}/maxHeart.png": true
+          }
+    },
+
+     //Seasonal Changes
+
+     //Desaturated uses: Lavender, Artichoke, Brown Sugar, and Storm colors
+     //Pastel uses: Cotton Candy, Pear, Orange Julius, and Ice colors
+     //Normal uses: Strawberry, Kale, Seed, and Ancient Fruit colors
+
+     {
+      "LogName": "Seasonal Main",
+      "Action": "EditImage",
+          "Patchmode": "Overlay",
+          "Target": "LooseSprites/Billboard, LooseSprites/chatBox, LooseSprites/Cursors, LooseSprites/Cursors2, LooseSprites/daybg, LooseSprites/DialogBoxGreen, LooseSprites/dye_bench, LooseSprites/EmoteMenu, LooseSprites/hoverBox, LooseSprites/JunimoNote, LooseSprites/LanguageButtons, LooseSprites/letterBG, LooseSprites/logo, LooseSprites/nightbg, LooseSprites/tailoring, LooseSprites/textBox, Maps/MenuTiles, Minigames/TitleButtons",
+          "FromFile": "assets/{{SeasonalColorScheme}}/{{Season}}/{{TargetWithoutPath}}.png",
+          "When": {
+            "SeasonalInterface": true,
+            "HasFile:assets/{{SeasonalColorScheme}}/{{Season}}/{{TargetWithoutPath}}.png": true
+          }
+     },
+
+     {
+      "LogName": "Seasonal Font - Colored",
+      "Action": "EditImage",
+          "Patchmode": "Overlay",
+          "Target": "LooseSprites/font_bold",
+          "FromFile": "assets/{{SeasonalColorScheme}}/{{Season}}/font_bold.png",
+          "When": {
+            "SeasonalInterface": true,
+            "UseColoredFont": true,
+            "HasFile:assets/{{SeasonalColorScheme}}/{{Season}}/{{TargetWithoutPath}}.png": true
+          }
+     },
+
+     {
+      "LogName": "Seasonal Font - Plain",
+      "Action": "EditImage",
+          "Patchmode": "Overlay",
+          "Target": "LooseSprites/font_bold",
+          "FromFile": "assets/Storm/font_bold.png",
+          "When": {
+            "SeasonalInterface": false,
+            "UseColoredFont": false,
+            "HasFile:assets/Storm/font_bold.png": true
+          }
+     },
+
+     {
+      "LogName": "Seasonal Cursors - Heart Box",
+      "Action": "EditImage",
+      "Patchmode": "Overlay",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/{{SeasonalColorScheme}}/{{Season}}/heartBox.png",
+          "ToArea": {"X":140, "Y":532, "Width":44, "Height":55, },
+          "When": {
+            "SeasonalInterface": true,
+            "UseRansHeartsCompat": false,
+            "HasMod:Ran.Hearts": false,
+            "HasFile:assets/{{SeasonalColorScheme}}/{{Season}}/heartBox.png": true
+          }
+     },
+
+     {
+      "LogName": "Seasonal Cursors - Max Heart",
+      "Action": "EditImage",
+      "Patchmode": "Overlay",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/{{SeasonalColorScheme}}/{{Season}}/maxHeart.png",
+        "ToArea": {"X":269, "Y":495, "Width":11, "Height":11, },
+        "When": {
+            "SeasonalInterface": false,
+            "UseRansHeartsCompat": false,
+            "HasMod:Ran.Hearts": false,
+            "HasFile:assets/{{SeasonalColorScheme}}/{{Season}}/maxHeart.png": true
+          }
+    },
+
+     //Ran's Hearts Compat
+
+     {
+      "LogName": "Ran's Hearts 1to9 - Non-seasonal",
+      "Action": "EditImage",
+      "Patchmode": "Overlay",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/ran-hearts-compat/{{1to9Hearts}}_{{BaseColor}}.png",
+        "ToArea": {"X":140, "Y":532, "Width":45, "Height":56, },
+        "When": {
+            "SeasonalInterface": false,
+            "UseRansHeartsCompat": true,
+            "HasMod:Ran.Hearts": true,
+            "HasFile:assets/ran-hearts-compat/{{1to9Hearts}}_{{BaseColor}}.png": true
+          }
+    },
+
+    {
+      "LogName": "Ran's Hearts Max - Non-seasonal",
+      "Action": "EditImage",
+      "Patchmode": "Overlay",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/ran-hearts-compat/max_{{MaxHeart}}_{{BaseColor}}.png",
+        "ToArea": {"X":269, "Y":495, "Width":11, "Height":11, },
+        "When": {
+            "SeasonalInterface": false,
+            "UseRansHeartsCompat": true,
+            "HasMod:Ran.Hearts": true,
+            "HasFile:assets/ran-hearts-compat/{{MaxHeart}}_{{BaseColor}}.png": true
+          }
+    },
+
+    //Seasonal hearts
+    {
+      "LogName": "Ran's Hearts 1to9 - Seasonal",
+      "Action": "EditImage",
+      "Patchmode": "Overlay",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/ran-hearts-compat/{{SeasonalColorScheme}}/{{season}}/{{1to9Hearts}}.png",
+        "ToArea": {"X":140, "Y":532, "Width":45, "Height":56, },
+        "When": {
+            "SeasonalInterface": true,
+            "UseRansHeartsCompat": true,
+            "HasMod:Ran.Hearts": true,
+            "HasFile:assets/ran-hearts-compat/{{SeasonalColorScheme}}/{{season}}/{{1to9Hearts}}.png": true
+          }
+    },
+
+    {
+      "LogName": "Ran's Hearts Max - Seasonal",
+      "Action": "EditImage",
+      "Patchmode": "Overlay",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/ran-hearts-compat/{{SeasonalColorScheme}}/{{season}}/max_{{MaxHeart}}.png",
+        "ToArea": {"X":269, "Y":495, "Width":11, "Height":11, },
+        "When": {
+            "SeasonalInterface": true,
+            "UseRansHeartsCompat": true,
+            "HasMod:Ran.Hearts": true,
+            "HasFile:assets/ran-hearts-compat/{{SeasonalColorScheme}}/{{season}}/max_{{MaxHeart}}.png": true
+          }
+    },
+
+	]
+}

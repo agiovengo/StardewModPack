@@ -1,0 +1,2102 @@
+ {
+  "Format": "1.10",
+  
+  "DynamicTokens": [
+  
+        { 
+			"Name": "MapColor",
+			"Value": "0", 
+			"When": {"HedgeSeasonal" : "True"},
+		},
+		{ 
+			"Name": "MapColor",
+			"Value": "128", 
+			"When": {
+           "HedgeSeasonal": true,
+           "HasMod:vamoosi.RoseColoredGlassesRecolor": true }
+		},
+		{ 
+			"Name": "MapColor",
+			"Value": "256", 
+			"When": {
+           "HedgeSeasonal": true,
+           "HasMod:Lita.StarblueValley": true }
+		},
+		{ 
+			"Name": "MapColor",
+			"Value": "384", 
+			"When": {
+           "HedgeSeasonal": true,
+           "HasMod:Andrewist.untitledmaprecolour01": true }
+		},
+		{ 
+			"Name": "MapColor",
+			"Value": "512", 
+			"When": {
+           "HedgeSeasonal": true,
+           "HasMod:Acerbicon.Recolor": true }
+		},
+		{ 
+			"Name": "MapColor",
+			"Value": "640", 
+			"When": {
+           "HedgeSeasonal": true,
+		   "EemieSeasonalVariant" : "GreenGreen",
+           "HasMod:minervamaga.CP.eemieMapRecolour": true }
+		},
+		{ 
+			"Name": "EemieFall",
+			"Value": "768",
+			"When": {
+           "HedgeSeasonal": true,
+           "Season": "Fall",
+		   "EemieSeasonalVariant" : "GreenOrange, PinkOrange, WhiteOrange",
+           "HasMod:minervamaga.CP.eemieMapRecolour": true }
+		},
+		{ 
+			"Name": "EemieFall",
+			"Value": "896", 
+			"When": {
+           "HedgeSeasonal": true,
+           "Season": "Fall",
+		   "EemieSeasonalVariant" : "GreenRed, PinkRed, WhiteRed",
+           "HasMod:minervamaga.CP.eemieMapRecolour": true }
+		},
+		{ 
+			"Name": "EemieSpring",
+			"Value": "768", 
+			"When": {
+           "HedgeSeasonal": true,
+           "Season": "Spring",
+		   "EemieSeasonalVariant" : "PinkGreen, PinkOrange, PinkRed",
+           "HasMod:minervamaga.CP.eemieMapRecolour": true }
+		},
+		{ 
+			"Name": "EemieSpring",
+			"Value": "896", 
+			"When": {
+           "HedgeSeasonal": true,
+           "Season": "Spring",
+		   "EemieSeasonalVariant" : "WhiteGreen, WhiteOrange, WhiteRed",
+           "HasMod:minervamaga.CP.eemieMapRecolour": true }
+		},
+		{ 
+			"Name": "MapColorGate",
+			"Value": "0", 
+			"When": {
+           "GateVinesDecorSeasonal": true }
+		},
+		{ 
+			"Name": "MapColorGate",
+			"Value": "224", 
+			"When": {
+           "GateVinesDecorSeasonal": true,
+           "HasMod:vamoosi.RoseColoredGlassesRecolor": true }
+		},
+		{ 
+			"Name": "MapColorGate",
+			"Value": "448", 
+			"When": {
+           "GateVinesDecorSeasonal": true,
+           "HasMod:Lita.StarblueValley": true }
+		},
+		{ 
+			"Name": "MapColorGate",
+			"Value": "672", 
+			"When": {
+           "GateVinesDecorSeasonal": true,
+           "HasMod:Andrewist.untitledmaprecolour01": true }
+		},
+		{ 
+			"Name": "MapColorGate",
+			"Value": "896", 
+			"When": {
+           "GateVinesDecorSeasonal": true,
+           "HasMod:Acerbicon.Recolor": true }
+		},
+		{ 
+			"Name": "MapColorGate",
+			"Value": "1120", 
+			"When": {
+           "GateVinesDecorSeasonal": true,
+		   "EemieSeasonalVariant" : "GreenGreen",
+           "HasMod:minervamaga.CP.eemieMapRecolour": true }
+		},
+		{ 
+			"Name": "EemieFallGate",
+			"Value": "1344",
+			"When": {
+           "GateVinesDecorSeasonal": true,
+           "Season": "Fall",
+		   "EemieSeasonalVariant" : "GreenOrange, PinkOrange, WhiteOrange",
+           "HasMod:minervamaga.CP.eemieMapRecolour": true }
+		},
+		{ 
+			"Name": "EemieFallGate",
+			"Value": "1568", 
+			"When": {
+           "GateVinesDecorSeasonal": true,
+           "Season": "Fall",
+		   "EemieSeasonalVariant" : "GreenRed, PinkRed, WhiteRed",
+           "HasMod:minervamaga.CP.eemieMapRecolour": true }
+		},
+		{ 
+			"Name": "EemieSpringGate",
+			"Value": "1344", 
+			"When": {
+           "GateVinesDecorSeasonal": true,
+           "Season": "Spring",
+		   "EemieSeasonalVariant" : "PinkGreen, PinkOrange, PinkRed",
+           "HasMod:minervamaga.CP.eemieMapRecolour": true }
+		},
+		{ 
+			"Name": "EemieSpringGate",
+			"Value": "1568", 
+			"When": {
+           "GateVinesDecorSeasonal": true,
+           "Season": "Spring",
+		   "EemieSeasonalVariant" : "WhiteGreen, WhiteOrange, WhiteRed",
+           "HasMod:minervamaga.CP.eemieMapRecolour": true }
+		},
+		{ 
+			"Name": "MapColorStraw",
+			"Value": "0", 
+			"When": {
+           "StrawSeasonal": true }
+		},
+		{ 
+			"Name": "MapColorStraw",
+			"Value": "64", 
+			"When": {
+           "StrawSeasonal": true,
+           "HasMod:vamoosi.RoseColoredGlassesRecolor": true }
+		},
+		{ 
+			"Name": "MapColorStraw",
+			"Value": "128", 
+			"When": {
+           "StrawSeasonal": true,
+           "HasMod:Lita.StarblueValley": true }
+		},
+		{ 
+			"Name": "MapColorStraw",
+			"Value": "192", 
+			"When": {
+           "StrawSeasonal": true,
+           "HasMod:Andrewist.untitledmaprecolour01": true }
+		},
+		{ 
+			"Name": "MapColorStraw",
+			"Value": "256", 
+			"When": {
+           "StrawSeasonal": true,
+           "HasMod:Acerbicon.Recolor": true }
+		},
+		{ 
+			"Name": "MapColorStraw",
+			"Value": "320", 
+			"When": {
+           "StrawSeasonal": true,
+		   "EemieSeasonalVariant" : "GreenGreen",
+           "HasMod:minervamaga.CP.eemieMapRecolour": true }
+		},
+		{ 
+			"Name": "EemieFallStraw",
+			"Value": "384",
+			"When": {
+           "StrawSeasonal": true,
+           "Season": "Fall",
+		   "EemieSeasonalVariant" : "GreenOrange, PinkOrange, WhiteOrange",
+           "HasMod:minervamaga.CP.eemieMapRecolour": true }
+		},
+		{ 
+			"Name": "EemieFallStraw",
+			"Value": "448", 
+			"When": {
+           "StrawSeasonal": true,
+           "Season": "Fall",
+		   "EemieSeasonalVariant" : "GreenRed, PinkRed, WhiteRed",
+           "HasMod:minervamaga.CP.eemieMapRecolour": true }
+		},
+		{ 
+			"Name": "EemieSpringStraw",
+			"Value": "384", 
+			"When": {
+           "StrawSeasonal": true,
+           "Season": "Spring",
+		   "EemieSeasonalVariant" : "PinkGreen, PinkOrange, PinkRed",
+           "HasMod:minervamaga.CP.eemieMapRecolour": true }
+		},
+		{ 
+			"Name": "EemieSpringStraw",
+			"Value": "448", 
+			"When": {
+           "StrawSeasonal": true,
+           "Season": "Spring",
+		   "EemieSeasonalVariant" : "WhiteGreen, WhiteOrange, WhiteRed",
+           "HasMod:minervamaga.CP.eemieMapRecolour": true }
+		},
+		{ 
+			"Name": "TypeHedge",
+			"Value": "0", 
+			"When": {"HedgeType" : "Half", "HedgeHeight" : "Tall"},
+		},
+		{ 
+			"Name": "TypeHedge",
+			"Value": "48", 
+			"When": {"HedgeType" : "Half", "HedgeHeight" : "Short"},
+		},
+		{ 
+			"Name": "TypeHedge",
+			"Value": "96", 
+			"When": {"HedgeType" : "Full", "HedgeHeight" : "Tall"},
+		},
+		{ 
+			"Name": "TypeHedge",
+			"Value": "144", 
+			"When": {"HedgeType" : "Full", "HedgeHeight" : "Short"},
+		},
+		{ 
+			"Name": "Gate1",
+			"Value": "0", 
+			"When": {"GateTypeFence1" : "Type1"},
+		},
+		{ 
+			"Name": "Gate1",
+			"Value": "48", 
+			"When": {"GateTypeFence1" : "Type2"},
+		},
+		{ 
+			"Name": "Gate1",
+			"Value": "96", 
+			"When": {"GateTypeFence1" : "Type3"},
+		},
+		{ 
+			"Name": "Gate1",
+			"Value": "144", 
+			"When": {"GateTypeFence1" : "Type4"},
+		},
+		{ 
+			"Name": "Gate2",
+			"Value": "0", 
+			"When": {"GateTypeFence2" : "Type1"},
+		},
+		{ 
+			"Name": "Gate2",
+			"Value": "48", 
+			"When": {"GateTypeFence2" : "Type2"},
+		},
+		{ 
+			"Name": "Gate2",
+			"Value": "96", 
+			"When": {"GateTypeFence2" : "Type3"},
+		},
+		{ 
+			"Name": "Gate2",
+			"Value": "144", 
+			"When": {"GateTypeFence2" : "Type4"},
+		},
+		{ 
+			"Name": "Gate3",
+			"Value": "0", 
+			"When": {"GateTypeFence3" : "Type1"},
+		},
+		{ 
+			"Name": "Gate3",
+			"Value": "48", 
+			"When": {"GateTypeFence3" : "Type2"},
+		},
+		{ 
+			"Name": "Gate3",
+			"Value": "96", 
+			"When": {"GateTypeFence3" : "Type3"},
+		},
+		{ 
+			"Name": "Gate3",
+			"Value": "144", 
+			"When": {"GateTypeFence3" : "Type4"},
+		},
+		{ 
+			"Name": "Gate4",
+			"Value": "0", 
+			"When": {"GateTypeFence5" : "Type1"},
+		},
+		{ 
+			"Name": "Gate4",
+			"Value": "48", 
+			"When": {"GateTypeFence5" : "Type2"},
+		},
+		{ 
+			"Name": "Gate4",
+			"Value": "96", 
+			"When": {"GateTypeFence5" : "Type3"},
+		},
+		{ 
+			"Name": "Gate4",
+			"Value": "144", 
+			"When": {"GateTypeFence5" : "Type4"},
+		},
+		{ 
+			"Name": "IconGate1",
+			"Value": "0", 
+			"When": {"GateTypeFence1" : "Type1"},
+		},
+		{ 
+			"Name": "IconGate1",
+			"Value": "16", 
+			"When": {"GateTypeFence1" : "Type2"},
+		},
+		{ 
+			"Name": "IconGate1",
+			"Value": "32", 
+			"When": {"GateTypeFence1" : "Type3"},
+		},
+		{ 
+			"Name": "IconGate1",
+			"Value": "48", 
+			"When": {"GateTypeFence1" : "Type4"},
+		},
+	],
+  
+  "ConfigSchema": {
+		
+		//Fences
+		
+		"Fence1" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Cocoa"},
+		"Fence2" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Ash"},
+		"Fence3" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Rust"},
+		"Fence5" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Wine"},
+		
+		//Hedge
+		
+		"Hedge" : {"AllowValues" : "False, Fence1, Fence2, Fence3, Fence5", "Default": "Fence2"},
+		"HedgeType": {"AllowValues" : "Half, Full", "Default": "Half"},
+		"HedgeFenceColor" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Ash"},
+		"HedgeColor" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Emerald"},
+		"HedgeType": {"AllowValues" : "Half, Full", "Default": "Half"},
+		"HedgeHeight": {"AllowValues" : "Tall, Short", "Default": "Tall"},
+		
+		//Gate
+
+		"GateTypeFence1"  : {"AllowValues" : "False, Type1, Type2, Type3, Type4", "Default": "Type1"},
+		"GateTypeFence2"  : {"AllowValues" : "False, Type1, Type2, Type3, Type4", "Default": "Type2"},
+		"GateTypeFence3"  : {"AllowValues" : "False, Type1, Type2, Type3, Type4", "Default": "Type3"},
+		"GateTypeFence5"  : {"AllowValues" : "False, Type1, Type2, Type3, Type4", "Default": "Type4"},
+		"GateColorFence1" : {"AllowValues": "Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Cocoa"},
+		"GateColorFence2" : {"AllowValues": "Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Ash"},
+		"GateColorFence3" : {"AllowValues": "Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Rust"},
+		"GateColorFence5" : {"AllowValues": "Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Wine"},
+        
+		//Floors
+		
+		"BrickFloor" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Saffron"},
+		"CobblestonePath" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Blackberry"},
+		"CrystalFloor" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Topaz"},
+		"CrystalPath" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Emerald"},
+		"GravelPath" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Mahogany"},
+		"SteppingStonePath" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Umber"},
+		"StoneFloor" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Ash"},
+		"WeatheredFloor" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Olive"},
+		"WoodFloor" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Cocoa"},
+		"WoodPath" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Cream"},
+		
+		//StrawFloor
+		
+		"StrawFloor" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Umber"},
+		"Straw" : {"AllowValues": "Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Honey"},
+		
+		//Decor
+		
+		"FenceVinesDecor" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Emerald"},
+		"GateVinesDecor" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Emerald"},
+		"FenceFlowersDecor" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Aquamarine"},
+		"HedgeFlowersDecor" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Aquamarine"},
+		"GateFlowersDecor" : {"AllowValues": "False, Amethyst, Aquamarine, Ash, Blackberry, Coal, Cocoa, Cream, Diamond, Emerald, Honey, Mahogany, Mocha, Oak, Olive, Ruby, Rust, Saffron, Sapphire, Spinel, Steel, Topaz, Umber, Walnut, Wine", "Default" : "Aquamarine"},
+
+		//SeasonalOverlay
+		
+		"FenceVinesDecorSeasonal" : {"AllowValues" : "False, True", "Default": "False"},
+		"HedgeSeasonal" : {"AllowValues" : "False, True", "Default": "False"},
+		"GateVinesDecorSeasonal" : {"AllowValues" : "False, True", "Default": "False"},
+		"StrawSeasonal" : {"AllowValues" : "False, True", "Default": "False"},
+		"EemieSeasonalVariant" : {"AllowValues" : "GreenGreen, GreenOrange, GreenRed, PinkGreen, PinkOrange, PinkRed, WhiteGreen, WhiteOrange, WhiteRed", "Default": "GreenGreen"},
+        
+		//Winter
+		
+		"WinterOverlay" : {"AllowValues" : "False, True", "Default": "True"},
+		"WinterFlowers" : {"AllowValues" : "False, True", "Default": "False"},
+		
+		
+		},
+		
+	
+    "Changes": [
+	
+	    //Fence1
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/StaticColors/{{Fence1}}.png",
+			"FromArea": { "X": 0, "Y": 192, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Fence1:false": false},
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{Fence1}}.png",
+			"FromArea": { "X": 0, "Y": 320, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 160, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {"Fence1:false": false},
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": 0, "Y": 192, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Fence1:false": false, "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"},
+			"Patchmode" : "Overlay",
+		},
+		
+		//FenceDecor1
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/StaticColors/{{FenceVinesDecor}}.png",
+			"FromArea": { "X": 48, "Y": 720, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceVinesDecor:false": false, "FenceVinesDecorSeasonal": "False"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/SeasonalColors/FenceVinesDecor_{{Season}}.png",
+			"FromArea": { "X": 0, "Y": "{{MapColor}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceVinesDecor:false": false, "FenceVinesDecorSeasonal": "True" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/SeasonalColors/FenceVinesDecor_Fall.png",
+			"FromArea": { "X": 0, "Y": "{{EemieFall}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceVinesDecor:false": false, "FenceVinesDecorSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/SeasonalColors/FenceVinesDecor_Spring.png",
+			"FromArea": { "X": 0, "Y": "{{EemieSpring}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceVinesDecor:false": false, "FenceVinesDecorSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/StaticColors/{{FenceFlowersDecor}}.png",
+			"FromArea": { "X": 144, "Y": 720, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceFlowersDecor:false": false, "Season": "Fall, Spring, Summer" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/StaticColors/{{FenceFlowersDecor}}.png",
+			"FromArea": { "X": 144, "Y": 720, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceFlowersDecor:false": false, "WinterFlowers": "True", "Season": "Winter" },
+			"Patchmode" : "Overlay",
+		},
+		
+		//Hedge1
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/StaticColors/{{HedgeFenceColor}}.png",
+			"FromArea": { "X": 192, "Y": 192, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false,"Hedge": "Fence1" },
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": 192, "Y": 192, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "Hedge": "Fence1", "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/StaticColors/{{HedgeColor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 576, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "False", "Hedge": "Fence1"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{HedgeColor}}.png",
+			"FromArea": { "X": 0, "Y": 704, "Width": 16, "Height": 16 },			
+			"ToArea": { "X": 160, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "False", "Hedge": "Fence1" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 576, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "Hedge": "Fence1", "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"}, 
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/StaticColors/{{HedgeFlowersDecor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 944, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge": "Fence1", "HedgeFlowersDecor:false": false, "Season": "Fall, Spring, Summer" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/StaticColors/{{HedgeFlowersDecor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 944, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge": "Fence1", "HedgeFlowersDecor:false": false, "WinterFlowers": "True", "Season": "Winter" },
+			"Patchmode" : "Overlay",
+		},
+		
+		//HedgeSeasonal1
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/SeasonalColors/Hedge_{{Season}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": "{{MapColor}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence1"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/SeasonalColors/Hedge_{{Season}}.png",
+			"FromArea": { "X": 192, "Y": "{{MapColor}}", "Width": 16, "Height": 16 },			
+			"ToArea": { "X": 160, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence1" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/SeasonalColors/Hedge_Fall.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": "{{EemieFall}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence1", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/SeasonalColors/Hedge_Spring.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": "{{EemieSpring}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence1", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/SeasonalColors/Hedge_Fall.png",
+			"FromArea": { "X": 192, "Y": "{{EemieFall}}", "Width": 16, "Height": 16 },			
+			"ToArea": { "X": 160, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence1", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/SeasonalColors/Hedge_Spring.png",
+			"FromArea": { "X": 192, "Y": "{{EemieSpring}}", "Width": 16, "Height": 16 },			
+			"ToArea": { "X": 160, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence1", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 576, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "Hedge": "Fence1", "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"}, 
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/StaticColors/{{HedgeFlowersDecor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 944, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge": "Fence1", "HedgeFlowersDecor:false": false, "Season": "Fall, Spring, Summer" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/StaticColors/{{HedgeFlowersDecor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 944, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge": "Fence1", "HedgeFlowersDecor:false": false, "WinterFlowers": "True", "Season": "Winter" },
+			"Patchmode" : "Overlay",
+		},
+		
+		//Fence2
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/StaticColors/{{Fence2}}.png",
+			"FromArea": { "X": 48, "Y": 192, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Fence2:false": false},
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{Fence2}}.png",
+			"FromArea": { "X": 16, "Y": 320, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 176, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {"Fence2:false": false},
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": 48, "Y": 192, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Fence2:false": false, "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"},
+			"Patchmode" : "Overlay",
+		},
+		
+		//FenceDecor2
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/StaticColors/{{FenceVinesDecor}}.png",
+			"FromArea": { "X": 48, "Y": 720, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceVinesDecor:false": false, "FenceVinesDecorSeasonal": "False"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/SeasonalColors/FenceVinesDecor_{{Season}}.png",
+			"FromArea": { "X": 0, "Y": "{{MapColor}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceVinesDecor:false": false, "FenceVinesDecorSeasonal": "True" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/SeasonalColors/FenceVinesDecor_Fall.png",
+			"FromArea": { "X": 0, "Y": "{{EemieFall}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceVinesDecor:false": false, "FenceVinesDecorSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/SeasonalColors/FenceVinesDecor_Spring.png",
+			"FromArea": { "X": 0, "Y": "{{EemieSpring}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceVinesDecor:false": false, "FenceVinesDecorSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/StaticColors/{{FenceFlowersDecor}}.png",
+			"FromArea": { "X": 144, "Y": 720, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceFlowersDecor:false": false, "Season": "Fall, Spring, Summer" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/StaticColors/{{FenceFlowersDecor}}.png",
+			"FromArea": { "X": 144, "Y": 720, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceFlowersDecor:false": false, "WinterFlowers": "True", "Season": "Winter" },
+			"Patchmode" : "Overlay",
+		},
+		
+		//Hedge2
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/StaticColors/{{HedgeFenceColor}}.png",
+			"FromArea": { "X": 192, "Y": 192, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false,"Hedge": "Fence2" },
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": 192, "Y": 192, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "Hedge": "Fence2", "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/StaticColors/{{HedgeColor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 576, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "False", "Hedge": "Fence2"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{HedgeColor}}.png",
+			"FromArea": { "X": 0, "Y": 704, "Width": 16, "Height": 16 },			
+			"ToArea": { "X": 176, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "False", "Hedge": "Fence2" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 576, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "Hedge": "Fence2", "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"}, 
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/StaticColors/{{HedgeFlowersDecor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 944, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge": "Fence2", "HedgeFlowersDecor:false": false, "Season": "Fall, Spring, Summer" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/StaticColors/{{HedgeFlowersDecor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 944, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge": "Fence2", "HedgeFlowersDecor:false": false, "WinterFlowers": "True", "Season": "Winter" },
+			"Patchmode" : "Overlay",
+		},
+		
+		//HedgeSeasonal2
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/SeasonalColors/Hedge_{{Season}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": "{{MapColor}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence2"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/SeasonalColors/Hedge_{{Season}}.png",
+			"FromArea": { "X": 192, "Y": "{{MapColor}}", "Width": 16, "Height": 16 },			
+			"ToArea": { "X": 176, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence2" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/SeasonalColors/Hedge_Fall.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": "{{EemieFall}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence2", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/SeasonalColors/Hedge_Spring.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": "{{EemieSpring}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence2", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/SeasonalColors/Hedge_Fall.png",
+			"FromArea": { "X": 192, "Y": "{{EemieFall}}", "Width": 16, "Height": 16 },			
+			"ToArea": { "X": 176, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence2", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/SeasonalColors/Hedge_Spring.png",
+			"FromArea": { "X": 192, "Y": "{{EemieSpring}}", "Width": 16, "Height": 16 },			
+			"ToArea": { "X": 176, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence2", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 576, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "Hedge": "Fence2", "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"}, 
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/StaticColors/{{HedgeFlowersDecor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 944, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge": "Fence2", "HedgeFlowersDecor:false": false, "Season": "Fall, Spring, Summer" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/StaticColors/{{HedgeFlowersDecor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 944, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge": "Fence2", "HedgeFlowersDecor:false": false, "WinterFlowers": "True", "Season": "Winter" },
+			"Patchmode" : "Overlay",
+		},
+		
+		//Fence3
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/StaticColors/{{Fence3}}.png",
+			"FromArea": { "X": 96, "Y": 192, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Fence3:false": false},
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{Fence3}}.png",
+			"FromArea": { "X": 32, "Y": 320, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 192, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {"Fence3:false": false},
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": 96, "Y": 192, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Fence3:false": false, "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"},
+			"Patchmode" : "Overlay",
+		},
+		
+		//FenceDecor3
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/StaticColors/{{FenceVinesDecor}}.png",
+			"FromArea": { "X": 48, "Y": 720, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceVinesDecor:false": false, "FenceVinesDecorSeasonal": "False"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/SeasonalColors/FenceVinesDecor_{{Season}}.png",
+			"FromArea": { "X": 0, "Y": "{{MapColor}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceVinesDecor:false": false, "FenceVinesDecorSeasonal": "True" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/SeasonalColors/FenceVinesDecor_Fall.png",
+			"FromArea": { "X": 0, "Y": "{{EemieFall}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceVinesDecor:false": false, "FenceVinesDecorSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/SeasonalColors/FenceVinesDecor_Spring.png",
+			"FromArea": { "X": 0, "Y": "{{EemieSpring}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceVinesDecor:false": false, "FenceVinesDecorSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/StaticColors/{{FenceFlowersDecor}}.png",
+			"FromArea": { "X": 144, "Y": 720, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceFlowersDecor:false": false, "Season": "Fall, Spring, Summer" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/StaticColors/{{FenceFlowersDecor}}.png",
+			"FromArea": { "X": 144, "Y": 720, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceFlowersDecor:false": false, "WinterFlowers": "True", "Season": "Winter" },
+			"Patchmode" : "Overlay",
+		},
+		
+		//Hedge3
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/StaticColors/{{HedgeFenceColor}}.png",
+			"FromArea": { "X": 192, "Y": 192, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false,"Hedge": "Fence3" },
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": 192, "Y": 192, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "Hedge": "Fence3", "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/StaticColors/{{HedgeColor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 576, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "False", "Hedge": "Fence3"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{HedgeColor}}.png",
+			"FromArea": { "X": 0, "Y": 704, "Width": 16, "Height": 16 },			
+			"ToArea": { "X": 192, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "False", "Hedge": "Fence3" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 576, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "Hedge": "Fence3", "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"}, 
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/StaticColors/{{HedgeFlowersDecor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 944, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge": "Fence3", "HedgeFlowersDecor:false": false, "Season": "Fall, Spring, Summer" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/StaticColors/{{HedgeFlowersDecor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 944, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge": "Fence3", "HedgeFlowersDecor:false": false, "WinterFlowers": "True", "Season": "Winter" },
+			"Patchmode" : "Overlay",
+		},
+		
+		//HedgeSeasonal3
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/SeasonalColors/Hedge_{{Season}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": "{{MapColor}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence3"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/SeasonalColors/Hedge_{{Season}}.png",
+			"FromArea": { "X": 192, "Y": "{{MapColor}}", "Width": 16, "Height": 16 },			
+			"ToArea": { "X": 192, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence3" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/SeasonalColors/Hedge_Fall.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": "{{EemieFall}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence3", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/SeasonalColors/Hedge_Spring.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": "{{EemieSpring}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence3", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/SeasonalColors/Hedge_Fall.png",
+			"FromArea": { "X": 192, "Y": "{{EemieFall}}", "Width": 16, "Height": 16 },			
+			"ToArea": { "X": 192, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence3", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/SeasonalColors/Hedge_Spring.png",
+			"FromArea": { "X": 192, "Y": "{{EemieSpring}}", "Width": 16, "Height": 16 },			
+			"ToArea": { "X": 192, "Y": 208, "Width": 16, "Height": 16 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence3", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 576, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "Hedge": "Fence3", "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"}, 
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/StaticColors/{{HedgeFlowersDecor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 944, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge": "Fence3", "HedgeFlowersDecor:false": false, "Season": "Fall, Spring, Summer" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/StaticColors/{{HedgeFlowersDecor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 944, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge": "Fence3", "HedgeFlowersDecor:false": false, "WinterFlowers": "True", "Season": "Winter" },
+			"Patchmode" : "Overlay",
+		},
+		
+		//Fence5
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/StaticColors/{{Fence5}}.png",
+			"FromArea": { "X": 144, "Y": 192, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Fence5:false": false},
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{Fence5}}.png",
+			"FromArea": { "X": 48, "Y": 320, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 160, "Y": 192, "Width": 16, "Height": 16 },
+			"When": {"Fence5:false": false},
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": 144, "Y": 192, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Fence5:false": false, "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"},
+			"Patchmode" : "Overlay",
+		},
+		
+		//FenceVinesDecor5
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/StaticColors/{{FenceVinesDecor}}.png",
+			"FromArea": { "X": 48, "Y": 720, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceVinesDecor:false": false, "FenceVinesDecorSeasonal": "False"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/SeasonalColors/FenceVinesDecor_{{Season}}.png",
+			"FromArea": { "X": 0, "Y": "{{MapColor}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceVinesDecor:false": false, "FenceVinesDecorSeasonal": "True" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/SeasonalColors/FenceVinesDecor_Fall.png",
+			"FromArea": { "X": 0, "Y": "{{EemieFall}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceVinesDecor:false": false, "FenceVinesDecorSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/SeasonalColors/FenceVinesDecor_Spring.png",
+			"FromArea": { "X": 0, "Y": "{{EemieSpring}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceVinesDecor:false": false, "FenceVinesDecorSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/StaticColors/{{FenceFlowersDecor}}.png",
+			"FromArea": { "X": 144, "Y": 720, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceFlowersDecor:false": false, "Season": "Fall, Spring, Summer" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/StaticColors/{{FenceFlowersDecor}}.png",
+			"FromArea": { "X": 144, "Y": 720, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"FenceFlowersDecor:false": false, "WinterFlowers": "True", "Season": "Winter" },
+			"Patchmode" : "Overlay",
+		},
+		
+		//Hedge5
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/StaticColors/{{HedgeFenceColor}}.png",
+			"FromArea": { "X": 192, "Y": 192, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false,"Hedge": "Fence5" },
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": 192, "Y": 192, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "Hedge": "Fence5", "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/StaticColors/{{HedgeColor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 576, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "False", "Hedge": "Fence5"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{HedgeColor}}.png",
+			"FromArea": { "X": 0, "Y": 704, "Width": 16, "Height": 16 },			
+			"ToArea": { "X": 160, "Y": 192, "Width": 16, "Height": 16 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "False", "Hedge": "Fence5" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 576, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "Hedge": "Fence5", "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"}, 
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/StaticColors/{{HedgeFlowersDecor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 944, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge": "Fence5", "HedgeFlowersDecor:false": false, "Season": "Fall, Spring, Summer" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/StaticColors/{{HedgeFlowersDecor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 944, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge": "Fence5", "HedgeFlowersDecor:false": false, "WinterFlowers": "True", "Season": "Winter" },
+			"Patchmode" : "Overlay",
+		},
+		
+		//HedgeSeasonal5
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/SeasonalColors/Hedge_{{Season}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": "{{MapColor}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence5"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/SeasonalColors/Hedge_{{Season}}.png",
+			"FromArea": { "X": 192, "Y": "{{MapColor}}", "Width": 16, "Height": 16 },			
+			"ToArea": { "X": 160, "Y": 192, "Width": 16, "Height": 16 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence5" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/SeasonalColors/Hedge_Fall.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": "{{EemieFall}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence5", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/SeasonalColors/Hedge_Spring.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": "{{EemieSpring}}", "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence5", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring"},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/SeasonalColors/Hedge_Fall.png",
+			"FromArea": { "X": 192, "Y": "{{EemieFall}}", "Width": 16, "Height": 16 },			
+			"ToArea": { "X": 160, "Y": 192, "Width": 16, "Height": 16 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence5", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/SeasonalColors/Hedge_Spring.png",
+			"FromArea": { "X": 192, "Y": "{{EemieSpring}}", "Width": 16, "Height": 16 },			
+			"ToArea": { "X": 160, "Y": 192, "Width": 16, "Height": 16 },
+			"When": {"Hedge:false": false, "HedgeSeasonal": "True", "Hedge": "Fence5", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 576, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge:false": false, "Hedge": "Fence5", "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"}, 
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/StaticColors/{{HedgeFlowersDecor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 944, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge": "Fence5", "HedgeFlowersDecor:false": false, "Season": "Fall, Spring, Summer" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/StaticColors/{{HedgeFlowersDecor}}.png",
+			"FromArea": { "X": "{{TypeHedge}}", "Y": 944, "Width": 48, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 128 },
+			"When": {"Hedge": "Fence5", "HedgeFlowersDecor:false": false, "WinterFlowers": "True", "Season": "Winter" },
+			"Patchmode" : "Overlay",
+		},
+	   
+	   //GateTypeFence1 
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/StaticColors/{{GateColorFence1}}.png",
+			"FromArea": { "X": "{{Gate1}}", "Y": 336, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence1:false": false},
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{GateColorFence1}}.png",
+			"FromArea": { "X": "{{IconGate1}}", "Y": 560, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 208, "Y": 208, "Width": 16,"Height": 16 },
+			"When": {"GateTypeFence1:false": false},
+			"Patchmode" : "Replace",
+	    },
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": "{{Gate1}}", "Y": 336, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence1:false": false, "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"},
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/StaticColors/{{GateVinesDecor}}.png",
+			"FromArea": { "X": 0, "Y": 720, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence1:false": false, "GateVinesDecor:false": false},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/SeasonalColors/GateVinesDecor_{{Season}}.png",
+			"FromArea": { "X": 0, "Y": "{{MapColorGate}}", "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence1:false": false, "GateVinesDecor:false": false, "GateVinesDecorSeasonal": "True" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/SeasonalColors/GateVinesDecor_Fall.png",
+			"FromArea": { "X": 0, "Y": "{{EemieFallGate}}", "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence1:false": false, "GateVinesDecor:false": false, "GateVinesDecorSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/SeasonalColors/GateVinesDecor_Spring.png",
+			"FromArea": { "X": 0, "Y": "{{EemieSpringGate}}", "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence1:false": false, "GateVinesDecor:false": false, "GateVinesDecorSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring"  },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/StaticColors/{{GateFlowersDecor}}.png",
+			"FromArea": { "X": "96", "Y": 720, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence1:false": false, "GateFlowersDecor:false": false, "Season": "Fall, Spring, Summer" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence1",
+			"FromFile": "assets/StaticColors/{{GateFlowersDecor}}.png",
+			"FromArea": { "X": 96, "Y": 720, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence1:false": false, "GateFlowersDecor:false": false, "WinterFlowers": "True", "Season": "Winter" },
+			"Patchmode" : "Overlay",
+		},
+		
+		//GateTypeFence2
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/StaticColors/{{GateColorFence2}}.png",
+			"FromArea": { "X": "{{Gate2}}", "Y": 336, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence2:false": false},
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/StaticColors/{{GateVinesDecor}}.png",
+			"FromArea": { "X": 0, "Y": 720, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence2:false": false, "GateVinesDecor:false": false},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": "{{Gate2}}", "Y": 336, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence2:false": false, "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"},
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/SeasonalColors/GateVinesDecor_{{Season}}.png",
+			"FromArea": { "X": 0, "Y": "{{MapColorGate}}", "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence2:false": false, "GateVinesDecor:false": false, "GateVinesDecorSeasonal": "True" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/SeasonalColors/GateVinesDecor_Fall.png",
+			"FromArea": { "X": 0, "Y": "{{EemieFallGate}}", "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence2:false": false, "GateVinesDecor:false": false, "GateVinesDecorSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/SeasonalColors/GateVinesDecor_Spring.png",
+			"FromArea": { "X": 0, "Y": "{{EemieSpringGate}}", "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence2:false": false, "GateVinesDecor:false": false, "GateVinesDecorSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring"  },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/StaticColors/{{GateFlowersDecor}}.png",
+			"FromArea": { "X": "96", "Y": 720, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence2:false": false, "GateFlowersDecor:false": false, "Season": "Fall, Spring, Summer" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence2",
+			"FromFile": "assets/StaticColors/{{GateFlowersDecor}}.png",
+			"FromArea": { "X": 96, "Y": 720, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence2:false": false, "GateFlowersDecor:false": false, "WinterFlowers": "True", "Season": "Winter" },
+			"Patchmode" : "Overlay",
+		},
+		
+		//GateTypeFence3
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/StaticColors/{{GateColorFence3}}.png",
+			"FromArea": { "X": "{{Gate3}}", "Y": 336, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence3:false": false},
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/StaticColors/{{GateVinesDecor}}.png",
+			"FromArea": { "X": 0, "Y": 720, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence3:false": false, "GateVinesDecor:false": false},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": "{{Gate3}}", "Y": 336, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence3:false": false, "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"},
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/SeasonalColors/GateVinesDecor_{{Season}}.png",
+			"FromArea": { "X": 0, "Y": "{{MapColorGate}}", "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence3:false": false, "GateVinesDecor:false": false, "GateVinesDecorSeasonal": "True" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/SeasonalColors/GateVinesDecor_Fall.png",
+			"FromArea": { "X": 0, "Y": "{{EemieFallGate}}", "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateVinesDecor:false": false, "GateVinesDecorSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/SeasonalColors/GateVinesDecor_Spring.png",
+			"FromArea": { "X": 0, "Y": "{{EemieSpringGate}}", "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateVinesDecor:false": false, "GateVinesDecorSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring"  },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/StaticColors/{{GateFlowersDecor}}.png",
+			"FromArea": { "X": "96", "Y": 720, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence3:false": false, "GateFlowersDecor:false": false, "Season": "Fall, Spring, Summer" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence3",
+			"FromFile": "assets/StaticColors/{{GateFlowersDecor}}.png",
+			"FromArea": { "X": 96, "Y": 720, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence3:false": false, "GateFlowersDecor:false": false, "WinterFlowers": "True", "Season": "Winter" },
+			"Patchmode" : "Overlay",
+		},
+		
+		//GateTypeFence5
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/StaticColors/{{GateColorFence5}}.png",
+			"FromArea": { "X": "{{Gate4}}", "Y": 336, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence5:false": false},
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/StaticColors/{{GateVinesDecor}}.png",
+			"FromArea": { "X": 0, "Y": 720, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence5:false": false, "GateVinesDecor:false": false},
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": "{{Gate4}}", "Y": 336, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence5:false": false, "WinterOverlay": "True", "IsOutdoors": "True", "Season": "Winter"},
+			"Patchmode" : "Replace",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/SeasonalColors/GateVinesDecor_{{Season}}.png",
+			"FromArea": { "X": 0, "Y": "{{MapColorGate}}", "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence5:false": false, "GateVinesDecor:false": false, "GateVinesDecorSeasonal": "True" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/SeasonalColors/GateVinesDecor_Fall.png",
+			"FromArea": { "X": 0, "Y": "{{EemieFallGate}}", "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence5:false": false, "GateVinesDecor:false": false, "GateVinesDecorSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/SeasonalColors/GateVinesDecor_Spring.png",
+			"FromArea": { "X": 0, "Y": "{{EemieSpringGate}}", "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence5:false": false, "GateVinesDecor:false": false, "GateVinesDecorSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/StaticColors/{{GateFlowersDecor}}.png",
+			"FromArea": { "X": "96", "Y": 720, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence5:false": false, "GateFlowersDecor:false": false, "Season": "Fall, Spring, Summer" },
+			"Patchmode" : "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Fence5",
+			"FromFile": "assets/StaticColors/{{GateFlowersDecor}}.png",
+			"FromArea": { "X": 96, "Y": 720, "Width": 48, "Height": 224 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 224 },
+			"When": {"GateTypeFence5:false": false, "GateFlowersDecor:false": false, "WinterFlowers": "True", "Season": "Winter" },
+			"Patchmode" : "Overlay",
+		},
+		
+		//Brick Floor
+		
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring, TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/StaticColors/{{BrickFloor}}.png",
+			"FromArea": { "X": 128, "Y": 128, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 128, "Y": 128, "Width": 64, "Height": 64 },
+		  "When": {"BrickFloor:false": false},
+		  "Patchmode": "Replace",
+
+	   },
+	   {
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{BrickFloor}}.png",
+			"FromArea": { "X": 128, "Y": 128, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 80, "Y": 192, "Width": 16,"Height": 16 },
+		  "When": {"BrickFloor:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/SeasonalColors/Winter.png",
+			"FromArea": { "X": 128, "Y": 128, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 128, "Y": 128, "Width": 64, "Height": 64 },
+		  "When": {"BrickFloor:false": false, "WinterOverlay": "True", "IsOutdoors": "True"},
+		  "Patchmode": "Overlay",
+       },
+	   
+	   //Cobblestone Path
+		
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring, TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/StaticColors/{{CobblestonePath}}.png",
+		  "FromArea": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+		  "When": {"CobblestonePath:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+		    "Action": "EditImage",
+		    "Target": "Maps/springobjects",
+		    "FromFile": "assets/StaticColors/{{CobblestonePath}}.png",
+			"FromArea": { "X": 0, "Y": 128, "Width": 16, "Height": 16 },
+		    "ToArea": { "X": 48, "Y": 272, "Width": 16,"Height": 16 },
+		  "When": {"CobblestonePath:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/SeasonalColors/Winter.png",
+		  "FromArea": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+		  "When": {"CobblestonePath:false": false, "WinterOverlay": "True", "IsOutdoors": "True"},
+		  "Patchmode": "Overlay",
+	   },
+	   
+	   //Crystal Floor
+		
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring, TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/StaticColors/{{CrystalFloor}}.png",
+		  "FromArea": { "X": 192, "Y": 0, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 192, "Y": 0, "Width": 64, "Height": 64 },
+		  "When": {"CrystalFloor:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{CrystalFloor}}.png",
+			"FromArea": { "X": 192, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 336, "Y": 208, "Width": 16,"Height": 16 },
+		  "When": {"CrystalFloor:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/SeasonalColors/Winter.png",
+		  "FromArea": { "X": 192, "Y": 0, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 192, "Y": 0, "Width": 64, "Height": 64 },
+		  "When": {"CrystalFloor:false": false, "WinterOverlay": "True", "IsOutdoors": "True"},
+		  "Patchmode": "Overlay",
+	   },
+	   
+	   //Crystal Path
+		
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring, TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/StaticColors/{{CrystalPath}}.png",
+		  "FromArea": { "X": 192, "Y": 64, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 192, "Y": 64, "Width": 64, "Height": 64 },
+		  "When": {"CrystalPath:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{CrystalPath}}.png",
+			"FromArea": { "X": 192, "Y": 64, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 272, "Width": 16,"Height": 16 },
+		  "When": {"CrystalPath:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/SeasonalColors/Winter.png",
+		  "FromArea": { "X": 192, "Y": 64, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 192, "Y": 64, "Width": 64, "Height": 64 },
+		  "When": {"CrystalPath:false": false, "WinterOverlay": "True", "IsOutdoors": "True"},
+		  "Patchmode": "Overlay",
+	   },
+	   
+	   //Gravel Path
+		
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring, TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/StaticColors/{{GravelPath}}.png",
+		  "FromArea": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+		  "When": {"GravelPath:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{GravelPath}}.png",
+			"FromArea": { "X": 64, "Y": 64, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 368, "Y": 256, "Width": 16,"Height": 16 },
+		  "When": {"GravelPath:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/SeasonalColors/Winter.png",
+		  "FromArea": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+		  "When": {"GravelPath:false": false, "WinterOverlay": "True", "IsOutdoors": "True"},
+		  "Patchmode": "Overlay",
+	   },
+	   
+	   //Steppingstone Path
+		
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring, TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/StaticColors/{{SteppingstonePath}}.png",
+		  "FromArea": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+		  "When": {"SteppingStonePath:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{SteppingstonePath}}.png",
+			"FromArea": { "X": 64, "Y": 128, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 272, "Width": 16,"Height": 16 },
+		  "When": {"SteppingStonePath:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/SeasonalColors/Winter.png",
+		  "FromArea": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+		  "When": {"SteppingStonePath:false": false, "WinterOverlay": "True", "IsOutdoors": "True"},
+		  "Patchmode": "Overlay",
+	   },
+	   
+		//Stone Floor
+		
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring, TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/StaticColors/{{StoneFloor}}.png",
+		  "FromArea": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+		  "When": {"StoneFloor:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{StoneFloor}}.png",
+			"FromArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 272, "Y": 208, "Width": 16,"Height": 16 },
+		  "When": {"StoneFloor:false": false},
+		  "Patchmode": "Replace",
+	   },
+	    {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/SeasonalColors/Winter.png",
+		  "FromArea": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+		  "When": {"StoneFloor:false": false, "WinterOverlay": "True", "IsOutdoors": "True"},
+		  "Patchmode": "Overlay",
+	   },
+	   
+	   //Weathered Floor
+		
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring, TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/StaticColors/{{WeatheredFloor}}.png",
+		  "FromArea": { "X": 128, "Y": 0, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 128, "Y": 0, "Width": 64, "Height": 64 },
+		  "When": {"WeatheredFloor:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{WeatheredFloor}}.png",
+			"FromArea": { "X": 128, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 304, "Y": 208, "Width": 16,"Height": 16 },
+		  "When": {"WeatheredFloor:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/SeasonalColors/Winter.png",
+		  "FromArea": { "X": 128, "Y": 0, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 128, "Y": 0, "Width": 64, "Height": 64 },
+		  "When": {"WeatheredFloor:false": false, "WinterOverlay": "True", "IsOutdoors": "True"},
+		  "Patchmode": "Overlay",
+	   },
+		
+		//Wood Floor
+		
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring, TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/StaticColors/{{WoodFloor}}.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+		  "When": {"WoodFloor:false": false},
+		  "Patchmode": "Replace",
+
+	   },
+	   {
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{WoodFloor}}.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 256, "Y": 208, "Width": 16,"Height": 16 },
+		  "When": {"WoodFloor:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/SeasonalColors/Winter.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+		  "When": {"WoodFloor:false": false, "WinterOverlay": "True", "IsOutdoors": "True"},
+		  "Patchmode": "Overlay",
+       },
+	   
+	   //Wood Path
+		
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring, TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/StaticColors/{{WoodPath}}.png",
+		  "FromArea": { "X": 128, "Y": 64, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 128, "Y": 64, "Width": 64, "Height": 64 },
+		  "When": {"WoodPath:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{WoodPath}}.png",
+			"FromArea": { "X": 128, "Y": 64, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 336, "Y": 256, "Width": 16,"Height": 16 },
+		  "When": {"WoodPath:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/SeasonalColors/Winter.png",
+		  "FromArea": { "X": 128, "Y": 64, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 128, "Y": 64, "Width": 64, "Height": 64 },
+		  "When": {"WoodPath:false": false, "WinterOverlay": "True", "IsOutdoors": "True"},
+		  "Patchmode": "Overlay",
+	   },
+	   
+	   //Straw Floor
+		
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring, TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/StaticColors/{{StrawFloor}}.png",
+		  "FromArea": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+		  "When": {"StrawFloor:false": false},
+		  "Patchmode": "Replace",
+	   }, 
+	   {
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{StrawFloor}}.png",
+			"FromArea": { "X": 0, "Y": 64, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 272, "Y": 256, "Width": 16,"Height": 16 },
+		  "When": {"StrawFloor:false": false},
+		  "Patchmode": "Replace",
+	   },
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/SeasonalColors/Winter.png",
+		  "FromArea": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+		  "When": {"StrawFloor:false": false, "WinterOverlay": "True", "IsOutdoors": "True"},
+		  "Patchmode": "Overlay",
+	   }, 
+	   
+	   //Straw Color
+		
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring, TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/StaticColors/{{Straw}}.png",
+		  "FromArea": { "X": 192, "Y": 128, "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+		  "When": {"StrawFloor:false": false, "StrawSeasonal": "False"},
+		  "Patchmode" : "Overlay",
+	   }, 
+	   {
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/StaticColors/{{Straw}}.png",
+			"FromArea": { "X": 192, "Y": 128, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 272, "Y": 256, "Width": 16,"Height": 16 },
+		  "When": {"StrawFloor:false": false, "StrawSeasonal": "False"},
+			"Patchmode" : "Overlay",
+	   }, 
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring, TerrainFeatures/Flooring_winter",
+          "FromFile": "assets/SeasonalColors/Straw_{{Season}}.png",
+		  "FromArea": { "X": 0, "Y": "{{MapColorStraw}}", "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+		  "When": {"StrawFloor:false": false, "StrawSeasonal": "True"},
+		  "Patchmode" : "Overlay",
+	   },
+	   
+	   //StrawSeasonal
+	   
+	   {
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/SeasonalColors/Straw_{{Season}}.png",
+			"FromArea": { "X": 0, "Y": "{{MapColorStraw}}", "Width": 16, "Height": 16 },
+			"ToArea": { "X": 272, "Y": 256, "Width": 16,"Height": 16 },
+		  "When": {"StrawFloor:false": false, "StrawSeasonal": "True"},
+			"Patchmode" : "Overlay",
+	   },
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring",
+          "FromFile": "assets/SeasonalColors/Straw_Fall.png",
+		  "FromArea": { "X": 0, "Y": "{{EemieFallStraw}}", "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+		  "When": {"StrawFloor:false": false, "StrawSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall"},
+		  "Patchmode" : "Overlay",
+	   }, 
+	   {
+          "Action": "EditImage",
+          "Target": "TerrainFeatures/Flooring",
+          "FromFile": "assets/SeasonalColors/Straw_Spring.png",
+		  "FromArea": { "X": 0, "Y": "{{EemieSpringStraw}}", "Width": 64, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+		  "When": {"StrawFloor:false": false, "StrawSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring"},
+		  "Patchmode" : "Overlay",
+	   }, 
+	   {
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/SeasonalColors/Straw_Fall.png",
+			"FromArea": { "X": 0, "Y": "{{EemieFallStraw}}", "Width": 16, "Height": 16 },
+			"ToArea": { "X": 272, "Y": 256, "Width": 16,"Height": 16 },
+		  "When": {"StrawFloor:false": false, "StrawSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Fall"},
+			"Patchmode" : "Overlay",
+	   },
+	   {
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/SeasonalColors/Straw_Spring.png",
+			"FromArea": { "X": 0, "Y": "{{EemieSpringStraw}}", "Width": 16, "Height": 16 },
+			"ToArea": { "X": 272, "Y": 256, "Width": 16,"Height": 16 },
+		  "When": {"StrawFloor:false": false, "StrawSeasonal": "True", "HasMod:minervamaga.CP.eemieMapRecolour": "true", "Season": "Spring"},
+			"Patchmode" : "Overlay",
+	   },
+	]
+}

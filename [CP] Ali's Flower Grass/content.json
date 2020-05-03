@@ -1,0 +1,71 @@
+{
+	"Format": "1.3",
+
+	"ConfigSchema": {
+
+		"WhichVersion": {
+			"AllowValues": "Eemie, Vibrant, Normal, Alternate, AlternateVibrant, None"
+			}
+		},
+
+	"Changes": [
+
+		//Grass
+
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/ali_grass_eemie.png",
+		"ToArea": { "X": 0, "Y": 0, "Width": 66, "Height": 120 },
+		"When": {
+			"WhichVersion": "Eemie"
+			}
+		},
+
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/ali_grass_vibrant.png",
+		"ToArea": { "X": 0, "Y": 0, "Width": 66, "Height": 120 },
+		"When": {
+			"WhichVersion": "Vibrant"
+			}
+		},
+
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/ali_grass.png",
+		"ToArea": { "X": 0, "Y": 0, "Width": 66, "Height": 120 },
+		"When": {
+			"WhichVersion": "Normal"
+			}
+		},
+
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/ali_grass_alternate.png",
+		"ToArea": { "X": 0, "Y": 0, "Width": 66, "Height": 120 },
+		"When": {
+			"WhichVersion": "Alternate"
+			}
+		},
+
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/ali_grass_alternatevibrant.png",
+		"ToArea": { "X": 0, "Y": 0, "Width": 66, "Height": 120 },
+		"When": {
+			"WhichVersion": "AlternateVibrant"
+			}
+		},
+
+	]
+}

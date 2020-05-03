@@ -1,0 +1,5 @@
+{
+	"Entries": {
+		"57960006/f Jade 1500/t 900 1600": "continue/37 90/Penny 37 86 2 Jade 37 89 2 Vincent 36 90 0 Jas 38 90 0 farmer 29 80 2/skippable/speed farmer 2/move farmer 0 6 2/speed farmer 2/move farmer 7 0 1/faceDirection farmer 2/pause 1000/speak Penny \"좋은 아침이에요, @. 제이드가 오늘 저를 대신해서 수업을 하고 있어요.#$b#근데 저는 학생이 한 명 더 늘어난 것 같네요.$h\"/speak Jade \"...그리고, 모르포 잠자리의 폐는 날개 안에 있단다!$h\"/speak Jas \"징그러워!$3\"/speak Vincent \"멋져요!$h\"/emote Jade 32/speak Penny \"재스가 겁먹지 말아야 할텐데...$h\"/globalFade/viewport -1000 -1000/end",
+	}
+}

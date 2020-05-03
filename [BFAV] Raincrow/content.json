@@ -1,0 +1,39 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Raincrow",
+			"Types": [
+				{
+					"Type": "Raincrow",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "2/3/595/74/crow/8/32/48/32/8/32/48/32/1/false/Coop/16/16/16/16/4/7/null/641/150000/Raincrow/Coop",
+					"Sprites": {
+						"Adult": "assets/Raincrow.png",
+						"Baby": "assets/babyRaincrow.png"
+					}
+				
+				}
+			],
+			"Buildings": [
+				"Coop",
+				"Big Coop",
+				"Deluxe Coop"
+			],
+			"AnimalShop": {
+				"Name": "Raincrow",
+				"Description": "Raincrows like to collect prismatic shards for those who earn their trust.",
+				"Price": 150000,
+				"Icon": "assets\\animal_shop_Raincrow.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

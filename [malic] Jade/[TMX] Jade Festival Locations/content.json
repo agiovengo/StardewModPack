@@ -1,0 +1,53 @@
+{
+  "name": "Jade Festival Locations",
+  "version": "1.0.2", 
+  "author": "Malic",
+  "hasNotMods": ["FlashShifter.StardewValleyExpandedALL"],
+  "festivalSpots": 
+	[  
+		{
+		"name": "Jade",
+	    "map": "Town-EggFestival", 
+		"position": [24, 63],
+		"direction": 3
+		},
+		// removed from flower festival (doesn't appear in dance)
+		{
+		"name": "Jade",
+	    "map": "Beach-Luau", 
+		"position": [27, 14],
+		"direction": 1
+		},
+		{
+		"name": "Jade",
+	    "map": "Beach-Jellies", 
+		"position": [34, 36],
+		"direction": 2
+		},
+		{
+		"name": "Jade",
+	    "map": "Town-Fair", 
+		"position": [21, 64],
+		"direction": 1
+		},
+		{
+		"name": "Jade",
+	    "map": "Town-Halloween", 
+		"position": [6, 23],
+		"direction": 1
+		},
+		// add to night market later
+		{
+		"name": "Jade",
+	    "map": "Forest-IceFestival", 
+		"position": [71, 17],
+		"direction": 1
+		},
+		{
+		"name": "Jade",
+	    "map": "Town-Christmas", 
+		"position": [25, 62],
+		"direction": 2
+		},
+	]
+}

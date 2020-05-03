@@ -1,0 +1,11 @@
+{
+    "Name": "Purple Easter Mayonnaise",
+    "Description": "Mayonnaise made from a purple Easter egg. It smells like jellybeans.",
+    "Category": "ArtisanGoods",
+    "Edibility": -300,
+    "Price": 750,
+    "IsColored": false,
+    "Recipe": null,
+
+
+}

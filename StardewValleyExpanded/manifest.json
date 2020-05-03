@@ -1,0 +1,11 @@
+{
+
+  "Name": "Stardew Valley Expanded - Code",
+  "Author": "Swoo + FlashShifter",
+  "Description": "Adds coded elements to the game",
+  "Version": "1.9.5",
+  "MinimumApiVersion": "3.0",
+  "UpdateKeys": [ "Nexus:???" ],
+  "UniqueID": "FlashShifter.SVECode",
+  "EntryDll": "StardewValleyExpanded.dll",
+}

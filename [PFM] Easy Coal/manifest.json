@@ -1,0 +1,21 @@
+﻿{
+    "Name": "[PFM] Easy Coal",
+    "Author": "Pancham138",
+    "Version": "1.0.1",
+    "Description": "Easily getting more coal by using only 1 wood",
+    "UniqueID": "Pancham138.PFM.EasyCoal",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [ "Nexus:5706" ],
+    "Dependencies": [
+        {
+            "UniqueID": "Digus.ProducerFrameworkMod"
+        },
+        {
+            "UniqueID": "Digus.PFMAutomate",
+            "IsRequired": false
+        }
+    ],
+    "ContentPackFor": {
+        "UniqueID": "DIGUS.ProducerFrameworkMod"
+    }
+}

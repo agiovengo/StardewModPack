@@ -1,0 +1,10 @@
+{
+	"Name": "Easter Bunny Products for Json Assets",
+	"Author": "Tarniyar",
+	"Version": "1.1.1",
+	"UniqueID": "Tarniyar.JA.EasterBunny",
+	"UpdateKeys": ["Nexus:5739"],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	}
+}

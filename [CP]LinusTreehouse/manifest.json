@@ -1,0 +1,12 @@
+{
+  "Name": "LinusTreehouse",
+  "Author": "Leadenbrain",
+  "Version": "1.1.2",
+  "Description": "Linus has upgraded his tent to a marvelous tree house, with Eemie or Foliage recolours!",
+  "UniqueID": "Leadenbrain.LinusTreehouse",
+  "MinimumApiVersion": "2.10.0",
+  "UpdateKeys": ["Nexus:5567"],
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}
